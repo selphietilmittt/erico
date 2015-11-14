@@ -1,0 +1,6 @@
+
+## path of profile
+PROFILE_TOPPICKUPNAME=etc/profile_topPickUpName.txt
+
+
+
