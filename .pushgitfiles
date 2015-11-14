@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+cd `dirname %0`
+pwd
+#git add *
+#git commit -m "$HOST `date`"
+#git push -u origin master
+exit 0
