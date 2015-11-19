@@ -1,0 +1,38 @@
+
+VAR=(PROFILE_TOPPICKUPNAME \
+		PROFILE_BOTTOMPICKUPNAME \
+		PROFILE_MULTINAME \
+		RANGE_OF_TARGET_RANK \
+		NUM_OF_TOP_NAME \
+		TIMESTAMP \
+		START_OF_TOP_PICKUP_NAME \
+		END_OF_TOP_PICKUP_NAME \
+		START_OF_RANKING \
+		END_OF_RANKING \
+		)
+
+		## path of profile
+		PROFILE_TOPPICKUPNAME=etc/profile_topPickUpName.txt
+		PROFILE_BOTTOMPICKUPNAME=etc/profile_bottomPickUpName.txt
+		PROFILE_MULTINAME=etc/profile_multiName.txt
+
+		## num of line
+		RANGE_OF_TARGET_RANK=10
+		NUM_OF_TOP_NAME=`wc -l < $PROFILE_TOPPICKUPNAME`
+		NUM_OF_TOP_NAME=`expr $NUM_OF_TOP_NAME + 1`
+
+		## startline
+		TIMESTAMP=1
+		START_OF_TOP_PICKUP_NAME=3
+		END_OF_TOP_PICKUP_NAME=`expr $START_OF_TOP_PICKUP_NAME + $NUM_OF_TOP_NAME \* 3 - 1`
+		START_OF_RANKING=`expr $END_OF_TOP_PICKUP_NAME + 3`
+		END_OF_RANKING=`expr $START_OF_RANKING + $RANGE_OF_TARGET_RANK - 1`
+
+
+i=0
+for var in ${VAR[@]}; do
+	tmp="$`echo $var`"
+	eval "echo $tmp"
+		    let i++
+done
+exit 0
