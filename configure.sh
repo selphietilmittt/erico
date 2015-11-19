@@ -14,6 +14,10 @@ CONFIG_FILE="config.txt"
 ROOTDIR=`pwd`
 echo "ROOTDIR=$ROOTDIR"
 
+## set other directory
+DATADIR="$ROOTDIR/data"
+HTMLDIR="$DATADIR/html"
+
 if [ -z $IVENT_NAME ];then
 	echo "IVENT_NAME is EMPTY"
 	exit 1
@@ -80,6 +84,8 @@ echo "creating config.txt"
 VAR=(\
 	 CONFIG_FILE\
 	 ROOTDIR\
+	 DATADIR\
+	 HTMLDIR\
 	 IVENT_NAME\
 	 ALL_MEMBERS_RANKING\
 	 GUILD_MEMBERS_RANKING\
@@ -103,7 +109,7 @@ mv $CONFIG_FILE $CONFIG_FILE.1 #initialize
 i=0
 for var in ${VAR[@]}; do
 	tmp="$`echo $var`"
-	eval "echo $var=$tmp" >> $CONFIG_FILE
+	eval "echo $var $tmp" >> $CONFIG_FILE
 	let i++
 done
 
@@ -124,7 +130,7 @@ $ALL_MEMBERS_RANKING/\
 		i=`expr $i + 30`
 		p=`expr $i / 30`
 		echo "RANKING_URL page$p"
-		echo "ALL_MEMBERS_RANKING_URL$p=$RANKING_URL$p">>$CONFIG_FILE
+		echo "ALL_MEMBERS_RANKING_URL$p $RANKING_URL$p">>$CONFIG_FILE
 	done
 fi
 
@@ -141,7 +147,7 @@ $GUILD_MEMBERS_RANKING/\
 	do
 		i=`expr $i + 1`
 		echo "RANKING_URL page$i"
-		echo "GUILD_MEMBERS_RANKING_URL$i=$RANKING_URL$i">>$CONFIG_FILE
+		echo "GUILD_MEMBERS_RANKING_URL$i $RANKING_URL$i">>$CONFIG_FILE
 	done
 fi
 
@@ -156,10 +162,12 @@ $ALL_MEMBERS_RANKING/\
 for var in ${BORDER_OF_RANKING[@]}; do
 	p=`expr \( $var - 1 \) / 30 + 1`
 	echo "RANKING_URL page$p"
-	echo "BORDER_OF_RANKING_URL$p=$RANKING_URL$p">>$CONFIG_FILE
+	echo "BORDER_OF_RANKING_URL$p $RANKING_URL$p">>$CONFIG_FILE
 done
-
-
+echo "aaaa"
+echo "remove duplicated lines"
+#awk '!a[$0]++' $CONFIG_FILE
+#uniq $CONFIG_FILE $CONFIG_FILE
 echo "create config finished"
 echo "--------"
 
