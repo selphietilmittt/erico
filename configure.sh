@@ -3,12 +3,17 @@
 
 ## user config
 ## set IVENT_NAME: person, guild,gbattle
-IVENT_NAME="person"
-
+IVENT_NAME="battle"
+## num of page
+TARGET_RANKING=10
+BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 ####
 
 cd `dirname $0`
 CONFIG_FILE="config.txt"
+if [ -e $CONFIG_FILE ];then
+	mv $CONFIG_FILE $CONFIG_FILE".1"
+fi
 
 ## set root directory
 ROOTDIR=`pwd`
@@ -29,6 +34,13 @@ elif [ $IVENT_NAME == "person" ];then
 	ALL_MEMBERS_RANKING=person_ranking_sp_item_festival
 	GUILD_MEMBERS_RANKING=person_ranking_sp_item_festival_guild
 	CAMPAIGN_ID=2038
+	echo "ALL_MEMBERS_RANKING=$ALL_MEMBERS_RANKING"
+	echo "GUILD_MEMBERS_RANKING=$GUILD_MEMBERS_RANKING"
+	echo "CAMPAIGN_ID=$CAMPAIGN_ID"
+elif [ $IVENT_NAME == "battle" ];then
+	ALL_MEMBERS_RANKING=person_ranking_battle_arena_festival
+	GUILD_MEMBERS_RANKING=person_ranking_battle_arena_festival_guild
+	CAMPAIGN_ID=7014
 	echo "ALL_MEMBERS_RANKING=$ALL_MEMBERS_RANKING"
 	echo "GUILD_MEMBERS_RANKING=$GUILD_MEMBERS_RANKING"
 	echo "CAMPAIGN_ID=$CAMPAIGN_ID"
@@ -60,9 +72,6 @@ PROFILE_TOPPICKUPNAME=$ROOTDIR/etc/profile_topPickUpName.txt
 PROFILE_BOTTOMPICKUPNAME=$ROOTDIR/etc/profile_bottomPickUpName.txt
 PROFILE_MULTINAME=$ROOTDIR/etc/profile_multiName.txt
 
-## num of page
-TARGET_RANKING=330
-BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 
 
 ## set csv line
@@ -110,7 +119,6 @@ VAR=(\
 	 END_OF_RANKING\
 )
 
-mv $CONFIG_FILE $CONFIG_FILE.1 #initialize
 i=0
 for var in ${VAR[@]}; do
 	tmp="$`echo $var`"

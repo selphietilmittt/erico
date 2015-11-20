@@ -4,10 +4,14 @@
 ## if arg[1] == all;then calculate speed/h by all of data/null-hourly-filelist
 ## if arg[1] == latest;then calculate speed/h by latest two files of data/null-hourly-filelist
 cd `dirname $0`
-ROOTDIR=`pwd`"/../.."
-DATADIR=`pwd`"/../../data"
+getconf="../util/getconf.sh"
+DATADIR=`./$getconf DATADIR`
+OUTPUTDIR=`./$getconf OUTPUTDIR`
 FILELIST="$DATADIR/null-hourly-filelist.txt"
-CONFIG="../../config.txt"
+
+if [ ! -d $OUTPUTDIR ];then
+	mkdir $OUTPUTDIR
+fi
 
 CALCMODE=$1
 
@@ -41,8 +45,8 @@ function get_following_filename() { #return filename
 
 function cut_filedata() { #return cut filename
 	target_file_name=$1
-	START_OF_RANKING=`cat $CONFIG | grep START_OF_RANKING | awk -F= '{print $2}'`
-	END_OF_RANKING=`cat $CONFIG | grep END_OF_RANKING | awk -F= '{print $2}'`
+	START_OF_RANKING=`./$getconf START_OF_RANKING`
+	END_OF_RANKING=`./$getconf END_OF_RANKING`
 	head -n $END_OF_RANKING $target_file_name | tail -n `expr $END_OF_RANKING - $START_OF_RANKING + 1` > cut.csv
 	echo cut.csv
 }
@@ -53,8 +57,8 @@ if [ -z $CALCMODE ];then
 	exit 1
 elif [ $CALCMODE == "all" ];then
 	echo "all"
-	if [ -e $ROOTDIR/"speed.csv" ];then
-		mv $ROOTDIR/"speed.csv" $ROOTDIR/"speed.csv.old"
+	if [ -e $OUTPUTDIR/"speed.csv" ];then
+		mv $OUTPUTDIR/"speed.csv" $OUTPUTDIR/"speed.csv.1"
 	fi
 
 	previous_filename=$DATADIR/"null"
@@ -73,7 +77,7 @@ elif [ $CALCMODE == "all" ];then
 			following_time=` head -n 1 $following_filename`
 			echo $following_time > output_file # create only timestamp file
 			ruby calc_speed.rb previous_file following_file output_file
-			cat output_file >> $ROOTDIR/"speed.csv"	
+			cat output_file >> $OUTPUTDIR/"speed.csv"
 		fi
 		previous_filename=$DATADIR/$line".csv"
 	done
@@ -105,8 +109,8 @@ elif [ $CALCMODE == "latest" ];then
 	mv $cut_file following_file
 	echo $following_time > output_file # create only timestamp file
 	ruby calc_speed.rb previous_file following_file output_file
-	cat output_file
-	cat output_file >> $ROOTDIR/"speed.csv"
+	#cat output_file
+	cat output_file >> $OUTPUTDIR/"speed.csv"
 
 else
 	echo "MODE ERROR[$CALCMODE]"

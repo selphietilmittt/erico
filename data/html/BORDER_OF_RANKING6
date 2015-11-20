@@ -8,30 +8,30 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT">
-<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/css/ranking_common.css?1447650069" media="screen">
-<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/css/ranking.css?1447650069" media="screen">
+<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/battlearena/css/ranking_common.css?1447650069" media="screen">
+<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/battlearena/css/ranking.css?1447650069" media="screen">
+    <script src="http://tapi.puyoquest.jp/smap_img/jquery/jquery-1.7.2.min.js"></script>
+    <script src="http://tapi.puyoquest.jp/smap_img/webres/ranking/battlearena/js/tips.js"></script>
 </head>
 
 <body id="target">
 
-<!--ヘッダー-->
-<!--/ヘッダー-->
-<p id="header_title"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/images/ranking.png?1447650069" alt="yesterday top30" width=100%></p>
+<p id="header_title"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/battlearena/images/ranking.png?1447650069" alt="yesterday top30" width=100%></p>
 
 
 <!--注意書き-->
 <div class="infomation center">
-<p>※ランキングは11/02 00:29までにクリアしたクエストが集計されます。</p>
-<p>※11/01 23:59以降、コンティニューができません。</p>
+<p>※ランキングは6/29 00:29までに加算されたAPが集計されます。</p>
+<p>※同APの場合は到達時間が早い順となります</p>
 </div>
 
 <!--ボタン-->
 <div class="center clear clearfix mb5" style="width:91%;" style="height:100%;" id="space">
     <p class="t_rank_off left" id="bottun3" ></p>
-        <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival_guild/?campaign_id=2038&page=1&uid=4dd9524137cc065dc68c14af1b0c4ea4&guild_id=115783"><p class="g_rank right" id="bottun3"></p></a>
+        <a href="http://tapi.puyoquest.jp/html/person_ranking_battle_arena_festival_guild/?campaign_id=7014&page=1&uid=4dd9524137cc065dc68c14af1b0c4ea4&guild_id=115783"><p class="g_rank right" id="bottun3"></p></a>
     </div>
 
-<a href="#open01" class="present pre" id="bottun2"> </a>
+<a href="#open01" class="present pre"> </a>
 
 <!--メインコンテンツ-->
 
@@ -42,48 +42,65 @@
         <table width="100%" border="0" cellspacing="0" id="cell">
                     <tr>
                 <td id="rank">
-                    <p class="rank" id="rank">2位</p>
+                    <p class="rank" id="rank">424位</p>
+                </td>
+                <td id="dani">
+                    <p class="rank_user" id="name">十段</p>
                 </td>
                 <td id="name">
                     <p class="rank_user" id="name">えりお</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">1264098枚</p>
+                    <p class="progress_icon_b" id="item">102040AP</p>
                 </td>
             </tr>
                 </table>
     </div>
-    <p class="myranking_areaBottom mb10"></p>
+    <p class="myranking_areaBottom mb5"></p>
 </div>
 
 <!--現在の報酬に必要な獲得数-->
 <div class="paper_area03">
-        <p class="myranking_areaTop" id="top">現在の報酬に必要な獲得数</p>
+        <p class="myranking_areaTop" id="top">現在の報酬に必要な獲得AP</p>
     <div class="myranking_area">
         <table width="100%" border="0" cellspacing="0" id="cell">
             <tr>
-                <td id="rank2">
-                    <p class="rank">300位</p>
+                <td id="rank">
+                    <p class="rank" id="rank">1000位</p>
                 </td>
-                <td id="item2">
-                    <p class="progress_icon_b" id="item">346740枚</p>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">79395AP</p>
                 </td>
             </tr>
         </table>
     </div>
-    <p class="border_areaBottom mb10" id="btm"></p>
+    <p class="border_areaBottom mb5" id="btm"></p>
     </div>
 
 <!--ボーダー-->
-<div class="paper_area03 mt30">
+<div class="paper_area03 mt20">
+        <p class="myranking_areaTop" id="top">ワンランク上の報酬に必要な獲得AP</p>
+    <div class="myranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td id="rank">
+                    <p class="rank">300位</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">195920AP</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p class="border_areaBottom" id="btm"></p>
     </div>
 
 <br>
 
 <!--ボタン-->
-<div class="center clear mb30 clearfix" style="width:91%;" style="height:100%;" id="space">
-        <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2038&page=99&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_l left" id="bottun"></p></a>
-            <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2038&page=101&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_r right" id="bottun"></p></a>
+<div class="center clear clearfix" style="width:91%;" style="height:100%;" id="space">
+        <a href="http://tapi.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7014&page=99&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_l left" id="bottun"></p></a>
+            <a href="http://tapi.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7014&page=101&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_r right" id="bottun"></p></a>
     </div>
 
 <!--ランキング-->
@@ -97,11 +114,14 @@
                 <th  id="rank">
                     <p class="rank_index">順位</p>
                 </th>
+                <th id="dani">
+                    <p class="rank_index">段位</p>
+                </th>
                 <th id="name">
                     <p class="rank_index">ユーザー名</p>
                 </th>
                 <th id="item">
-                    <p class="rank_index" id="item">獲得数</p>
+                    <p class="rank_index" id="item">獲得AP</p>
                 </th>
             </tr>
         </table>
@@ -112,13 +132,16 @@
         <table width="100%" border="0" cellspacing="0" id="cell">
             <tr>
                 <td  id="rank">
-                    <p class="rank">2970位</p>
+                    <p class="rank">2971位</p>
+                </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
                 </td>
                 <td id="name">
-                    <p class="rank_user">なう</p>
+                    <p class="rank_user">どつぺるでるる</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40073枚</p>
+                    <p class="progress_icon_b" id="item">45595</p>
                 </td>
             </tr>
         </table>
@@ -129,11 +152,14 @@
                 <td  id="rank">
                     <p class="rank">2972位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ありす</p>
+                    <p class="rank_user">ちゅうせい</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40071枚</p>
+                    <p class="progress_icon_b" id="item">45590</p>
                 </td>
             </tr>
         </table>
@@ -144,11 +170,14 @@
                 <td  id="rank">
                     <p class="rank">2973位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">グランデロッソ</p>
+                    <p class="rank_user">ホイるるる</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40070枚</p>
+                    <p class="progress_icon_b" id="item">45590</p>
                 </td>
             </tr>
         </table>
@@ -159,11 +188,14 @@
                 <td  id="rank">
                     <p class="rank">2974位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">★よっち★</p>
+                    <p class="rank_user">かーる  ちゃん</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40068枚</p>
+                    <p class="progress_icon_b" id="item">45590</p>
                 </td>
             </tr>
         </table>
@@ -174,11 +206,14 @@
                 <td  id="rank">
                     <p class="rank">2975位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ちビば×</p>
+                    <p class="rank_user">風林火山△</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40064枚</p>
+                    <p class="progress_icon_b" id="item">45585</p>
                 </td>
             </tr>
         </table>
@@ -189,11 +224,14 @@
                 <td  id="rank">
                     <p class="rank">2976位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ちょび</p>
+                    <p class="rank_user">リンコロ♡</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40053枚</p>
+                    <p class="progress_icon_b" id="item">45575</p>
                 </td>
             </tr>
         </table>
@@ -204,11 +242,14 @@
                 <td  id="rank">
                     <p class="rank">2977位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">彩パパ </p>
+                    <p class="rank_user">CLEAR</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40044枚</p>
+                    <p class="progress_icon_b" id="item">45565</p>
                 </td>
             </tr>
         </table>
@@ -217,13 +258,16 @@
         <table width="100%" border="0" cellspacing="0" id="cell">
             <tr>
                 <td  id="rank">
-                    <p class="rank">2977位</p>
+                    <p class="rank">2978位</p>
+                </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
                 </td>
                 <td id="name">
-                    <p class="rank_user">YAN</p>
+                    <p class="rank_user">ましゅ～♪</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40044枚</p>
+                    <p class="progress_icon_b" id="item">45545</p>
                 </td>
             </tr>
         </table>
@@ -234,11 +278,14 @@
                 <td  id="rank">
                     <p class="rank">2979位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ごま</p>
+                    <p class="rank_user">［★3］不破愛花</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40043枚</p>
+                    <p class="progress_icon_b" id="item">45530</p>
                 </td>
             </tr>
         </table>
@@ -249,11 +296,14 @@
                 <td  id="rank">
                     <p class="rank">2980位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ねこみロボฅฅ</p>
+                    <p class="rank_user">ぶら</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40032枚</p>
+                    <p class="progress_icon_b" id="item">45520</p>
                 </td>
             </tr>
         </table>
@@ -264,11 +314,14 @@
                 <td  id="rank">
                     <p class="rank">2981位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">武神ガイム</p>
+                    <p class="rank_user">y3k25</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40031枚</p>
+                    <p class="progress_icon_b" id="item">45515</p>
                 </td>
             </tr>
         </table>
@@ -279,11 +332,14 @@
                 <td  id="rank">
                     <p class="rank">2982位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ひれ@募集再開</p>
+                    <p class="rank_user">ねこりん</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40030枚</p>
+                    <p class="progress_icon_b" id="item">45515</p>
                 </td>
             </tr>
         </table>
@@ -294,11 +350,14 @@
                 <td  id="rank">
                     <p class="rank">2983位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ats</p>
+                    <p class="rank_user">とおるこ</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40023枚</p>
+                    <p class="progress_icon_b" id="item">45510</p>
                 </td>
             </tr>
         </table>
@@ -309,11 +368,14 @@
                 <td  id="rank">
                     <p class="rank">2984位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">Caｰ＄</p>
+                    <p class="rank_user">♔フラグ</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40022枚</p>
+                    <p class="progress_icon_b" id="item">45510</p>
                 </td>
             </tr>
         </table>
@@ -324,11 +386,14 @@
                 <td  id="rank">
                     <p class="rank">2985位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ゆきパ完</p>
+                    <p class="rank_user">コノリ</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40019枚</p>
+                    <p class="progress_icon_b" id="item">45500</p>
                 </td>
             </tr>
         </table>
@@ -339,11 +404,14 @@
                 <td  id="rank">
                     <p class="rank">2986位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">♪もういっくん♪</p>
+                    <p class="rank_user">たけ</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40017枚</p>
+                    <p class="progress_icon_b" id="item">45500</p>
                 </td>
             </tr>
         </table>
@@ -352,13 +420,16 @@
         <table width="100%" border="0" cellspacing="0" id="cell">
             <tr>
                 <td  id="rank">
-                    <p class="rank">2986位</p>
+                    <p class="rank">2987位</p>
+                </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
                 </td>
                 <td id="name">
-                    <p class="rank_user">おうどん</p>
+                    <p class="rank_user">英雄サラディン</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40017枚</p>
+                    <p class="progress_icon_b" id="item">45490</p>
                 </td>
             </tr>
         </table>
@@ -369,11 +440,14 @@
                 <td  id="rank">
                     <p class="rank">2988位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">睦月あい×</p>
+                    <p class="rank_user">ぼんいえ×</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40011枚</p>
+                    <p class="progress_icon_b" id="item">45485</p>
                 </td>
             </tr>
         </table>
@@ -384,11 +458,14 @@
                 <td  id="rank">
                     <p class="rank">2989位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">とと</p>
+                    <p class="rank_user">truth</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40010枚</p>
+                    <p class="progress_icon_b" id="item">45470</p>
                 </td>
             </tr>
         </table>
@@ -397,13 +474,16 @@
         <table width="100%" border="0" cellspacing="0" id="cell">
             <tr>
                 <td  id="rank">
-                    <p class="rank">2989位</p>
+                    <p class="rank">2990位</p>
+                </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
                 </td>
                 <td id="name">
-                    <p class="rank_user">かまぼこ</p>
+                    <p class="rank_user">なお</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40010枚</p>
+                    <p class="progress_icon_b" id="item">45460</p>
                 </td>
             </tr>
         </table>
@@ -414,11 +494,14 @@
                 <td  id="rank">
                     <p class="rank">2991位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">レイ♬妖精備蓄中</p>
+                    <p class="rank_user">まだリーチのピ</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40008枚</p>
+                    <p class="progress_icon_b" id="item">45460</p>
                 </td>
             </tr>
         </table>
@@ -429,11 +512,14 @@
                 <td  id="rank">
                     <p class="rank">2992位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">王桃</p>
+                    <p class="rank_user">りきぞう</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40005枚</p>
+                    <p class="progress_icon_b" id="item">45445</p>
                 </td>
             </tr>
         </table>
@@ -444,11 +530,14 @@
                 <td  id="rank">
                     <p class="rank">2993位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">マふ。</p>
+                    <p class="rank_user">VDAS団長</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">40000枚</p>
+                    <p class="progress_icon_b" id="item">45430</p>
                 </td>
             </tr>
         </table>
@@ -459,11 +548,14 @@
                 <td  id="rank">
                     <p class="rank">2994位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ジバニャン★ </p>
+                    <p class="rank_user">✿のん✿ </p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">39996枚</p>
+                    <p class="progress_icon_b" id="item">45430</p>
                 </td>
             </tr>
         </table>
@@ -474,11 +566,14 @@
                 <td  id="rank">
                     <p class="rank">2995位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">えりりん</p>
+                    <p class="rank_user">3716F</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">39990枚</p>
+                    <p class="progress_icon_b" id="item">45425</p>
                 </td>
             </tr>
         </table>
@@ -489,11 +584,14 @@
                 <td  id="rank">
                     <p class="rank">2996位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">うさ</p>
+                    <p class="rank_user">コイオウジ</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">39985枚</p>
+                    <p class="progress_icon_b" id="item">45425</p>
                 </td>
             </tr>
         </table>
@@ -504,11 +602,14 @@
                 <td  id="rank">
                     <p class="rank">2997位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">あまのじゃく</p>
+                    <p class="rank_user">ハラス</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">39984枚</p>
+                    <p class="progress_icon_b" id="item">45400</p>
                 </td>
             </tr>
         </table>
@@ -519,11 +620,14 @@
                 <td  id="rank">
                     <p class="rank">2998位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">mmyk</p>
+                    <p class="rank_user">ゆたぬき</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">39972枚</p>
+                    <p class="progress_icon_b" id="item">45395</p>
                 </td>
             </tr>
         </table>
@@ -534,11 +638,14 @@
                 <td  id="rank">
                     <p class="rank">2999位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">kaie ×</p>
+                    <p class="rank_user">*shun</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">39969枚</p>
+                    <p class="progress_icon_b" id="item">45390</p>
                 </td>
             </tr>
         </table>
@@ -549,11 +656,14 @@
                 <td  id="rank">
                     <p class="rank">3000位</p>
                 </td>
+                <td id="dani">
+                    <p class="rank_user">十段</p>
+                </td>
                 <td id="name">
-                    <p class="rank_user">ねっこ☆彡○</p>
+                    <p class="rank_user">sysk</p>
                 </td>
                 <td id="item">
-                    <p class="progress_icon_b" id="item">39959枚</p>
+                    <p class="progress_icon_b" id="item">45365</p>
                 </td>
             </tr>
         </table>
@@ -565,9 +675,9 @@
 
 <br>
 <!--ボタン-->
-<div class="center clear mb30 mt10 clearfix" style="width:91%;">
-        <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2038&page=99&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_l left" id="bottun"></p></a>
-            <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2038&page=101&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_r right" id="bottun"></p></a>
+<div class="center clear mb30 mt5 clearfix" style="width:91%;">
+        <a href="http://tapi.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7014&page=99&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_l left" id="bottun"></p></a>
+            <a href="http://tapi.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7014&page=101&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_r right" id="bottun"></p></a>
     </div>
 
 <div class="mb30"></div>
@@ -576,9 +686,9 @@
     <div id="open01">
         <a href="#" class="close_overlay"></a>
         <div class="modal_window">
-            <p id="header_title"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/images/goods.png?1447650069" alt="Open" width=100%></p>
+            <p id="header_title"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/battlearena/images/goods.png?1447650069" alt="Open" width=100%></p>
 
-            <a href="#body"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/images/return.png?1447650069" alt="close" width="12%" class="mt"></a>
+            <a href="#body"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/battlearena/images/return.png?1447650069" alt="close" width="12%" class="mt"></a>
 
         </div><!--/.modal_window-->
 
