@@ -20,4 +20,3 @@ log.info "ARGV: " + @following_filename + " , " +@previous_filename + "\n"
 @calc_diff=Calc_diff.new(@previous_file, @following_file_with_diff)
 @calc_diff. calc_diff()
 @calc_diff.following_file_with_diff.write_arrays_to_outputfile()
-#return "filename"

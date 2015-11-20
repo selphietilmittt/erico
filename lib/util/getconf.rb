@@ -3,7 +3,12 @@
 ## getconf.rb
 require "logger"
 
-## main
 ##module
+module Getconf
+	def getconf
+
 log = Logger.new("../../etc/log")
 log.info('--getconf.rb : Module:getconf')
+
+
+p "aaa"
