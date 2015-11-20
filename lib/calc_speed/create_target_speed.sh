@@ -37,6 +37,6 @@ iconv -f sjis -t UTF8 $SPEEDFILE | while read line; do
 		echo $line >> $OUTPUTDIR/speed$TARGET.csv
 	fi
 done
-nkf -s --overwite $OUTPUTDIR/speed$TARGET.csv
+nkf -s --overwrite $OUTPUTDIR/speed$TARGET.csv
 
 exit 0
