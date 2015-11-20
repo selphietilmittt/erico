@@ -14,9 +14,13 @@ CONFIG_FILE="config.txt"
 ROOTDIR=`pwd`
 echo "ROOTDIR=$ROOTDIR"
 
-## set other directory
+## create other directory
 DATADIR="$ROOTDIR/data"
 HTMLDIR="$DATADIR/html"
+OUTPUTDIR="$ROOTDIR/output"
+if [ ! -d $DATADIR ];then mkdir $DATADIR ; fi
+if [ ! -d $HTMLDIR ];then mkdir $HTMLDIR ; fi
+if [ ! -d $OUTPUTDIR ];then mkdir $OUTPUTDIR ; fi
 
 if [ -z $IVENT_NAME ];then
 	echo "IVENT_NAME is EMPTY"
@@ -86,6 +90,7 @@ VAR=(\
 	 ROOTDIR\
 	 DATADIR\
 	 HTMLDIR\
+	 OUTPUTDIR\
 	 IVENT_NAME\
 	 ALL_MEMBERS_RANKING\
 	 GUILD_MEMBERS_RANKING\
@@ -164,7 +169,6 @@ for var in ${BORDER_OF_RANKING[@]}; do
 	echo "RANKING_URL page$p"
 	echo "BORDER_OF_RANKING_URL$p $RANKING_URL$p">>$CONFIG_FILE
 done
-echo "aaaa"
 echo "remove duplicated lines"
 #awk '!a[$0]++' $CONFIG_FILE
 #uniq $CONFIG_FILE $CONFIG_FILE
