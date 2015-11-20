@@ -26,7 +26,7 @@ fi
 
 iconv -f sjis -t UTF8 $SPEEDFILE | while read line; do
 	#echo "$line" | grep -e ^,
-	echo "iconv"
+	#echo "iconv"
 	if [ -n "`echo "$line" | grep -e ^,`" ];then
 		echo "$line"
 		#echo -n $line"," | iconv -f UTF8 -t sjis >> $ROOTDIR/speed$TARGET.csv
@@ -37,6 +37,6 @@ iconv -f sjis -t UTF8 $SPEEDFILE | while read line; do
 		echo $line >> $OUTPUTDIR/speed$TARGET.csv
 	fi
 done
-
+nkf -s --overwite $OUTPUTDIR/speed$TARGET.csv
 
 exit 0
