@@ -23,9 +23,11 @@ echo "ROOTDIR=$ROOTDIR"
 DATADIR="$ROOTDIR/data"
 HTMLDIR="$DATADIR/html"
 OUTPUTDIR="$ROOTDIR/output"
+UTILDIR="$ROOTDIR/lib/util"
 if [ ! -d $DATADIR ];then mkdir $DATADIR ; fi
 if [ ! -d $HTMLDIR ];then mkdir $HTMLDIR ; fi
 if [ ! -d $OUTPUTDIR ];then mkdir $OUTPUTDIR ; fi
+if [ ! -d $UTILDIR ];then mkdir $UTILDIR ; fi
 
 if [ -z $IVENT_NAME ];then
 	echo "IVENT_NAME is EMPTY"
@@ -100,6 +102,7 @@ VAR=(\
 	 DATADIR\
 	 HTMLDIR\
 	 OUTPUTDIR\
+	 UTILDIR\
 	 IVENT_NAME\
 	 ALL_MEMBERS_RANKING\
 	 GUILD_MEMBERS_RANKING\

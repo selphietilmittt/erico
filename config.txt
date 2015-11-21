@@ -3,6 +3,7 @@ ROOTDIR /Users/tilmitt/program/puyoque
 DATADIR /Users/tilmitt/program/puyoque/data
 HTMLDIR /Users/tilmitt/program/puyoque/data/html
 OUTPUTDIR /Users/tilmitt/program/puyoque/output
+UTILDIR /Users/tilmitt/program/puyoque/lib/util
 IVENT_NAME battle
 ALL_MEMBERS_RANKING person_ranking_battle_arena_festival
 GUILD_MEMBERS_RANKING person_ranking_battle_arena_festival_guild
