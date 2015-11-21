@@ -21,3 +21,186 @@ I, [2015-11-21T05:48:28.349209 #39392]  INFO -- : --util.rb : util->initialize
 I, [2015-11-21T05:48:42.170110 #39415]  INFO -- : --util.rb : util->initialize
 I, [2015-11-21T05:48:56.901002 #39438]  INFO -- : --util.rb : util->initialize
 I, [2015-11-21T05:49:03.036387 #39455]  INFO -- : --util.rb : util->initialize
+I, [2015-11-21T06:02:31.438542 #40158]  INFO -- : --util.rb : util->initialize
+I, [2015-11-21T06:05:40.798735 #40358]  INFO -- : --util.rb : util->initialize
+I, [2015-11-21T06:06:10.191304 #40390]  INFO -- : --util.rb : util->initialize
+I, [2015-11-21T06:07:27.797907 #40453]  INFO -- : --util.rb : util->initialize
+I, [2015-11-21T06:08:50.784009 #40563]  INFO -- : --util.rb : util->initializeconvert_html_to_csv
+I, [2015-11-21T06:08:50.784141 #40563]  INFO -- : --util.rb : util->initialize
+I, [2015-11-21T06:10:44.320992 #40652]  INFO -- : --util.rb : util->initialize calld fromConvert_html_to_csv->convert_html_to_csv
+I, [2015-11-21T06:10:44.321086 #40652]  INFO -- : --util.rb : util->initialize
+I, [2015-11-21T06:13:02.263347 #40755]  INFO -- : --util.rb : util->initialize calld by Convert_html_to_csv->convert_html_to_csv
+I, [2015-11-21T06:14:31.084255 #40826]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:15:22.605690 #40872]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:15:22.605800 #40872]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:15:45.814402 #40901]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:16:02.455849 #40924]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:16:02.455950 #40924]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:17:13.674693 #40983]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:17:13.674790 #40983]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:24:20.497561 #41266]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:24:20.497681 #41266]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:28:09.894310 #41417]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:28:09.894420 #41417]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:28:09.894996 #41417]  INFO -- : return 10
+I, [2015-11-21T06:30:37.422661 #41566]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:30:37.422841 #41566]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:30:54.066090 #41589]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:30:54.066190 #41589]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:31:21.294475 #41623]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:31:21.294585 #41623]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:31:21.296136 #41623]  INFO -- : return 10
+I, [2015-11-21T06:31:51.392874 #41656]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:31:51.393013 #41656]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:35:14.150848 #41808]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:35:14.150983 #41808]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:35:35.042589 #41834]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:35:35.042723 #41834]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:35:35.043981 #41834]  INFO -- : return 10
+I, [2015-11-21T06:35:55.985779 #41866]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:35:55.985880 #41866]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:35:55.985993 #41866]  INFO -- : return 10
+I, [2015-11-21T06:35:58.270333 #41879]  INFO -- : --util.rb : util.initialize calld by Convert_html_to_csv.convert_html_to_csv
+I, [2015-11-21T06:35:58.270433 #41879]  INFO -- : --util.rb : util.getconf( TARGET_RANK) 
+I, [2015-11-21T06:35:58.270527 #41879]  INFO -- : return 10
+I, [2015-11-21T10:11:07.769674 #50938]  INFO -- : --util.rb : util.initialize calld by 
+I, [2015-11-21T10:11:34.265251 #50967]  INFO -- : --util.rb : util.initialize calld by 
+I, [2015-11-21T10:12:32.095323 #51027]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:13:25.844036 #51074]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:15:40.217086 #51170]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:15:53.283621 #51191]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:15:53.283720 #51191]  INFO -- : Csv_manager main for test
+I, [2015-11-21T10:16:11.428288 #51219]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:16:11.428393 #51219]  INFO -- : Csv_manager main for test
+I, [2015-11-21T10:16:26.721123 #51242]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:16:26.721244 #51242]  INFO -- : Csv_manager main for test
+I, [2015-11-21T10:30:55.989648 #51960]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:30:55.989791 #51960]  INFO -- : Csv_manager main for test
+I, [2015-11-21T10:31:14.626702 #51985]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T10:31:14.626849 #51985]  INFO -- : Csv_manager main for test
+I, [2015-11-21T10:58:38.183635 #53223]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T10:58:38.185904 #53223]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T10:58:38.188190 #53223]  INFO -- : return 1
+I, [2015-11-21T11:00:15.079855 #53305]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:00:15.079964 #53305]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:00:15.080091 #53305]  INFO -- : return 1
+I, [2015-11-21T11:00:15.080357 #53305]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:00:15.080434 #53305]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:00:38.473655 #53331]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:00:38.473763 #53331]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:00:38.473904 #53331]  INFO -- : return 1
+I, [2015-11-21T11:00:38.474205 #53331]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:00:45.370205 #53351]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:00:45.370334 #53351]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:00:45.370512 #53351]  INFO -- : return 1
+I, [2015-11-21T11:00:45.370801 #53351]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:00:45.370870 #53351]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:01:06.317662 #53377]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:01:06.317767 #53377]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:01:06.317892 #53377]  INFO -- : return 1
+I, [2015-11-21T11:01:06.318165 #53377]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:01:06.318228 #53377]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:05:34.365216 #53562]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:05:34.365325 #53562]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:05:34.365571 #53562]  INFO -- : return 1
+I, [2015-11-21T11:05:34.365867 #53562]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:05:34.365955 #53562]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:05:47.570532 #53593]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:05:47.570641 #53593]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:05:47.570734 #53593]  INFO -- : return 1
+I, [2015-11-21T11:05:47.570920 #53593]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:05:47.570983 #53593]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:05:47.571107 #53593]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:05:47.571161 #53593]  INFO -- : this is CSV_manager initialize()
+I, [2015-11-21T11:06:02.402785 #53624]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:06:02.402890 #53624]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:06:02.402980 #53624]  INFO -- : return 1
+I, [2015-11-21T11:06:02.403165 #53624]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:06:02.403227 #53624]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:06:02.403343 #53624]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:06:02.403398 #53624]  INFO -- : this is CSV_manager initialize()
+I, [2015-11-21T11:07:29.464273 #53698]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:07:29.464374 #53698]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:07:29.464487 #53698]  INFO -- : return 1
+I, [2015-11-21T11:07:29.464727 #53698]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:07:29.464794 #53698]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:07:29.464941 #53698]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:07:29.464996 #53698]  INFO -- : this is CSV_manager initialize()
+I, [2015-11-21T11:07:43.417962 #53722]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:07:43.418071 #53722]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:07:43.418211 #53722]  INFO -- : return 1
+I, [2015-11-21T11:07:43.418483 #53722]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:07:43.418568 #53722]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:07:43.418668 #53722]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:07:43.418715 #53722]  INFO -- : this is CSV_manager initialize()
+I, [2015-11-21T11:08:42.660580 #53781]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:08:42.660678 #53781]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:08:42.660796 #53781]  INFO -- : return 1
+I, [2015-11-21T11:08:42.661067 #53781]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:08:42.661125 #53781]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:08:42.661227 #53781]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:08:42.661282 #53781]  INFO -- : this is CSV_manager initialize()
+I, [2015-11-21T11:08:42.661327 #53781]  INFO -- : --util.rb : util.getconf( DATADIR) 
+I, [2015-11-21T11:08:42.661416 #53781]  INFO -- : return /Users/tilmitt/program/puyoque/data
+I, [2015-11-21T11:08:42.661476 #53781]  INFO -- : --util.rb : util.getconf( OUTPUTDIR) 
+I, [2015-11-21T11:08:42.661567 #53781]  INFO -- : return /Users/tilmitt/program/puyoque/output
+I, [2015-11-21T11:08:51.800064 #53801]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:08:51.800226 #53801]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:08:51.800452 #53801]  INFO -- : return 1
+I, [2015-11-21T11:08:51.800760 #53801]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:08:51.800837 #53801]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:08:51.800938 #53801]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:08:51.800995 #53801]  INFO -- : this is CSV_manager initialize()
+I, [2015-11-21T11:08:51.801045 #53801]  INFO -- : --util.rb : util.getconf( DATADIR) 
+I, [2015-11-21T11:08:51.801138 #53801]  INFO -- : return /Users/tilmitt/program/puyoque/data
+I, [2015-11-21T11:08:51.801190 #53801]  INFO -- : --util.rb : util.getconf( OUTPUTDIR) 
+I, [2015-11-21T11:08:51.801288 #53801]  INFO -- : return /Users/tilmitt/program/puyoque/output
+I, [2015-11-21T11:09:48.355363 #53865]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:09:48.355466 #53865]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:09:48.355590 #53865]  INFO -- : return 1
+I, [2015-11-21T11:09:48.355902 #53865]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:09:48.355982 #53865]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:09:48.356086 #53865]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:09:48.356142 #53865]  INFO -- : this is CSV_manager initialize(../../data/null-20151116-000003.csv)
+I, [2015-11-21T11:09:48.356191 #53865]  INFO -- : --util.rb : util.getconf( DATADIR) 
+I, [2015-11-21T11:09:48.356290 #53865]  INFO -- : return /Users/tilmitt/program/puyoque/data
+I, [2015-11-21T11:09:48.356360 #53865]  INFO -- : --util.rb : util.getconf( OUTPUTDIR) 
+I, [2015-11-21T11:09:48.356462 #53865]  INFO -- : return /Users/tilmitt/program/puyoque/output
+I, [2015-11-21T11:14:48.617542 #54067]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:14:48.617645 #54067]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:14:48.617768 #54067]  INFO -- : return 1
+I, [2015-11-21T11:14:48.618062 #54067]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:14:48.618134 #54067]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:14:48.618233 #54067]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:14:48.618285 #54067]  INFO -- : this is CSV_manager initialize(../../data/null-20151116-000003.csv)
+I, [2015-11-21T11:15:57.290881 #54123]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:15:57.291041 #54123]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:15:57.291211 #54123]  INFO -- : return 1
+I, [2015-11-21T11:15:57.291549 #54123]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:15:57.291627 #54123]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:15:57.291750 #54123]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:15:57.291808 #54123]  INFO -- : this is CSV_manager initialize(../../data/null-20151116-000003.csv)
+I, [2015-11-21T11:17:40.257386 #54228]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:17:40.257528 #54228]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:17:40.257685 #54228]  INFO -- : return 1
+I, [2015-11-21T11:17:40.257971 #54228]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:17:40.258042 #54228]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:17:40.258145 #54228]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:17:40.258196 #54228]  INFO -- : this is CSV_manager initialize(../../data/null-20151116-000003.csv)
+I, [2015-11-21T11:18:10.782853 #54273]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:18:10.782976 #54273]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:18:10.783116 #54273]  INFO -- : return 1
+I, [2015-11-21T11:18:10.783438 #54273]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:18:10.783507 #54273]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:18:10.783659 #54273]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:18:10.783751 #54273]  INFO -- : this is CSV_manager initialize(../../data/null-20151116-000003.csv)
+I, [2015-11-21T11:19:18.467237 #54326]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:19:18.467339 #54326]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:19:18.467464 #54326]  INFO -- : return 1
+I, [2015-11-21T11:19:18.467851 #54326]  INFO -- : --util.rb : util.initialize calld by Csv_manager main for test
+I, [2015-11-21T11:19:18.467931 #54326]  INFO -- : Csv_manager main for test
+I, [2015-11-21T11:19:18.468029 #54326]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-21T11:19:18.468076 #54326]  INFO -- : this is CSV_manager initialize(../../data/null-20151116-000003.csv)
+I, [2015-11-21T11:20:59.211628 #54405]  INFO -- : --util.rb : util.initialize calld by Util main for test
+I, [2015-11-21T11:20:59.211752 #54405]  INFO -- : --util.rb : util.getconf( TIMESTAMP) 
+I, [2015-11-21T11:20:59.211891 #54405]  INFO -- : return 1
