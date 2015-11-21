@@ -3,7 +3,7 @@
 
 ## user config
 ## set IVENT_NAME: person, guild,gbattle
-IVENT_NAME="battle"
+IVENT_NAME="guild"
 ## num of page
 TARGET_RANKING=10
 BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
@@ -28,6 +28,14 @@ if [ ! -d $DATADIR ];then mkdir $DATADIR ; fi
 if [ ! -d $HTMLDIR ];then mkdir $HTMLDIR ; fi
 if [ ! -d $OUTPUTDIR ];then mkdir $OUTPUTDIR ; fi
 if [ ! -d $UTILDIR ];then mkdir $UTILDIR ; fi
+
+NULL_FILELIST="$DATADIR/null-filelist.txt"
+NULL_HOURLYFILELIST="$DATADIR/null-hourly-filelist.txt"
+NULL_OUTPUT="$DATADIR/null-output.csv"
+DEFEATING_TIME_OF=$OUTPUTDIR"/defeating_time_of_" # _guile_name.csv
+DEFEATING_TIME_BY_ENDNUM_OF=$OUTPUTDIR"/defeating_time_by_endnum_of_" # _guile_name.csv
+
+
 
 if [ -z $IVENT_NAME ];then
 	echo "IVENT_NAME is EMPTY"
@@ -103,6 +111,11 @@ VAR=(\
 	 HTMLDIR\
 	 OUTPUTDIR\
 	 UTILDIR\
+	 NULL_FILELIST\
+	 NULL_HOURLYFILELIST\
+	 NULL_OUTPUT\
+	 DEFEATING_TIME_OF\
+	 DEFEATING_TIME_BY_ENDNUM_OF\
 	 IVENT_NAME\
 	 ALL_MEMBERS_RANKING\
 	 GUILD_MEMBERS_RANKING\
