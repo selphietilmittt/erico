@@ -20,11 +20,11 @@ if [ `../util/check_file_exists.sh $FILELIST > /dev/null 2>&1` ];then
 fi
 
 function get_previous_filename() { #return filename
-	if [ `../util/check_file_exists.sh $FILELIST > /dev/null 2>&1` ];then
+	if [ ! -e "$FILELIST" ];then
  		exit 1
 	 fi
 	previous_filename="$DATADIR/`tail -n 2 $FILELIST  | head -n 1`.csv"
-	if [ `../util/check_file_exists.sh $previous_filename > /dev/null 2>&1` ];then
+	if [ ! -e "$previous_filename" ];then
 		exit 1
 	else
 		echo $previous_filename
@@ -32,7 +32,7 @@ function get_previous_filename() { #return filename
 }
 
 function get_following_filename() { #return filename
-	if [ `../util/check_file_exists.sh $FILELIST > /dev/null 2>&1` ];then
+	if [ ! -e "$FILELIST" ];then
  		exit 1
 	fi
 	following_filename="$DATADIR/`tail -n 1 $FILELIST`.csv"

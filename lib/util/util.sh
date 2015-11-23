@@ -14,11 +14,11 @@ function getconf(){
 function get_previous_filename() { #return filename
 	NULL_FILELIST=`getconf NULL_FILELIST`
 	#echo "$NULL_FILELIST"
-	if [ `../util/check_file_exists.sh $FILELIST > /dev/null 2>&1` ];then
+	if [ ! -e $NULL_FILELIST ];then
  		exit 1
 	 fi
 	previous_filename=$DATADIR/`tail -n 2 $NULL_FILELIST | head -n 1`.csv
-	if [ `../util/check_file_exists.sh $previous_filename > /dev/null 2>&1` ];then
+	if [ ! -e $previous_filename ];then
 		exit 1
 	else
 		echo $previous_filename
@@ -26,12 +26,12 @@ function get_previous_filename() { #return filename
 }
 
 function get_latest_filename() { #return filename
-	if [ `../util/check_file_exists.sh $FILELIST > /dev/null 2>&1` ];then
+	NULL_FILELIST=`getconf NULL_FILELIST`
+	if [ ! -e $NULL_FILELIST ];then
  		exit 1
 	fi
-	#latest_filename="$DATADIR/`tail -n 1 $FILELIST`.csv"
 	latest_filename=$DATADIR/`tail -n 1 $NULL_FILELIST`.csv
-	if [ `../util/check_file_exists.sh $latest_filename > /dev/null 2>&1` ];then
+	if [ ! -e $latest_filename ];then
 		exit 1
 	else
 		echo $latest_filename
