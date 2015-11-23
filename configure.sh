@@ -10,13 +10,11 @@ BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 ####
 
 ## package check
-
+# logger
+# nkf
+# wget
 
 cd `dirname $0`
-CONFIG_FILE="config.txt"
-if [ -e $CONFIG_FILE ];then
-	mv $CONFIG_FILE $CONFIG_FILE".1"
-fi
 
 ## set root directory
 ROOTDIR=`pwd`
@@ -27,10 +25,15 @@ DATADIR="$ROOTDIR/data"
 HTMLDIR="$DATADIR/html"
 OUTPUTDIR="$ROOTDIR/output"
 UTILDIR="$ROOTDIR/lib/util"
+ETCDIR="$ROOTDIR/etc"
 if [ ! -d $DATADIR ];then mkdir $DATADIR ; fi
 if [ ! -d $HTMLDIR ];then mkdir $HTMLDIR ; fi
 if [ ! -d $OUTPUTDIR ];then mkdir $OUTPUTDIR ; fi
 if [ ! -d $UTILDIR ];then mkdir $UTILDIR ; fi
+if [ ! -d $ETCDIR ];then mkdir $ETCDIR ; fi
+
+CONFIG_FILE="$ETCDIR/configure.txt"
+if [ -e $CONFIG_FILE ];then rm $CONFIG_FILE; fi
 
 NULL_FILELIST="$DATADIR/null-filelist.txt"
 NULL_HOURLYFILELIST="$DATADIR/null-hourly-filelist.txt"
@@ -38,7 +41,9 @@ NULL_OUTPUT="$DATADIR/null-output.csv"
 DEFEATING_TIME_OF_=$OUTPUTDIR"/defeating_time_of_" # _guile_name.csv
 DEFEATING_TIME_BY_ENDNUM_OF_=$OUTPUTDIR"/defeating_time_by_endnum_of_" # _guile_name.csv
 
-
+LOG_FILE="$ETCDIR/log"
+if [ ! -e $CONFIG_FILE ];then touch $LOG_FILE ; fi
+echo "`date +%Y%m%d%k%M%S` set LOG_FILE $LOG_FILE" >> $LOG_FILE
 
 if [ -z $IVENT_NAME ];then
 	echo "IVENT_NAME is EMPTY"
@@ -106,6 +111,9 @@ START_OF_RANKING=`expr $END_OF_TOP_PICKUP_NAME + 3`
 END_OF_RANKING=`expr $START_OF_RANKING + $TARGET_RANKING - 1`
 
 
+
+echo ""
+
 echo "creating config.txt"
 VAR=(\
 	 CONFIG_FILE\
@@ -114,11 +122,13 @@ VAR=(\
 	 HTMLDIR\
 	 OUTPUTDIR\
 	 UTILDIR\
+	 ETCDIR\
 	 NULL_FILELIST\
 	 NULL_HOURLYFILELIST\
 	 NULL_OUTPUT\
 	 DEFEATING_TIME_OF_\
 	 DEFEATING_TIME_BY_ENDNUM_OF_\
+	 LOG_FILE\
 	 IVENT_NAME\
 	 ALL_MEMBERS_RANKING\
 	 GUILD_MEMBERS_RANKING\
@@ -199,7 +209,8 @@ done
 echo "remove duplicated lines"
 #awk '!a[$0]++' $CONFIG_FILE
 #uniq $CONFIG_FILE $CONFIG_FILE
-echo "create config finished"
+echo "create $CONFIG_FILE finished"
 echo "--------"
+echo "`date +%Y%m%d%k%M%S` $0 create $CONFIG_FILE finished" >> $LOG_FILE
 
 exit 0
