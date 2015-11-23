@@ -32,8 +32,8 @@ if [ ! -d $UTILDIR ];then mkdir $UTILDIR ; fi
 NULL_FILELIST="$DATADIR/null-filelist.txt"
 NULL_HOURLYFILELIST="$DATADIR/null-hourly-filelist.txt"
 NULL_OUTPUT="$DATADIR/null-output.csv"
-DEFEATING_TIME_OF=$OUTPUTDIR"/defeating_time_of_" # _guile_name.csv
-DEFEATING_TIME_BY_ENDNUM_OF=$OUTPUTDIR"/defeating_time_by_endnum_of_" # _guile_name.csv
+DEFEATING_TIME_OF_=$OUTPUTDIR"/defeating_time_of_" # _guile_name.csv
+DEFEATING_TIME_BY_ENDNUM_OF_=$OUTPUTDIR"/defeating_time_by_endnum_of_" # _guile_name.csv
 
 
 
@@ -114,8 +114,8 @@ VAR=(\
 	 NULL_FILELIST\
 	 NULL_HOURLYFILELIST\
 	 NULL_OUTPUT\
-	 DEFEATING_TIME_OF\
-	 DEFEATING_TIME_BY_ENDNUM_OF\
+	 DEFEATING_TIME_OF_\
+	 DEFEATING_TIME_BY_ENDNUM_OF_\
 	 IVENT_NAME\
 	 ALL_MEMBERS_RANKING\
 	 GUILD_MEMBERS_RANKING\
