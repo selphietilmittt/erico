@@ -221,8 +221,9 @@ elif [ $CALCMODE == "all" ];then
 				$defeating_num \
 				$TARGET_GUILD
 		fi
-		tail -n 1 $OUTPUTFILE
 	done
+	log_info "CALCMODE==all finished. nkf from UTF8 to SJIS"
+	nkf -s --overwrite $OUTPUTFILE
 
 elif [ $CALCMODE == "latest" ]; then
 	log_info "CALCMODE==latest"
@@ -246,6 +247,10 @@ elif [ $CALCMODE == "latest" ]; then
 		$OUTPUTFILE \
 		$defeating_num \
 		$TARGET_GUILD \
+
+	log_info "CALCMODE==latest finished. nkf from UTF8 to SJIS"
+	nkf -s --overwrite $OUTPUTFILE
+
 
 else
 	echo "calc_defeating_time.sh  MODE ERROR[$CALCMODE]"
