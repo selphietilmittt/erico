@@ -5,8 +5,7 @@
 
 function log_info() {
 	LOG_FILE=`getconf LOG_FILE`
-	echo "--------"`date +%Y%m%d%k%M%S` $0"--------" >> $LOG_FILE
-	echo "[INFO] $1" >> $LOG_FILE
+	echo "--------"`date +%Y%m%d%k%M%S` $0"--------" >> $LOG_FILE;echo "[INFO] $1" >> $LOG_FILE
 }
 
 function log_warning(){

@@ -10,9 +10,9 @@ BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 ####
 
 ## package check
-# logger
-# nkf
 # wget
+# nkf
+# ruby
 
 cd `dirname $0`
 
