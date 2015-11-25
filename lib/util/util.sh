@@ -1,11 +1,13 @@
 
 #bash
-#cd `dirname $0`
-#getconf="../util/getconf.sh"
 
 function log_info() {
-	LOG_FILE=`getconf LOG_FILE`
-	echo "--------"`date +%Y%m%d%k%M%S` $0"--------" >> $LOG_FILE;echo "[INFO] $1" >> $LOG_FILE
+	if [ ! -z $2 ];then
+		LOG_FILE=$2
+	else
+		LOG_FILE=`getconf LOG_FILE`
+	fi
+	echo "--------"`date +%Y%m%d%k%M%S` $0 "--------" >> $LOG_FILE;echo -e "[INFO] $1" >> $LOG_FILE
 }
 
 function log_warning(){
@@ -25,8 +27,12 @@ function log_fatal(){
 
 
 function getconf(){
-	CONFIG_FILE="../../etc/configure.txt"
-	ROOTDIR=`cat $CONFIG_FILE | grep ROOTDIR | awk -F " " '{print $2}'`
+	if [ ! -z $2 ];then
+		CONFIG_FILE=$2
+	else
+		CONFIG_FILE="../../etc/configure.txt"
+	fi
+	#ROOTDIR=`cat $CONFIG_FILE | grep ROOTDIR | awk -F " " '{print $3}'`
 	cat $CONFIG_FILE | grep $1 | awk -F " " '{print $2}'
 	exit 0
 }

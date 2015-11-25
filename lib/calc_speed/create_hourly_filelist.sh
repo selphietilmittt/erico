@@ -5,8 +5,12 @@
 ## arg[1] = current; then search only two latest filenames
 ##
 cd `dirname $0`
-SRCFILENAME="../../data/null-filelist.txt"
-HOURLYFILENAME="../../data/null-hourly-filelist.txt"
+source "../util/util.sh"
+log_info "create_hourly_filelist.sh start arg[1]=$1"
+
+SRCFILENAME=`getconf NULL_FILELIST`
+HOURLYFILENAME=`getconf NULL_HOURLYFILELIST`
+
 if [ -z $1 ];then
 	echo "CALCMODE is EMPTY"
 	exit 1
@@ -32,19 +36,19 @@ elif [ $1 = "all" ];then
 
 elif [ $1 = "latest" ];then
 	latestFiles=(`tail -2 $SRCFILENAME`)
-	echo "latestFiles=$latestFiles"
+	log_info "latestFile=$latestFiles"
 	IFS='-'
 	set --  ${latestFiles[0]}
-	hourofPreviousFile=`echo $3 | cut -c 1-2`
-	echo "hourofPreviousFile=$hourofPreviousFile"
+	timeofPreviousFile=`echo $3 | cut -c 1-2`
+	echo "timeofPreviousFile=$timeofPreviousFile"
 	set -- ${latestFiles[1]}
-	hourofCurrentFile=`echo $3 | cut -c 1-2`
-	echo "hourofCurrentFile=$hourofCurrentFile"
-	if [ $hourofPreviousFile = $hourofCurrentFile ];then
+	timeofCurrentFile=`echo $3 | cut -c 1-2`
+	echo "timeofCurrentFile=$timeofCurrentFile"
+	if [ "$hourofPreviousFile" = "$timeofCurrentFile" ];then
 		echo "nothing to do"
 	else
-		#echo "$1-$2-$3" >> $HOURLYFILENAME
-		echo "$1-$2-$3" >> ../../data/null-hourly-filelist.txt
+		echo "$1-$2-$3" >> "$HOURLYFILENAME"
+		#echo "$1-$2-$3" >> ../../data/null-hourly-filelist.txt
 	fi
 else
 	echo "MODE ERROR[$1]"

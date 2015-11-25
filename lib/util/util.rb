@@ -7,14 +7,17 @@ class Util
 
 	@log
 	@config_file
+	@called_by_
 
 	def initialize(name)
 		@log = Logger.new("../../etc/log")
 		@log.info "--util.rb : util.initialize calld by " + name
 		@config_file="../../config.txt"
+		@called_by_=name
 	end
 
 	def info(comment)
+		@log.info "called by "+@called_by_
 		@log.info comment
 	end
 

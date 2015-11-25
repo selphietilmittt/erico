@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 package rename;
 
-require 'util.pl';
+require 'lib/util/util.pl';
 #util::util();
-require 'calcDiff.pl';
+require 'lib/calc_speed/calcDiff.pl';
 #calcDiff::calcDiff();
 
 use strict;

@@ -2,11 +2,11 @@
 use strict;
 use warnings;
 
-require 'calcDiff.pl';
+require 'lib/calc_speed/calcDiff.pl';
 #calcDiff::calcDiff();
-require 'util.pl';
+require 'lib/util/util.pl';
 #util::util();
-require 'rename.pl';
+require 'lib/name/rename.pl';
 #rename::rename();
 use Time::Piece;
 use POSIX;
@@ -50,6 +50,8 @@ my $PERSON = "person_ranking_sp_item_festival";
 my $PERSONGUILD = "person_ranking_sp_item_festival_guild";
 my $GUILDBATTLE = "guild_ranking_guild_battle";
 my $GUILDBATTLEPERSON = "person_ranking_guild_battle_guild";
+my $BATTLE="person_ranking_battle_arena_festival";
+my $BATTLEGUILD="person_ranking_battle_arena_festival_guild";
 
 ######
 my $fileListName = "data/$guildID-filelist.txt";
@@ -71,7 +73,7 @@ sub getNewestFileName{ #print "getNewewstFileName start\n";
 
 #topPickUpName.txtの内容を配列化しリファレンスを返す
 sub getTopPickUpName{ #print "getTopPickUpName start\n";
-	my $srcFileName = "./profile_topPickUpName.txt";
+	my $srcFileName = "etc/profile_topPickUpName.txt";
 	my @array = util::openFileReadmode($srcFileName);
 	chomp(@array);
 	util::addStringForEndofArray(\@array,", ,\n,,\n,,");
@@ -80,7 +82,7 @@ sub getTopPickUpName{ #print "getTopPickUpName start\n";
 
 #bottomPickUpName.txtの内容を配列化しリファレンスを返す
 sub getBottomPickUpName{ #print "getBottomPickUpName start\n";
-	my $srcFileName = "./profile_bottomPickUpName.txt";
+	my $srcFileName = "etc/profile_bottomPickUpName.txt";
 	my @array = util::openFileReadmode($srcFileName);
 	chomp(@array);
 	return \@array;
@@ -382,12 +384,30 @@ sub mergeTimeSeriesPlotintoAll{ #print "mergeTimeSeriesPlotintoAll start\n";
 				@mergedOutput = &addPickedUpTopGuild(\@mergedOutput,$line_,$i,$calcMode);
 				$calcMode = 1;
 			}
+			elsif(($calcMode == 0 or $calcMode == 1) and $iventName eq $BATTLE){
+				$calcMode = 1;
+				@mergedOutput = &addPickedUpTopGuild(\@mergedOutput,$line_,$i,$calcMode);
+				$calcMode = 2;
+			}
+			elsif($calcMode == 2 and $iventName eq $BATTLE){
+				@mergedOutput = &addPickedUpTopGuild(\@mergedOutput,$line_,$i,$calcMode);
+				$calcMode = 1;
+			}
 			elsif(($calcMode == 0 or $calcMode == 1) and $iventName eq $PERSONGUILD){
 				$calcMode = 1;
 				@mergedOutput = &addPickedUpTopGuild(\@mergedOutput,$line_,$i,$calcMode);
 				$calcMode = 2;
 			}
 			elsif($calcMode == 2 and $iventName eq $PERSONGUILD){
+				@mergedOutput = &addPickedUpTopGuild(\@mergedOutput,$line_,$i,$calcMode);
+				$calcMode = 1;
+			}
+			elsif(($calcMode == 0 or $calcMode == 1) and $iventName eq $BATTLEGUILD){
+				$calcMode = 1;
+				@mergedOutput = &addPickedUpTopGuild(\@mergedOutput,$line_,$i,$calcMode);
+				$calcMode = 2;
+			}
+			elsif($calcMode == 2 and $iventName eq $BATTLEGUILD){
 				@mergedOutput = &addPickedUpTopGuild(\@mergedOutput,$line_,$i,$calcMode);
 				$calcMode = 1;
 			}

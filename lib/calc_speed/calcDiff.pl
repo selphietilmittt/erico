@@ -1,9 +1,9 @@
 #!/usr/bin/perl
 package calcDiff;
 
-require 'util.pl';
+require 'lib/util/util.pl';
 #util::util();
-require 'rename.pl';
+require 'lib/name/rename.pl';
 #rename::rename();
 
 use strict;
@@ -66,11 +66,13 @@ sub calcAverageDefeatTime{  #print "calcAverageDefeatTime\n";
 	chomp($seriesOfAverageDefeatTime);
 	my @average = split(/,/,$seriesOfAverageDefeatTime);
 	my $numOfAverage = @average;
-
-	if($numOfDefeats <=3){
+	if($defeat[2] eq "outofrank"){
+		return "outotrank\n";
+	}
+	elsif($numOfDefeats <=3){
 		return "$seriesOfAverageDefeatTime"."-,\n";
 	}	
-	if($defeat[$numOfDefeats-1] - $defeat[2] < 5){
+	elsif($defeat[$numOfDefeats-1] - $defeat[2] < 5){
 		return "$seriesOfAverageDefeatTime"."-,\n";
 	}
 	

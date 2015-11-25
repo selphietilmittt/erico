@@ -3,9 +3,9 @@
 ## calc_speedph/create_target_speed.sh
 ## arg[1] == target
 cd `dirname $0`
-getconf="../util/getconf.sh"
-DATADIR=`./$getconf DATADIR`
-OUTPUTDIR=`./$getconf OUTPUTDIR`
+source "../util/util.sh"
+DATADIR=`getconf DATADIR`
+OUTPUTDIR=`getconf OUTPUTDIR`
 FILELIST="$DATADIR/null-hourly-filelist.txt"
 SPEEDFILE="$OUTPUTDIR/speed.csv"
 TARGET=$1

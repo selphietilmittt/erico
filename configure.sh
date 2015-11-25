@@ -2,10 +2,11 @@
 #zsh
 
 ## user config
-## set IVENT_NAME: person, guild,gbattle
-IVENT_NAME="guild"
+## set EVENT_NAME: person, guild,gbattle
+EVENT_NAME="battle"
+CAMPAIGN_ID=7015
 ## num of page
-TARGET_RANKING=10
+TARGET_RANKING=330
 BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 ####
 
@@ -45,39 +46,27 @@ LOG_FILE="$ETCDIR/log"
 if [ ! -e $CONFIG_FILE ];then touch $LOG_FILE ; fi
 echo "`date +%Y%m%d%k%M%S` set LOG_FILE $LOG_FILE" >> $LOG_FILE
 
-if [ -z $IVENT_NAME ];then
-	echo "IVENT_NAME is EMPTY"
+if [ -z $EVENT_NAME ];then
+	echo "EVENT_NAME is EMPTY"
 	exit 1
-elif [ $IVENT_NAME == "person" ];then
-	ALL_MEMBERS_RANKING=person_ranking_sp_item_festival
-	GUILD_MEMBERS_RANKING=person_ranking_sp_item_festival_guild
-	CAMPAIGN_ID=2038
-	echo "ALL_MEMBERS_RANKING=$ALL_MEMBERS_RANKING"
-	echo "GUILD_MEMBERS_RANKING=$GUILD_MEMBERS_RANKING"
-	echo "CAMPAIGN_ID=$CAMPAIGN_ID"
-elif [ $IVENT_NAME == "battle" ];then
-	ALL_MEMBERS_RANKING=person_ranking_battle_arena_festival
-	GUILD_MEMBERS_RANKING=person_ranking_battle_arena_festival_guild
-	CAMPAIGN_ID=7014
-	echo "ALL_MEMBERS_RANKING=$ALL_MEMBERS_RANKING"
-	echo "GUILD_MEMBERS_RANKING=$GUILD_MEMBERS_RANKING"
-	echo "CAMPAIGN_ID=$CAMPAIGN_ID"
-elif [ $IVENT_NAME == "guild" ];then
-	ALL_MEMBERS_RANKING=guild_ranking_sp_boss_rush
-	GUILD_MEMBERS_RANKING=null
-	CAMPAIGN_ID=6022
-	echo "ALL_MEMBERS_RANKING=$ALL_MEMBERS_RANKING"
-	echo "GUILD_MEMBERS_RANKING=$GUILD_MEMBERS_RANKING"
-	echo "CAMPAIGN_ID=$CAMPAIGN_ID"
-elif [ $IVENT_NAME == "gbattle" ];then
-	ALL_MEMBERS_RANKING=guild_ranking_guild_battle
-	GUILD_MEMBERS_RANKING=person_ranking_guild_battle_guild
-	CAMPAIGN_ID=12005
-	echo "ALL_MEMBERS_RANKING=$ALL_MEMBERS_RANKING"
-	echo "GUILD_MEMBERS_RANKING=$GUILD_MEMBERS_RANKING"
-	echo "CAMPAIGN_ID=$CAMPAIGN_ID"
+elif [ $EVENT_NAME == "person" ];then
+	ALL_MEMBERS_EVENT_NAME=person_ranking_sp_item_festival
+	GUILD_MEMBERS_EVENT_NAME=person_ranking_sp_item_festival_guild
+	#CAMPAIGN_ID=2038
+elif [ $EVENT_NAME == "battle" ];then
+	ALL_MEMBERS_EVENT_NAME=person_ranking_battle_arena_festival
+	GUILD_MEMBERS_EVENT_NAME=person_ranking_battle_arena_festival_guild
+	#CAMPAIGN_ID=7014
+elif [ $EVENT_NAME == "guild" ];then
+	ALL_MEMBERS_EVENT_NAME=guild_ranking_sp_boss_rush
+	GUILD_MEMBERS_EVENT_NAME=null
+	#CAMPAIGN_ID=6022
+elif [ $EVENT_NAME == "gbattle" ];then
+	ALL_MEMBERS_EVENT_NAME=guild_ranking_guild_battle
+	GUILD_MEMBERS_EVENT_NAME=person_ranking_guild_battle_guild
+	#CAMPAIGN_ID=12005
 else
-	echo "invalid IVENT_NAME: $IVENT_NAME"
+	echo "incorrect EVENT_NAME: $EVENT_NAME"
 	exit 1
 fi
 
@@ -129,9 +118,9 @@ VAR=(\
 	 DEFEATING_TIME_OF_\
 	 DEFEATING_TIME_BY_ENDNUM_OF_\
 	 LOG_FILE\
-	 IVENT_NAME\
-	 ALL_MEMBERS_RANKING\
-	 GUILD_MEMBERS_RANKING\
+	 EVENT_NAME\
+	 ALL_MEMBERS_EVENT_NAME\
+	 GUILD_MEMBERS_EVENT_NAME\
 	 CAMPAIGN_ID\
 	 GUILD_ID\
 	 USER_ID\
@@ -159,7 +148,7 @@ done
 ## set URL
 echo "setting URL"
 #ALL_MEMBERS_RANKING
-if [ $ALL_MEMBERS_RANKING != "null" ];then
+if [ $ALL_MEMBERS_EVENT_NAME != "null" ];then
 	RANKING_URL="\
 http://api.puyoquest.jp/html/\
 $ALL_MEMBERS_RANKING/\
@@ -177,7 +166,7 @@ $ALL_MEMBERS_RANKING/\
 fi
 
 #GUILD_MEMBERS_RANKING
-if [ $GUILD_MEMBERS_RANKING != "null" ];then
+if [ $GUILD_MEMBERS_EVENT_NAME != "null" ];then
 	RANKING_URL="\
 http://api.puyoquest.jp/html/\
 $GUILD_MEMBERS_RANKING/\

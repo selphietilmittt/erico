@@ -227,21 +227,21 @@ elif [ $CALCMODE == "all" ];then
 
 elif [ $CALCMODE == "latest" ]; then
 	log_info "CALCMODE==latest"
-	previous_filename=`get_previous_filename`
-	log_info "[main] previous_filename=$previous_filename"
+	#previous_filename=`get_previous_filename`
+	#log_info "[main] previous_filename=$previous_filename"
 	latest_filename=`get_latest_filename`
 	log_info "[main] latest_filename=$latest_filename"
 
-	defeating_time=0 #fetch_bottom_line()
-	defeated_num=`get_defeated_num $previous_filename $TARGET_GUILD`
+	#defeating_time=0 #fetch_bottom_line()
+	#defeated_num=`get_defeated_num $previous_filename $TARGET_GUILD`
 	defeating_num=`get_defeated_num $latest_filename $TARGET_GUILD`
 
-	set_defeating_num_time \
-		$latest_filename \
-		$TARGET_GUILD \
-		$defeated_num \
-		$defeating_num \
-		$defeating_time
+	#set_defeating_num_time \
+		#$latest_filename \
+		#$TARGET_GUILD \
+		#$defeated_num \
+		#$defeating_num \
+		#$defeating_time
 
 	renew_bottom_of_outputfile \
 		$OUTPUTFILE \
