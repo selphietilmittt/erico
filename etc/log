@@ -44790,3 +44790,708 @@ I, [2015-11-25T22:54:00.122897 #54547]  INFO -- : called by CSV_manager
 I, [2015-11-25T22:54:00.122939 #54547]  INFO -- : this is CSV_manager initialize(previous_file.csv)
 I, [2015-11-25T22:54:00.122989 #54547]  INFO -- : called by CSV_manager
 I, [2015-11-25T22:54:00.123032 #54547]  INFO -- : csv_filename=previous_file.csv
+--------20151126 00310 lib/calc_speed/calc_speedph.sh --------
+[INFO] calc_speedph.sh start arg[1]=latest
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] CALC_MODE=latest
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] folowing_file_timestamp=,2015/11/25 21:17:47
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] output_file_timestamp=,2015/11/25 21:17:47
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] previous_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_time=,2015/11/25 21:17:47
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 00311 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+I, [2015-11-26T00:03:11.620362 #57289]  INFO -- : --util.rb : util.initialize calld by calc_speed.rb
+I, [2015-11-26T00:03:11.620517 #57289]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:03:11.620570 #57289]  INFO -- : --calc_speed.rb :main
+I, [2015-11-26T00:03:11.620620 #57289]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:03:11.620660 #57289]  INFO -- : ARGV: following_file.csv , previous_file.csv
+
+I, [2015-11-26T00:03:11.620787 #57289]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-26T00:03:11.620840 #57289]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:03:11.620881 #57289]  INFO -- : this is CSV_manager initialize(previous_file.csv)
+I, [2015-11-26T00:03:11.620931 #57289]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:03:11.620968 #57289]  INFO -- : csv_filename=previous_file.csv
+--------20151126 00618 lib/calc_speed/calc_speedph.sh --------
+[INFO] calc_speedph.sh start arg[1]=latest
+--------20151126 00618 lib/calc_speed/calc_speedph.sh --------
+[INFO] CALC_MODE=latest
+--------20151126 00618 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+--------20151126 00618 lib/calc_speed/calc_speedph.sh --------
+[INFO] folowing_file_timestamp=,2015/11/25 21:17:47
+--------20151126 00618 lib/calc_speed/calc_speedph.sh --------
+[INFO] output_file_timestamp=,2015/11/25 21:17:47
+--------20151126 00619 lib/calc_speed/calc_speedph.sh --------
+[INFO] previous_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 00619 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_time=,2015/11/25 21:17:47
+--------20151126 00619 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 00619 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+I, [2015-11-26T00:06:19.273417 #57535]  INFO -- : --util.rb : util.initialize calld by calc_speed.rb
+I, [2015-11-26T00:06:19.273520 #57535]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:06:19.273552 #57535]  INFO -- : --calc_speed.rb :main
+I, [2015-11-26T00:06:19.273642 #57535]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:06:19.273718 #57535]  INFO -- : ARGV: following_file.csv , previous_file.csv
+
+I, [2015-11-26T00:06:19.273853 #57535]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-26T00:06:19.273897 #57535]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:06:19.273940 #57535]  INFO -- : this is CSV_manager initialize(previous_file.csv)
+I, [2015-11-26T00:06:19.274018 #57535]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:06:19.274077 #57535]  INFO -- : csv_filename=previous_file.csv
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] calc_speedph.sh start arg[1]=latest
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] CALC_MODE=latest
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] folowing_file_timestamp=,2015/11/25 21:17:47
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] output_file_timestamp=,2015/11/25 21:17:47
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] previous_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_time=,2015/11/25 21:17:47
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 01039 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+I, [2015-11-26T00:10:39.632280 #57815]  INFO -- : --util.rb : util.initialize calld by calc_speed.rb
+I, [2015-11-26T00:10:39.632387 #57815]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:10:39.632420 #57815]  INFO -- : --calc_speed.rb :main
+I, [2015-11-26T00:10:39.632448 #57815]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:10:39.632474 #57815]  INFO -- : ARGV: following_file.csv , previous_file.csv
+
+I, [2015-11-26T00:10:39.632545 #57815]  INFO -- : this is CSV_manager_with_diff initialize(following_file.csv)
+I, [2015-11-26T00:10:39.632628 #57815]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-26T00:10:39.632671 #57815]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:10:39.632713 #57815]  INFO -- : this is CSV_manager initialize(following_file.csv)
+I, [2015-11-26T00:10:39.632763 #57815]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:10:39.632791 #57815]  INFO -- : csv_filename=following_file.csv
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] calc_speedph.sh start arg[1]=latest
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] CALC_MODE=latest
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] folowing_file_timestamp=,2015/11/25 21:17:47
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] output_file_timestamp=,2015/11/25 21:17:47
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] previous_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_time=,2015/11/25 21:17:47
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 01652 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+I, [2015-11-26T00:16:52.701970 #58164]  INFO -- : --util.rb : util.initialize calld by calc_speed.rb
+I, [2015-11-26T00:16:52.702077 #58164]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:16:52.702111 #58164]  INFO -- : --calc_speed.rb :main
+I, [2015-11-26T00:16:52.702139 #58164]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:16:52.702165 #58164]  INFO -- : ARGV: following_file.csv , previous_file.csv
+
+I, [2015-11-26T00:16:52.702227 #58164]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-26T00:16:52.702285 #58164]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:16:52.702344 #58164]  INFO -- : this is CSV_manager initialize(previous_file.csv)
+I, [2015-11-26T00:16:52.702396 #58164]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:16:52.702442 #58164]  INFO -- : csv_filename=previous_file.csv
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] calc_speedph.sh start arg[1]=latest
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] CALC_MODE=latest
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] folowing_file_timestamp=,2015/11/25 21:17:47
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] output_file_timestamp=,2015/11/25 21:17:47
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] previous_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_time=,2015/11/25 21:17:47
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 01746 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+I, [2015-11-26T00:17:46.917795 #58320]  INFO -- : --util.rb : util.initialize calld by calc_speed.rb
+I, [2015-11-26T00:17:46.917899 #58320]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:17:46.917929 #58320]  INFO -- : --calc_speed.rb :main
+I, [2015-11-26T00:17:46.917971 #58320]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:17:46.918009 #58320]  INFO -- : ARGV: following_file.csv , previous_file.csv
+
+I, [2015-11-26T00:17:46.918081 #58320]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-26T00:17:46.918154 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.918206 #58320]  INFO -- : this is CSV_manager initialize(previous_file.csv)
+I, [2015-11-26T00:17:46.918259 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.918301 #58320]  INFO -- : csv_filename=previous_file.csv
+I, [2015-11-26T00:17:46.920763 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.920829 #58320]  INFO -- : row[0]=1
+I, [2015-11-26T00:17:46.920886 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.920926 #58320]  INFO -- : row[0]=2
+I, [2015-11-26T00:17:46.920997 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921062 #58320]  INFO -- : row[0]=3
+I, [2015-11-26T00:17:46.921156 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921204 #58320]  INFO -- : row[0]=4
+I, [2015-11-26T00:17:46.921278 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921325 #58320]  INFO -- : row[0]=5
+I, [2015-11-26T00:17:46.921409 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921447 #58320]  INFO -- : row[0]=6
+I, [2015-11-26T00:17:46.921518 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921561 #58320]  INFO -- : row[0]=7
+I, [2015-11-26T00:17:46.921637 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921678 #58320]  INFO -- : row[0]=8
+I, [2015-11-26T00:17:46.921779 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921817 #58320]  INFO -- : row[0]=9
+I, [2015-11-26T00:17:46.921894 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.921948 #58320]  INFO -- : row[0]=10
+I, [2015-11-26T00:17:46.922026 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922064 #58320]  INFO -- : row[0]=11
+I, [2015-11-26T00:17:46.922131 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922163 #58320]  INFO -- : row[0]=12
+I, [2015-11-26T00:17:46.922234 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922286 #58320]  INFO -- : row[0]=13
+I, [2015-11-26T00:17:46.922338 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922365 #58320]  INFO -- : row[0]=14
+I, [2015-11-26T00:17:46.922427 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922464 #58320]  INFO -- : row[0]=15
+I, [2015-11-26T00:17:46.922537 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922577 #58320]  INFO -- : row[0]=16
+I, [2015-11-26T00:17:46.922644 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922693 #58320]  INFO -- : row[0]=17
+I, [2015-11-26T00:17:46.922776 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922813 #58320]  INFO -- : row[0]=18
+I, [2015-11-26T00:17:46.922921 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.922955 #58320]  INFO -- : row[0]=19
+I, [2015-11-26T00:17:46.923019 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923066 #58320]  INFO -- : row[0]=20
+I, [2015-11-26T00:17:46.923154 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923197 #58320]  INFO -- : row[0]=21
+I, [2015-11-26T00:17:46.923269 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923328 #58320]  INFO -- : row[0]=22
+I, [2015-11-26T00:17:46.923402 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923447 #58320]  INFO -- : row[0]=23
+I, [2015-11-26T00:17:46.923528 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923580 #58320]  INFO -- : row[0]=24
+I, [2015-11-26T00:17:46.923654 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923695 #58320]  INFO -- : row[0]=25
+I, [2015-11-26T00:17:46.923757 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923788 #58320]  INFO -- : row[0]=26
+I, [2015-11-26T00:17:46.923857 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.923911 #58320]  INFO -- : row[0]=27
+I, [2015-11-26T00:17:46.923982 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924014 #58320]  INFO -- : row[0]=28
+I, [2015-11-26T00:17:46.924077 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924110 #58320]  INFO -- : row[0]=29
+I, [2015-11-26T00:17:46.924155 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924184 #58320]  INFO -- : row[0]=30
+I, [2015-11-26T00:17:46.924248 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924291 #58320]  INFO -- : row[0]=31
+I, [2015-11-26T00:17:46.924385 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924434 #58320]  INFO -- : row[0]=32
+I, [2015-11-26T00:17:46.924519 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924568 #58320]  INFO -- : row[0]=33
+I, [2015-11-26T00:17:46.924632 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924666 #58320]  INFO -- : row[0]=34
+I, [2015-11-26T00:17:46.924771 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924816 #58320]  INFO -- : row[0]=35
+I, [2015-11-26T00:17:46.924897 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.924940 #58320]  INFO -- : row[0]=36
+I, [2015-11-26T00:17:46.925012 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925053 #58320]  INFO -- : row[0]=37
+I, [2015-11-26T00:17:46.925122 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925168 #58320]  INFO -- : row[0]=38
+I, [2015-11-26T00:17:46.925244 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925287 #58320]  INFO -- : row[0]=39
+I, [2015-11-26T00:17:46.925361 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925404 #58320]  INFO -- : row[0]=40
+I, [2015-11-26T00:17:46.925475 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925518 #58320]  INFO -- : row[0]=41
+I, [2015-11-26T00:17:46.925580 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925611 #58320]  INFO -- : row[0]=42
+I, [2015-11-26T00:17:46.925731 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925776 #58320]  INFO -- : row[0]=43
+I, [2015-11-26T00:17:46.925849 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925885 #58320]  INFO -- : row[0]=44
+I, [2015-11-26T00:17:46.925957 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.925995 #58320]  INFO -- : row[0]=45
+I, [2015-11-26T00:17:46.926100 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926134 #58320]  INFO -- : row[0]=46
+I, [2015-11-26T00:17:46.926207 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926255 #58320]  INFO -- : row[0]=47
+I, [2015-11-26T00:17:46.926327 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926368 #58320]  INFO -- : row[0]=48
+I, [2015-11-26T00:17:46.926437 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926482 #58320]  INFO -- : row[0]=49
+I, [2015-11-26T00:17:46.926554 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926582 #58320]  INFO -- : row[0]=50
+I, [2015-11-26T00:17:46.926664 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926698 #58320]  INFO -- : row[0]=51
+I, [2015-11-26T00:17:46.926777 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926821 #58320]  INFO -- : row[0]=52
+I, [2015-11-26T00:17:46.926911 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.926946 #58320]  INFO -- : row[0]=53
+I, [2015-11-26T00:17:46.926991 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927021 #58320]  INFO -- : row[0]=54
+I, [2015-11-26T00:17:46.927082 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927111 #58320]  INFO -- : row[0]=55
+I, [2015-11-26T00:17:46.927194 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927232 #58320]  INFO -- : row[0]=56
+I, [2015-11-26T00:17:46.927333 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927377 #58320]  INFO -- : row[0]=57
+I, [2015-11-26T00:17:46.927463 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927498 #58320]  INFO -- : row[0]=58
+I, [2015-11-26T00:17:46.927570 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927632 #58320]  INFO -- : row[0]=59
+I, [2015-11-26T00:17:46.927702 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927731 #58320]  INFO -- : row[0]=60
+I, [2015-11-26T00:17:46.927898 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.927943 #58320]  INFO -- : row[0]=61
+I, [2015-11-26T00:17:46.928020 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928076 #58320]  INFO -- : row[0]=62
+I, [2015-11-26T00:17:46.928139 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928169 #58320]  INFO -- : row[0]=63
+I, [2015-11-26T00:17:46.928211 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928254 #58320]  INFO -- : row[0]=64
+I, [2015-11-26T00:17:46.928342 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928382 #58320]  INFO -- : row[0]=65
+I, [2015-11-26T00:17:46.928444 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928489 #58320]  INFO -- : row[0]=66
+I, [2015-11-26T00:17:46.928568 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928611 #58320]  INFO -- : row[0]=67
+I, [2015-11-26T00:17:46.928719 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928757 #58320]  INFO -- : row[0]=68
+I, [2015-11-26T00:17:46.928846 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928881 #58320]  INFO -- : row[0]=69
+I, [2015-11-26T00:17:46.928924 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.928954 #58320]  INFO -- : row[0]=70
+I, [2015-11-26T00:17:46.929023 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929053 #58320]  INFO -- : row[0]=71
+I, [2015-11-26T00:17:46.929093 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929129 #58320]  INFO -- : row[0]=72
+I, [2015-11-26T00:17:46.929195 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929227 #58320]  INFO -- : row[0]=73
+I, [2015-11-26T00:17:46.929298 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929341 #58320]  INFO -- : row[0]=74
+I, [2015-11-26T00:17:46.929432 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929487 #58320]  INFO -- : row[0]=75
+I, [2015-11-26T00:17:46.929544 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929600 #58320]  INFO -- : row[0]=76
+I, [2015-11-26T00:17:46.929665 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929693 #58320]  INFO -- : row[0]=77
+I, [2015-11-26T00:17:46.929775 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929813 #58320]  INFO -- : row[0]=78
+I, [2015-11-26T00:17:46.929904 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.929937 #58320]  INFO -- : row[0]=79
+I, [2015-11-26T00:17:46.929981 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930011 #58320]  INFO -- : row[0]=80
+I, [2015-11-26T00:17:46.930074 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930102 #58320]  INFO -- : row[0]=81
+I, [2015-11-26T00:17:46.930190 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930226 #58320]  INFO -- : row[0]=82
+I, [2015-11-26T00:17:46.930299 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930348 #58320]  INFO -- : row[0]=83
+I, [2015-11-26T00:17:46.930413 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930461 #58320]  INFO -- : row[0]=84
+I, [2015-11-26T00:17:46.930535 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930579 #58320]  INFO -- : row[0]=85
+I, [2015-11-26T00:17:46.930641 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930670 #58320]  INFO -- : row[0]=86
+I, [2015-11-26T00:17:46.930777 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930809 #58320]  INFO -- : row[0]=87
+I, [2015-11-26T00:17:46.930898 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.930933 #58320]  INFO -- : row[0]=88
+I, [2015-11-26T00:17:46.931000 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931051 #58320]  INFO -- : row[0]=89
+I, [2015-11-26T00:17:46.931124 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931171 #58320]  INFO -- : row[0]=90
+I, [2015-11-26T00:17:46.931244 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931296 #58320]  INFO -- : row[0]=91
+I, [2015-11-26T00:17:46.931358 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931387 #58320]  INFO -- : row[0]=92
+I, [2015-11-26T00:17:46.931434 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931467 #58320]  INFO -- : row[0]=93
+I, [2015-11-26T00:17:46.931509 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931538 #58320]  INFO -- : row[0]=94
+I, [2015-11-26T00:17:46.931615 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931658 #58320]  INFO -- : row[0]=95
+I, [2015-11-26T00:17:46.931719 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931752 #58320]  INFO -- : row[0]=96
+I, [2015-11-26T00:17:46.931821 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931879 #58320]  INFO -- : row[0]=97
+I, [2015-11-26T00:17:46.931952 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.931997 #58320]  INFO -- : row[0]=98
+I, [2015-11-26T00:17:46.932079 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932132 #58320]  INFO -- : row[0]=99
+I, [2015-11-26T00:17:46.932198 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932226 #58320]  INFO -- : row[0]=100
+I, [2015-11-26T00:17:46.932311 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932348 #58320]  INFO -- : row[0]=101
+I, [2015-11-26T00:17:46.932422 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932458 #58320]  INFO -- : row[0]=102
+I, [2015-11-26T00:17:46.932560 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932594 #58320]  INFO -- : row[0]=103
+I, [2015-11-26T00:17:46.932660 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932709 #58320]  INFO -- : row[0]=104
+I, [2015-11-26T00:17:46.932798 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932835 #58320]  INFO -- : row[0]=105
+I, [2015-11-26T00:17:46.932912 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.932964 #58320]  INFO -- : row[0]=106
+I, [2015-11-26T00:17:46.933027 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933055 #58320]  INFO -- : row[0]=107
+I, [2015-11-26T00:17:46.933147 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933182 #58320]  INFO -- : row[0]=108
+I, [2015-11-26T00:17:46.933252 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933288 #58320]  INFO -- : row[0]=109
+I, [2015-11-26T00:17:46.933376 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933409 #58320]  INFO -- : row[0]=110
+I, [2015-11-26T00:17:46.933452 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933481 #58320]  INFO -- : row[0]=111
+I, [2015-11-26T00:17:46.933545 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933573 #58320]  INFO -- : row[0]=112
+I, [2015-11-26T00:17:46.933655 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933692 #58320]  INFO -- : row[0]=113
+I, [2015-11-26T00:17:46.933758 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933809 #58320]  INFO -- : row[0]=114
+I, [2015-11-26T00:17:46.933860 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.933898 #58320]  INFO -- : row[0]=115
+I, [2015-11-26T00:17:46.933970 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934012 #58320]  INFO -- : row[0]=116
+I, [2015-11-26T00:17:46.934102 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934136 #58320]  INFO -- : row[0]=117
+I, [2015-11-26T00:17:46.934199 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934246 #58320]  INFO -- : row[0]=118
+I, [2015-11-26T00:17:46.934319 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934372 #58320]  INFO -- : row[0]=119
+I, [2015-11-26T00:17:46.934434 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934476 #58320]  INFO -- : row[0]=120
+I, [2015-11-26T00:17:46.934571 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934619 #58320]  INFO -- : row[0]=121
+I, [2015-11-26T00:17:46.934698 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934740 #58320]  INFO -- : row[0]=122
+I, [2015-11-26T00:17:46.934833 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.934878 #58320]  INFO -- : row[0]=123
+I, [2015-11-26T00:17:46.934970 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935004 #58320]  INFO -- : row[0]=124
+I, [2015-11-26T00:17:46.935090 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935132 #58320]  INFO -- : row[0]=125
+I, [2015-11-26T00:17:46.935224 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935259 #58320]  INFO -- : row[0]=126
+I, [2015-11-26T00:17:46.935306 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935336 #58320]  INFO -- : row[0]=127
+I, [2015-11-26T00:17:46.935398 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935444 #58320]  INFO -- : row[0]=128
+I, [2015-11-26T00:17:46.935512 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935552 #58320]  INFO -- : row[0]=129
+I, [2015-11-26T00:17:46.935625 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935668 #58320]  INFO -- : row[0]=130
+I, [2015-11-26T00:17:46.935735 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935783 #58320]  INFO -- : row[0]=131
+I, [2015-11-26T00:17:46.935854 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.935895 #58320]  INFO -- : row[0]=132
+I, [2015-11-26T00:17:46.935969 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936012 #58320]  INFO -- : row[0]=133
+I, [2015-11-26T00:17:46.936082 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936119 #58320]  INFO -- : row[0]=134
+I, [2015-11-26T00:17:46.936182 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936226 #58320]  INFO -- : row[0]=135
+I, [2015-11-26T00:17:46.936304 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936398 #58320]  INFO -- : row[0]=136
+I, [2015-11-26T00:17:46.936486 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936530 #58320]  INFO -- : row[0]=137
+I, [2015-11-26T00:17:46.936607 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936679 #58320]  INFO -- : row[0]=138
+I, [2015-11-26T00:17:46.936762 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936806 #58320]  INFO -- : row[0]=139
+I, [2015-11-26T00:17:46.936879 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.936920 #58320]  INFO -- : row[0]=140
+I, [2015-11-26T00:17:46.936989 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937038 #58320]  INFO -- : row[0]=141
+I, [2015-11-26T00:17:46.937111 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937153 #58320]  INFO -- : row[0]=142
+I, [2015-11-26T00:17:46.937263 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937321 #58320]  INFO -- : row[0]=143
+I, [2015-11-26T00:17:46.937399 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937445 #58320]  INFO -- : row[0]=144
+I, [2015-11-26T00:17:46.937524 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937568 #58320]  INFO -- : row[0]=145
+I, [2015-11-26T00:17:46.937640 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937683 #58320]  INFO -- : row[0]=146
+I, [2015-11-26T00:17:46.937757 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937800 #58320]  INFO -- : row[0]=147
+I, [2015-11-26T00:17:46.937871 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.937914 #58320]  INFO -- : row[0]=148
+I, [2015-11-26T00:17:46.937986 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.938028 #58320]  INFO -- : row[0]=149
+I, [2015-11-26T00:17:46.938098 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.938136 #58320]  INFO -- : row[0]=150
+I, [2015-11-26T00:17:46.938202 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.938240 #58320]  INFO -- : row[0]=151
+I, [2015-11-26T00:17:46.938312 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.938351 #58320]  INFO -- : row[0]=152
+I, [2015-11-26T00:17:46.938421 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.938460 #58320]  INFO -- : row[0]=153
+I, [2015-11-26T00:17:46.938532 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.938576 #58320]  INFO -- : row[0]=154
+I, [2015-11-26T00:17:46.938645 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.938686 #58320]  INFO -- : row[0]=155
+I, [2015-11-26T00:17:46.938909 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939039 #58320]  INFO -- : row[0]=156
+I, [2015-11-26T00:17:46.939117 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939161 #58320]  INFO -- : row[0]=157
+I, [2015-11-26T00:17:46.939234 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939276 #58320]  INFO -- : row[0]=158
+I, [2015-11-26T00:17:46.939344 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939385 #58320]  INFO -- : row[0]=159
+I, [2015-11-26T00:17:46.939460 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939502 #58320]  INFO -- : row[0]=160
+I, [2015-11-26T00:17:46.939572 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939616 #58320]  INFO -- : row[0]=161
+I, [2015-11-26T00:17:46.939686 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939726 #58320]  INFO -- : row[0]=162
+I, [2015-11-26T00:17:46.939793 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939835 #58320]  INFO -- : row[0]=163
+I, [2015-11-26T00:17:46.939949 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.939994 #58320]  INFO -- : row[0]=164
+I, [2015-11-26T00:17:46.940111 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.940156 #58320]  INFO -- : row[0]=165
+I, [2015-11-26T00:17:46.940218 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.940255 #58320]  INFO -- : row[0]=166
+I, [2015-11-26T00:17:46.940327 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.940370 #58320]  INFO -- : row[0]=167
+I, [2015-11-26T00:17:46.940455 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.940500 #58320]  INFO -- : row[0]=168
+I, [2015-11-26T00:17:46.940649 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.940715 #58320]  INFO -- : row[0]=169
+I, [2015-11-26T00:17:46.940795 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.940843 #58320]  INFO -- : row[0]=170
+I, [2015-11-26T00:17:46.940914 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.940955 #58320]  INFO -- : row[0]=171
+I, [2015-11-26T00:17:46.941023 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941062 #58320]  INFO -- : row[0]=172
+I, [2015-11-26T00:17:46.941133 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941176 #58320]  INFO -- : row[0]=173
+I, [2015-11-26T00:17:46.941278 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941331 #58320]  INFO -- : row[0]=174
+I, [2015-11-26T00:17:46.941410 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941461 #58320]  INFO -- : row[0]=175
+I, [2015-11-26T00:17:46.941539 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941583 #58320]  INFO -- : row[0]=176
+I, [2015-11-26T00:17:46.941658 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941704 #58320]  INFO -- : row[0]=177
+I, [2015-11-26T00:17:46.941777 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941844 #58320]  INFO -- : row[0]=178
+I, [2015-11-26T00:17:46.941940 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.941986 #58320]  INFO -- : row[0]=179
+I, [2015-11-26T00:17:46.942066 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.942108 #58320]  INFO -- : row[0]=180
+I, [2015-11-26T00:17:46.942182 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.942226 #58320]  INFO -- : row[0]=181
+I, [2015-11-26T00:17:46.942299 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.942345 #58320]  INFO -- : row[0]=182
+I, [2015-11-26T00:17:46.942418 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.942462 #58320]  INFO -- : row[0]=183
+I, [2015-11-26T00:17:46.942540 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.942584 #58320]  INFO -- : row[0]=184
+I, [2015-11-26T00:17:46.942671 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.942723 #58320]  INFO -- : row[0]=185
+I, [2015-11-26T00:17:46.942801 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.942847 #58320]  INFO -- : row[0]=186
+I, [2015-11-26T00:17:46.942926 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943004 #58320]  INFO -- : row[0]=187
+I, [2015-11-26T00:17:46.943118 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943174 #58320]  INFO -- : row[0]=188
+I, [2015-11-26T00:17:46.943253 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943299 #58320]  INFO -- : row[0]=189
+I, [2015-11-26T00:17:46.943374 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943432 #58320]  INFO -- : row[0]=190
+I, [2015-11-26T00:17:46.943510 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943568 #58320]  INFO -- : row[0]=191
+I, [2015-11-26T00:17:46.943642 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943670 #58320]  INFO -- : row[0]=192
+I, [2015-11-26T00:17:46.943755 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943790 #58320]  INFO -- : row[0]=193
+I, [2015-11-26T00:17:46.943867 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.943921 #58320]  INFO -- : row[0]=194
+I, [2015-11-26T00:17:46.944017 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944051 #58320]  INFO -- : row[0]=195
+I, [2015-11-26T00:17:46.944118 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944181 #58320]  INFO -- : row[0]=196
+I, [2015-11-26T00:17:46.944273 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944324 #58320]  INFO -- : row[0]=197
+I, [2015-11-26T00:17:46.944399 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944446 #58320]  INFO -- : row[0]=198
+I, [2015-11-26T00:17:46.944529 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944566 #58320]  INFO -- : row[0]=199
+I, [2015-11-26T00:17:46.944643 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944681 #58320]  INFO -- : row[0]=200
+I, [2015-11-26T00:17:46.944753 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944800 #58320]  INFO -- : row[0]=201
+I, [2015-11-26T00:17:46.944874 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.944921 #58320]  INFO -- : row[0]=202
+I, [2015-11-26T00:17:46.944992 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.945071 #58320]  INFO -- : row[0]=203
+I, [2015-11-26T00:17:46.945160 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.945214 #58320]  INFO -- : row[0]=204
+I, [2015-11-26T00:17:46.945352 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.945420 #58320]  INFO -- : row[0]=205
+I, [2015-11-26T00:17:46.945510 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.945552 #58320]  INFO -- : row[0]=206
+I, [2015-11-26T00:17:46.945653 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.945699 #58320]  INFO -- : row[0]=207
+I, [2015-11-26T00:17:46.945773 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.945822 #58320]  INFO -- : row[0]=208
+I, [2015-11-26T00:17:46.945909 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.945962 #58320]  INFO -- : row[0]=209
+I, [2015-11-26T00:17:46.946042 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946084 #58320]  INFO -- : row[0]=210
+I, [2015-11-26T00:17:46.946148 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946179 #58320]  INFO -- : row[0]=211
+I, [2015-11-26T00:17:46.946268 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946310 #58320]  INFO -- : row[0]=212
+I, [2015-11-26T00:17:46.946389 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946442 #58320]  INFO -- : row[0]=213
+I, [2015-11-26T00:17:46.946508 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946536 #58320]  INFO -- : row[0]=214
+I, [2015-11-26T00:17:46.946625 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946662 #58320]  INFO -- : row[0]=215
+I, [2015-11-26T00:17:46.946752 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946790 #58320]  INFO -- : row[0]=216
+I, [2015-11-26T00:17:46.946870 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.946913 #58320]  INFO -- : row[0]=217
+I, [2015-11-26T00:17:46.947005 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947039 #58320]  INFO -- : row[0]=218
+I, [2015-11-26T00:17:46.947080 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947111 #58320]  INFO -- : row[0]=219
+I, [2015-11-26T00:17:46.947171 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947200 #58320]  INFO -- : row[0]=220
+I, [2015-11-26T00:17:46.947293 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947325 #58320]  INFO -- : row[0]=221
+I, [2015-11-26T00:17:46.947391 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947440 #58320]  INFO -- : row[0]=222
+I, [2015-11-26T00:17:46.947535 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947580 #58320]  INFO -- : row[0]=223
+I, [2015-11-26T00:17:46.947656 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947712 #58320]  INFO -- : row[0]=224
+I, [2015-11-26T00:17:46.947787 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947837 #58320]  INFO -- : row[0]=225
+I, [2015-11-26T00:17:46.947901 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.947930 #58320]  INFO -- : row[0]=226
+I, [2015-11-26T00:17:46.948021 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948059 #58320]  INFO -- : row[0]=227
+I, [2015-11-26T00:17:46.948129 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948165 #58320]  INFO -- : row[0]=228
+I, [2015-11-26T00:17:46.948269 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948303 #58320]  INFO -- : row[0]=229
+I, [2015-11-26T00:17:46.948357 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948388 #58320]  INFO -- : row[0]=230
+I, [2015-11-26T00:17:46.948477 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948517 #58320]  INFO -- : row[0]=231
+I, [2015-11-26T00:17:46.948588 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948633 #58320]  INFO -- : row[0]=232
+I, [2015-11-26T00:17:46.948716 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948769 #58320]  INFO -- : row[0]=233
+I, [2015-11-26T00:17:46.948836 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948865 #58320]  INFO -- : row[0]=234
+I, [2015-11-26T00:17:46.948951 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.948988 #58320]  INFO -- : row[0]=235
+I, [2015-11-26T00:17:46.949076 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.949111 #58320]  INFO -- : row[0]=236
+I, [2015-11-26T00:17:46.950418 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.950468 #58320]  INFO -- : row[0]=237
+I, [2015-11-26T00:17:46.950530 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.950582 #58320]  INFO -- : row[0]=238
+I, [2015-11-26T00:17:46.950674 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.950708 #58320]  INFO -- : row[0]=239
+I, [2015-11-26T00:17:46.950774 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.950835 #58320]  INFO -- : row[0]=240
+I, [2015-11-26T00:17:46.950917 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.950971 #58320]  INFO -- : row[0]=241
+I, [2015-11-26T00:17:46.951046 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951091 #58320]  INFO -- : row[0]=242
+I, [2015-11-26T00:17:46.951172 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951214 #58320]  INFO -- : row[0]=243
+I, [2015-11-26T00:17:46.951329 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951362 #58320]  INFO -- : row[0]=244
+I, [2015-11-26T00:17:46.951439 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951486 #58320]  INFO -- : row[0]=245
+I, [2015-11-26T00:17:46.951561 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951612 #58320]  INFO -- : row[0]=246
+I, [2015-11-26T00:17:46.951681 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951745 #58320]  INFO -- : row[0]=247
+I, [2015-11-26T00:17:46.951821 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951881 #58320]  INFO -- : row[0]=248
+I, [2015-11-26T00:17:46.951956 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.951995 #58320]  INFO -- : row[0]=249
+I, [2015-11-26T00:17:46.952070 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952105 #58320]  INFO -- : row[0]=250
+I, [2015-11-26T00:17:46.952191 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952224 #58320]  INFO -- : row[0]=251
+I, [2015-11-26T00:17:46.952295 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952335 #58320]  INFO -- : row[0]=252
+I, [2015-11-26T00:17:46.952403 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952438 #58320]  INFO -- : row[0]=253
+I, [2015-11-26T00:17:46.952505 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952540 #58320]  INFO -- : row[0]=254
+I, [2015-11-26T00:17:46.952608 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952643 #58320]  INFO -- : row[0]=255
+I, [2015-11-26T00:17:46.952711 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952745 #58320]  INFO -- : row[0]=256
+I, [2015-11-26T00:17:46.952806 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952832 #58320]  INFO -- : row[0]=257
+I, [2015-11-26T00:17:46.952873 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952906 #58320]  INFO -- : row[0]=258
+I, [2015-11-26T00:17:46.952948 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.952972 #58320]  INFO -- : row[0]=259
+I, [2015-11-26T00:17:46.953010 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.953034 #58320]  INFO -- : row[0]=260
+I, [2015-11-26T00:17:46.953072 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.953096 #58320]  INFO -- : row[0]=261
+I, [2015-11-26T00:17:46.953134 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.953157 #58320]  INFO -- : row[0]=262
+I, [2015-11-26T00:17:46.953199 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.953222 #58320]  INFO -- : row[0]=263
+I, [2015-11-26T00:17:46.953260 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.953285 #58320]  INFO -- : row[0]=264
+I, [2015-11-26T00:17:46.953334 #58320]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:17:46.953358 #58320]  INFO -- : row[0]=265
+--------20151126 03326 lib/calc_speed/calc_speedph.sh --------
+[INFO] calc_speedph.sh start arg[1]=latest
+--------20151126 03326 lib/calc_speed/calc_speedph.sh --------
+[INFO] CALC_MODE=latest
+--------20151126 03326 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+--------20151126 03327 lib/calc_speed/calc_speedph.sh --------
+[INFO] folowing_file_timestamp=,2015/11/25 21:17:47
+--------20151126 03327 lib/calc_speed/calc_speedph.sh --------
+[INFO] output_file_timestamp=,2015/11/25 21:17:47
+--------20151126 03327 lib/calc_speed/calc_speedph.sh --------
+[INFO] previous_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 03327 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_time=,2015/11/25 21:17:47
+--------20151126 03327 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126 03327 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+I, [2015-11-26T00:33:27.501711 #59119]  INFO -- : --util.rb : util.initialize calld by calc_speed.rb
+I, [2015-11-26T00:33:27.501856 #59119]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:33:27.501887 #59119]  INFO -- : --calc_speed.rb :main
+I, [2015-11-26T00:33:27.501914 #59119]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T00:33:27.501940 #59119]  INFO -- : ARGV: following_file.csv , previous_file.csv
+
+I, [2015-11-26T00:33:27.502004 #59119]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-26T00:33:27.502043 #59119]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:33:27.502078 #59119]  INFO -- : this is CSV_manager initialize(previous_file.csv)
+I, [2015-11-26T00:33:27.502127 #59119]  INFO -- : called by CSV_manager
+I, [2015-11-26T00:33:27.502169 #59119]  INFO -- : csv_filename=previous_file.csv
