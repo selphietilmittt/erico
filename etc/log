@@ -45495,3 +45495,32 @@ I, [2015-11-26T00:33:27.502043 #59119]  INFO -- : called by CSV_manager
 I, [2015-11-26T00:33:27.502078 #59119]  INFO -- : this is CSV_manager initialize(previous_file.csv)
 I, [2015-11-26T00:33:27.502127 #59119]  INFO -- : called by CSV_manager
 I, [2015-11-26T00:33:27.502169 #59119]  INFO -- : csv_filename=previous_file.csv
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] calc_speedph.sh start arg[1]=latest
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] CALC_MODE=latest
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] folowing_file_timestamp=,2015/11/25 21:17:47
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] output_file_timestamp=,2015/11/25 21:17:47
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] previous_filename=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] following_time=,2015/11/25 21:17:47
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-204159.csv
+--------20151126122604 lib/calc_speed/calc_speedph.sh --------
+[INFO] cut_filedata start argv[1]=/Volumes/share/Dropbox/program/puyoque/data/null-20151125-211747.csv
+I, [2015-11-26T12:26:05.113485 #68253]  INFO -- : --util.rb : util.initialize calld by calc_speed.rb
+I, [2015-11-26T12:26:05.113630 #68253]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T12:26:05.113679 #68253]  INFO -- : --calc_speed.rb :main
+I, [2015-11-26T12:26:05.113728 #68253]  INFO -- : called by calc_speed.rb
+I, [2015-11-26T12:26:05.113770 #68253]  INFO -- : ARGV: following_file.csv , previous_file.csv
+
+I, [2015-11-26T12:26:05.113865 #68253]  INFO -- : --util.rb : util.initialize calld by CSV_manager
+I, [2015-11-26T12:26:05.113918 #68253]  INFO -- : called by CSV_manager
+I, [2015-11-26T12:26:05.113959 #68253]  INFO -- : this is CSV_manager initialize(previous_file.csv)
+I, [2015-11-26T12:26:05.114008 #68253]  INFO -- : called by CSV_manager
+I, [2015-11-26T12:26:05.114055 #68253]  INFO -- : csv_filename=previous_file.csv
