@@ -24,12 +24,12 @@ class Calc_diff
 	attr_accessor :following_file_with_diff
 
 	def get_previous_count(following_name)
-		@log.info("get_previous_count(" + following_name + ")")
+		#@log.info("get_previous_count(" + following_name + ")")
 		i = 0
 		for previous_name in @previous_file.name do
 			if following_name == previous_name then
-				@log.info("following_name: " + following_name + ", previous_name: " + previous_name)
-				@log.info("@previous_file.count[" + i.to_s + "] = " + @previous_file.count[i])
+				#@log.info("following_name: " + following_name + ", previous_name: " + previous_name)
+				#@log.info("@previous_file.count[" + i.to_s + "] = " + @previous_file.count[i])
 				return @previous_file.count[i]
 			end
 			i = i + 1
@@ -44,13 +44,13 @@ class Calc_diff
 		for following_name in @following_file_with_diff.name do
 			previous_count = get_previous_count(following_name)
 			following_count = @following_file_with_diff.count[i]
-			@log.info("@following_count = " + following_count )		
+			#@log.info("@following_count = " + following_count )		
 			if previous_count == "out_of_rank" then
-				@log.info("@following_file_with_diff.diff.push(out_of_rank)")
+				#@log.info("@following_file_with_diff.diff.push(out_of_rank)")
 				@following_file_with_diff.diff.push("out_of_rank")
 			else
 				diff = following_count.to_i - previous_count.to_i
-				@log.info("diff = " + diff.to_s)
+				#@log.info("diff = " + diff.to_s)
 				@following_file_with_diff.diff.push(diff.to_s)
 			end
 			i = i + 1	

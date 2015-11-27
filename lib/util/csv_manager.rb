@@ -24,6 +24,10 @@ class CSV_manager
 		@count=[]
 
 		@util.info("csv_filename="+@csv_filename)
+		#File.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |line|
+		#	print line+"\n"
+		#end
+
 		CSV.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |row|
 			@ranking.push row[0]
 			@count.push row[1]

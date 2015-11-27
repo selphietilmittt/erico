@@ -9,7 +9,7 @@ log_info "calc_speedph.sh start arg[1]=$1"
 
 DATADIR=`getconf DATADIR`
 OUTPUTDIR=`getconf OUTPUTDIR`
-FILELIST="$DATADIR/null-hourly-filelist.txt"
+FILELIST=`getconf NULL_HOURLYFILELIST`
 
 if [ ! -d $OUTPUTDIR ];then
 	mkdir $OUTPUTDIR
@@ -52,6 +52,11 @@ function cut_filedata() { #return cut filename
 	START_OF_RANKING=`getconf START_OF_RANKING`
 	END_OF_RANKING=`getconf END_OF_RANKING`
 	head -n $END_OF_RANKING $target_file_name | tail -n `expr $END_OF_RANKING - $START_OF_RANKING + 1` > cut.csv
+	#cat cut.csv | sed "s/__/_/"
+	#log_info "`iconv -f SJIS -t UTF8 cut.csv`"
+	#nkf -w --overwrite cut.csv
+	#cat cut.csv | sed "s/[0-9]/_/"
+	#nkf -s --overwrite cut.csv
 	echo cut.csv
 }
 
@@ -69,10 +74,10 @@ elif [ $CALCMODE == "all" ];then
 	cat $FILELIST | while read line; do
 	following_filename=$DATADIR/$line".csv"	
 		if [ ${#line} -eq 0 ]; then
-			echo "empty"
+			log_fatal "empty"
 			:
 		elif [ -e $previous_filename ];then
-			echo "$previous_filename exists"
+			log_info "$previous_filename exists"
 
 			cut_file=`cut_filedata $previous_filename`
 			mv $cut_file previous_file.csv
@@ -115,6 +120,9 @@ elif [ $CALCMODE == "latest" ];then
 	ruby calc_speed.rb previous_file.csv following_file.csv output_file.csv
 	#cat output_file
 	cat output_file.csv >> $OUTPUTDIR/"speed.csv"
+	cp output_file.csv $OUTPUTDIR/speed-`tail -n 1 $FILELIST`".csv"
+	log_info "$OUTPUTDIR/speed-"`tail -n 1 $FILELIST`".csv created"
+	log_info "calc_speedph.sh latest finished"
 
 else
 	log_fatal "MODE ERROR[$CALCMODE]"

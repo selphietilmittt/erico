@@ -40,8 +40,19 @@ sub calcDefeatTime{ #print "calcDefeatTime\n" ;
 	chomp($seriesOfDefeatTime);
 	my @time = split(/,/,$seriesOfDefeatTime);
 	my $numOfTime = @time;
+	#print ("check outofrank $numOfDefeats - $defeat[2]\n");
+	#print ("$defeat[$numOfDefeats-1] - $defeat[2]\n");
 
-	if($numOfDefeats <=3){
+	if($numOfDefeats eq "outotrank"){
+		return "outofrank";
+	}
+	elsif($defeat[$numOfDefeats-2] eq "outofrank"){
+		return "outofrank";
+	}
+	elsif($defeat[$numOfDefeats-1] eq "outofrank"){
+		return "outotrank";
+	}
+	elsif($numOfDefeats <=3){
 		return "$seriesOfDefeatTime"."$timeSlotofSpeedRate,\n";
 	}
 	elsif($defeat[$numOfDefeats - 2] eq $defeat[$numOfDefeats-1]){
@@ -66,8 +77,16 @@ sub calcAverageDefeatTime{  #print "calcAverageDefeatTime\n";
 	chomp($seriesOfAverageDefeatTime);
 	my @average = split(/,/,$seriesOfAverageDefeatTime);
 	my $numOfAverage = @average;
+	#print ("check outofrank $numOfDefeats - $defeat[2]\n");
+	#print ("$defeat[$numOfDefeats-1] - $defeat[2]\n");
 	if($defeat[2] eq "outofrank"){
-		return "outotrank\n";
+		return "outotrank";
+	}
+	elsif($numOfDefeats eq "outotrank"){
+		return "outofrank";
+	}
+	elsif($defeat[$numOfDefeats-1] eq "outofrank"){
+		return "outofrank";
 	}
 	elsif($numOfDefeats <=3){
 		return "$seriesOfAverageDefeatTime"."-,\n";

@@ -8,50 +8,59 @@ cd `dirname $0`
 source "../util/util.sh"
 log_info "create_hourly_filelist.sh start arg[1]=$1"
 
-SRCFILENAME=`getconf NULL_FILELIST`
-HOURLYFILENAME=`getconf NULL_HOURLYFILELIST`
+FILELIST=`getconf NULL_FILELIST`
+HOURLYFILELIST=`getconf NULL_HOURLYFILELIST`
 
 if [ -z $1 ];then
-	echo "CALCMODE is EMPTY"
+	log_fatal "[create_hourly_filelist.sh] CALCMODE is EMPTY"
 	exit 1
 
 elif [ $1 = "all" ];then
 ##initialize
-	:>$HOURLYFILENAME
-	previousFile="null-00000000-000000"
-	while read currentFile; do
+	log_info "initialize HOURLYFILELIST [$HOURLYFILELIST]"
+	:>$HOURLYFILELIST
+	previous_filename="null-00000000-000000"
+
+	while read current_filename; do
 		IFS='-'
-		set -- $previousFile
-		hourofPreviousFile=`echo $3 | cut -c 1-2`
-		set -- $currentFile
-		hourofCurrentFile=`echo $3 | cut -c 1-2`
-		if [ $hourofPreviousFile = $hourofCurrentFile ];then
+		set -- $previous_filename
+		previous_hour=`echo $3 | cut -c 1-2`
+		set -- $current_filename
+		current_hour=`echo $3 | cut -c 1-2`
+		if [ $previous_hour = $current_hour ];then
 			:
 		else
-			#echo "$1-$2-$3" >> $HOURLYFILENAME
-			echo "$1-$2-$3" >> ../../data/null-hourly-filelist.txt
+			echo "$1-$2-$3" >> "$HOURLYFILELIST"
 		fi
-	previousFile=$currentFile
-	done < $SRCFILENAME
-
+	previous_filename=$current_filename
+	done < "$FILELIST"
+	log_info "create HOURLYFILELIST finished"
 elif [ $1 = "latest" ];then
-	latestFiles=(`tail -2 $SRCFILENAME`)
-	log_info "latestFile=$latestFiles"
-	IFS='-'
-	set --  ${latestFiles[0]}
-	timeofPreviousFile=`echo $3 | cut -c 1-2`
-	echo "timeofPreviousFile=$timeofPreviousFile"
-	set -- ${latestFiles[1]}
-	timeofCurrentFile=`echo $3 | cut -c 1-2`
-	echo "timeofCurrentFile=$timeofCurrentFile"
-	if [ "$hourofPreviousFile" = "$timeofCurrentFile" ];then
-		echo "nothing to do"
+	latest_filename=`tail -n 1 $FILELIST`
+	if [ ! -e $HOURLYFILELIST ];then
+		log_info "HOURLYFILELIST NOT exists. created."
+		echo $latest_filename > "$HOURLYFILELIST"
 	else
-		echo "$1-$2-$3" >> "$HOURLYFILENAME"
-		#echo "$1-$2-$3" >> ../../data/null-hourly-filelist.txt
+		previous_filename=`tail -n 1 $HOURLYFILELIST`
+		log_info "\\nprevious_filename=$previous_filename\\nlatest_filename=$latest_filename"
+
+		previous_hour=`get_time_of_file $previous_filename "hour"`
+		latest_hour=`get_time_of_file $latest_filename "hour"`
+		log_info "\\nprevious_hour=$previous_hour\\nlatest_hour=$latest_hour"
+
+		if [ "$previous_hour" = "$latest_hour" ];then
+			log_info "previous_hour = latest_hour nothing to do"
+		else
+			log_info "add latest_filename[$latest_filename] to $HOURLYFILELIST"
+			echo $latest_filename >> "$HOURLYFILELIST"
+			#echo "$1-$2-$3" >> "$HOURLYFILENAME"
+			#echo "$1-$2-$3" >> ../../data/null-hourly-filelist.txt
+			:
+		fi
 	fi
+
 else
-	echo "MODE ERROR[$1]"
+	log_fatal "[create_hourly_filelist.sh] MODE ERROR[$1]"
 	exit 1
 fi
-#awk -F -  '{ print ; }' data/null-filelist.txt 
+

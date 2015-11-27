@@ -113,6 +113,12 @@ sub getRanking{
 					$line_ =~ s/<.*?>//g;
 					$line_=~ s/\s+//g;
 					$line_ =~ s/,//g; #カンマを削除
+					$line_ =~ s/"//g; # " を削除
+					$line_ =~ s/[\?]/_/g; # ? を削除
+					#$line_ =~ s/[\xF0-\xF7][\x80-\xBF][\x80-\xBF][\x80-\xBF]/_/g;
+					#my $SJIS_CHARS = '(?:[\x00-\x7F\xA1-\xDF]|(?:[\x81-\x9F\xE0-\xFC][\x40-\x7E\x80-\xFC]))';
+					#$line_ =~ s/\G(${SJIS_CHARS}*?)(?:[\xEB-\xEE][\x40-\x7E]|[\xEB-\xED][\x80-\xFC]|\xEE[\x80-\x8D])/_/g;
+					#$line_ =~ s/(?:[\xEB-\xEE][\x40-\x7E]|[\xEB-\xED][\x80-\xFC]|\xEE[\x80-\x8D])/_/g;
 					chomp($line_);
 					$userName = "$line_";
 				}

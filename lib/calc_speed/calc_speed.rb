@@ -3,7 +3,7 @@
 ## calc_speed.rb
 require '../util/util.rb'
 require '../util/csv_manager.rb'
-#require '../calc_speed/calc_diff.rb'
+require '../calc_speed/calc_diff.rb'
 require "../calc_speed/csv_manager_with_diff.rb"
 
 ## main

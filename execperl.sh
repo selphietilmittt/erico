@@ -19,6 +19,7 @@ if [ ! -d "$HTMLDIR" ];then mkdir $HTMLDIR ; fi
 if [ ! -d "$OUTPUTDIR" ];then mkdir $OUTPUTDIR ; fi
 if [ ! -d "$UTILDIR" ];then mkdir $UTILDIR ; fi
 if [ ! -d "$ETCDIR" ];then mkdir $ETCDIR ; fi
+NULL_HOURLYFILELIST=`getconf_execall NULL_HOURLYFILELIST`
 
 cd $ROOTDIR
 
@@ -72,11 +73,11 @@ if [ $execNum -eq 1 ]; then
 		if [ $guildID == "null" ]; then
 			mkdir -p "api.puyoquest.jp/html/$iventName/"
 			wget -r -l 1 "http://api.puyoquest.jp/html/$iventName/?campaign_id=$campaignID&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=$page" --output-document="api.puyoquest.jp/html/$iventName/_campaign_id=$campaignID&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=$page"
-			#:
+			:
 		else
 			mkdir -p "api.puyoquest.jp/html/$iventNamePerson/"
 			wget -r -l 1 "http://api.puyoquest.jp/html/$iventNamePerson/?campaign_id=$campaignID&guild_id=$guildID&$userID&uid=$userID&page=$page" --output-document="api.puyoquest.jp/html/$iventNamePerson/_campaign_id=$campaignID&guild_id=$guildID&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=$page"
-			#:
+			:
 		fi
 	done
 fi
@@ -90,7 +91,13 @@ else
 	:
 fi
 
+if [ ! -e $NULL_HOURLYFILELIST ];then
+	log_info_execall "NULL_HOURLYFILELIST not exists. create all."
+	bash lib/calc_speed/create_hourly_filelist.sh all
+fi
+log_info_execall "create_hourly_filelist.sh latest start"
 bash lib/calc_speed/create_hourly_filelist.sh latest
+log_info_execall "calc_speedph.sh latest start"
 bash lib/calc_speed/calc_speedph.sh latest
 
 exit 0

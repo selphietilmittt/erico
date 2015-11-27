@@ -1,0 +1,27 @@
+ARGV
+campaignID = $ARGV[0];
+numofPage = $ARGV[1];
+CALC_MODE
+guildID = $ARGV[3];
+userID = $ARGV[4];
+timeSlotofSpeedRate = $ARGV[5];
+iventName = $ARGV[6];
+
+sub getNewestFileName
+sub getTopPickUpName
+sub getBottomPickUpName
+sub checkChangedName <- EMPTY
+sub getRanking
+sub createOutput
+sub outputAll
+sub removeUserName
+sub createNameList
+sub createMergedOutput
+sub addPickedUpTopGuild
+sub addRawData
+sub mergeTimeSeriesPlotintoAll
+
+main
+	&outputAll($t);
+	if (!(-e  $mergedOutputName)) {&createMergedOutput();}
+	else{&mergeTimeSeriesPlotintoAll();}

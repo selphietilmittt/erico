@@ -32,8 +32,8 @@ function getconf(){
 	else
 		CONFIG_FILE="../../etc/configure.txt"
 	fi
-	#ROOTDIR=`cat $CONFIG_FILE | grep ROOTDIR | awk -F " " '{print $3}'`
-	cat $CONFIG_FILE | grep $1 | awk -F " " '{print $2}'
+	conf=`cat $CONFIG_FILE | grep $1 | awk -F " " '{print $2}'`
+	echo $conf
 	exit 0
 }
 
@@ -76,5 +76,23 @@ function cut_filedata() { #return cut filename
 		> cut.csv
 	nkf -w --overwrite cut.csv
 	echo cut.csv
+}
+
+function get_time_of_file() {
+	filename=$1
+	target_time=$2
+	if [ $target_time = "hour" ];then
+		time=`echo ${filename: -6:2}`
+		log_info "get_time_of_file $filename $target_time is $time"
+		echo $time
+	fi
+
+	#awk -F -  '{ print ; }' data/null-filelist.txt
+	#IFS='-'
+	#set --  ${latestFiles[0]}
+	#timeofPreviousFile=`echo $3 | cut -c 1-2`
+	#log_info "timeofPreviousFile=$timeofPreviousFile"
+	#set -- ${latestFiles[1]}
+	#timeofCurrentFile=`echo $3 | cut -c 1-2`
 }
 
