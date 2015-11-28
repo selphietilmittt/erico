@@ -172,6 +172,7 @@ http://api.puyoquest.jp/html/\
 $GUILD_MEMBERS_EVENT_NAME/\
 ?campaign_id=$CAMPAIGN_ID\
 &uid=$USER_ID\
+&guild_id=$GUILD_ID\
 &page=$page"
 	i=0
 	until  [ $i -ge 2 ]

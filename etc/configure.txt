@@ -39,8 +39,8 @@ ALL_MEMBERS_RANKING_URL8 http://api.puyoquest.jp/html/person_ranking_battle_aren
 ALL_MEMBERS_RANKING_URL9 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=9
 ALL_MEMBERS_RANKING_URL10 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=10
 ALL_MEMBERS_RANKING_URL11 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=11
-GUILD_MEMBERS_RANKING_URL1 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival_guild/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1
-GUILD_MEMBERS_RANKING_URL2 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival_guild/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=2
+GUILD_MEMBERS_RANKING_URL1 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival_guild/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&guild_id=115783&page=1
+GUILD_MEMBERS_RANKING_URL2 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival_guild/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&guild_id=115783&page=2
 BORDER_OF_RANKING_URL1 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1
 BORDER_OF_RANKING_URL1 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1
 BORDER_OF_RANKING_URL1 http://api.puyoquest.jp/html/person_ranking_battle_arena_festival/?campaign_id=7015&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1

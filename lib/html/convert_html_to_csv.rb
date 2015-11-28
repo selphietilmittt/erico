@@ -1,4 +1,5 @@
-#!/usr/bin/ruby
+
+#ruby
 ## convert html to csv
 require '../util/util.rb'
 
