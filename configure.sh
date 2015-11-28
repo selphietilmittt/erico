@@ -151,7 +151,7 @@ echo "setting URL"
 if [ $ALL_MEMBERS_EVENT_NAME != "null" ];then
 	RANKING_URL="\
 http://api.puyoquest.jp/html/\
-$ALL_MEMBERS_RANKING/\
+$ALL_MEMBERS_EVENT_NAME/\
 ?campaign_id=$CAMPAIGN_ID\
 &uid=$USER_ID\
 &page="
@@ -169,7 +169,7 @@ fi
 if [ $GUILD_MEMBERS_EVENT_NAME != "null" ];then
 	RANKING_URL="\
 http://api.puyoquest.jp/html/\
-$GUILD_MEMBERS_RANKING/\
+$GUILD_MEMBERS_EVENT_NAME/\
 ?campaign_id=$CAMPAIGN_ID\
 &uid=$USER_ID\
 &page=$page"
@@ -185,7 +185,7 @@ fi
 echo  "calc BORDER_OF_RANKING"
 	RANKING_URL="\
 http://api.puyoquest.jp/html/\
-$ALL_MEMBERS_RANKING/\
+$ALL_MEMBERS_EVENT_NAME/\
 ?campaign_id=$CAMPAIGN_ID\
 &uid=$USER_ID\
 &page="
