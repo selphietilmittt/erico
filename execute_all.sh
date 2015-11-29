@@ -52,7 +52,7 @@ for category in ${target_categorys[@]}; do
 		echo $HTML_DIR/$html_file >> $HTML_LIST
 	done
 	log_info_ "HTML_LIST=\n`cat $HTML_LIST`"
-	#bash $OPERATE_HTMLDIR/convert_html_to_csv.sh "$html_files"
+	bash $OPERATE_HTML_DIR/convert_html_to_csv.sh $HTML_LIST
 
 done
 

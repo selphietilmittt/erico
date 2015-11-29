@@ -11,9 +11,10 @@ BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 ####
 
 ## package check
-# wget
-# nkf
-# ruby
+# sudi apt-get install wget
+# sudi apt-get install nkf
+# sudi apt-get install ruby
+# sudo gem install nokogiri
 
 cd `dirname $0`
 
