@@ -23,9 +23,7 @@ class CSV_converter
 
 	def read_html()
 		@util.info("read_html["+ @input_filename + "]")
-		File.open(@input_filename) do |f|
-  			@input_file=Nokogiri::HTML(f)
-  		end
+		@input_file=Nokogiri::HTML(File.open(@input_filename))
 
 		# タイトルを表示
 		p @input_file.title

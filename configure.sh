@@ -15,6 +15,8 @@ BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 # sudi apt-get install nkf
 # sudi apt-get install ruby
 # sudo gem install nokogiri
+#$ sudo apt-get install libxml2 libxml2-dev libxslt libxslt-dev
+#$ gem install nokogiri
 
 cd `dirname $0`
 
