@@ -23,16 +23,12 @@ class CSV_converter
 
 	def read_html()
 		@util.info("read_html["+ @input_filename + "]")
-		charset = nil
-		@html = open(@input_filename) do |f|
-  			charset = f.charset # 文字種別を取得
-  			f.read # htmlを読み込んで変数htmlに渡す
+		File.open(@input_filename) do |f|
+  			@input_file=Nokogiri::HTML(f)
   		end
-		# htmlをパース(解析)してオブジェクトを生成
-		doc = Nokogiri::HTML.parse(html, nil, charset)
 
 		# タイトルを表示
-		p doc.title
+		p @input_file.title
 	end
 
 	##def read_***
