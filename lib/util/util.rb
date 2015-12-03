@@ -11,6 +11,8 @@ class Util
 
 	def initialize(name)
 		@log = Logger.new("../../etc/log")
+		@log.level = Logger::INFO
+		#@log.level = Logger::WARN
 		@log.info "--util.rb : util.initialize calld by " + name
 		@config_file="../../config.txt"
 		@called_by_=name
@@ -19,6 +21,16 @@ class Util
 	def info(comment)
 		@log.info "called by "+@called_by_
 		@log.info comment
+	end
+
+	def warning(comment)
+		@log.warn "called by "+@called_by_
+		@log.warn comment
+	end
+
+	def fatal(comment)
+		@log.fatal "called by "+@called_by_
+		@log.fatal comment
 	end
 
 	## getconf

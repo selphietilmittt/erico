@@ -6,7 +6,7 @@ function getconf_execall() { getconf "$1" "etc/configure.txt";}
 function log_info_execall() { log_info "$1" "etc/log";}
 
 ROOTDIR=`getconf_execall ROOTDIR`
-log_info_execall "exeperl start"
+log_info_execall "execperl start. target guils is $1"
 
 ROOTDIR=`getconf_execall ROOTDIR`
 DATADIR="$ROOTDIR/data"
@@ -95,9 +95,9 @@ if [ ! -e $NULL_HOURLYFILELIST ];then
 	log_info_execall "NULL_HOURLYFILELIST not exists. create all."
 	bash lib/calc_speed/create_hourly_filelist.sh all
 fi
-log_info_execall "create_hourly_filelist.sh latest start"
-bash lib/calc_speed/create_hourly_filelist.sh latest
-log_info_execall "calc_speedph.sh latest start"
-bash lib/calc_speed/calc_speedph.sh latest
+#log_info_execall "create_hourly_filelist.sh latest start"
+#bash lib/calc_speed/create_hourly_filelist.sh latest
+#log_info_execall "calc_speedph.sh latest start"
+#bash lib/calc_speed/calc_speedph.sh latest
 
 exit 0

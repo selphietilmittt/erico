@@ -9,5 +9,5 @@ ROOTDIR=`getconf_delete ROOTDIR`
 DATADIR="$ROOTDIR/data"
 OUTPUTDIR="$ROOTDIR/output"
 
-rm $DATADIR/*
-rm $OUTPUTDIR/*
+rm -rf $DATADIR/*
+rm -rf $OUTPUTDIR/*

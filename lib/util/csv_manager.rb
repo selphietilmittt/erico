@@ -24,10 +24,7 @@ class CSV_manager
 		@count=[]
 
 		@util.info("csv_filename="+@csv_filename)
-		#File.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |line|
-		#	print line+"\n"
-		#end
-
+		#if csv_filename not exiest fatal
 		CSV.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |row|
 			@ranking.push row[0]
 			@count.push row[1]
@@ -38,6 +35,27 @@ class CSV_manager
 	attr_reader :dani
 	attr_reader :count
 	attr_reader :name
+
+	def output_csv()
+		if(@dani.empty?) then
+			p @ranking.size
+		else
+			output_array= [@ranking, @dani, @name, @count]
+			transposed_array = output_array.transpose
+			CSV.open(@csv_filename, "a", encoding: "Shift_JIS") do |csv|
+				transposed_array.each do |line|
+					csv << line
+				end
+			end
+		end
+			#CSV.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |row|
+			#if(row.size == 3) then
+			#	@util.info("output_csv: row.size = 3 and write rankng, count, name")
+			#elsif(row.size == 4) then
+			#	@util.info("output_csv: row.size = 3 and write rankng, dani, count, name")
+			#end
+		#end
+	end
 
 	def parse_csv
 		CSV.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |row|
@@ -58,25 +76,25 @@ class CSV_manager
 
 	
 	def print_csv()
-		@util.log.info("CSV_manager.print(" + @csv_filename + ")")
+		@util.info("CSV_manager.print(" + @csv_filename + ")")
 		CSV.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |row|
 			@log.info( row )
 		end
 	end
 	
 	def print_ranking()
-		@util.log.info("CSV_manager.print_ranking")
-		p @ranking
+		@util.info("CSV_manager.print_ranking")
+		print @ranking
 	end
 
 	def print_count()
-		@util.log.info("CSV_manager.print_count")
-		p @count
+		@util.info("CSV_manager.print_count")
+		print @count
 	end
 
 	def print_name()
-		@util.log.info("CSV_manager.print_name")
-		p @name
+		@util.info("CSV_manager.print_name")
+		print @name
 	end
 
 
