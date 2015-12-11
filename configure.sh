@@ -3,8 +3,8 @@
 
 ## user config
 ## set EVENT_NAME: person, guild,gbattle
-EVENT_NAME="battle"
-CAMPAIGN_ID=7015
+EVENT_NAME="person"
+CAMPAIGN_ID=2039
 ## num of page
 TARGET_RANKING=330
 BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
