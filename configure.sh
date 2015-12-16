@@ -4,7 +4,7 @@
 ## user config
 ## set EVENT_NAME: person, guild,gbattle
 EVENT_NAME="person"
-CAMPAIGN_ID=2039
+CAMPAIGN_ID=2038
 ## num of page
 TARGET_RANKING=330
 BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
@@ -202,8 +202,8 @@ done
 echo "remove duplicated lines"
 #awk '!a[$0]++' $CONFIG_FILE
 #uniq $CONFIG_FILE $CONFIG_FILE
-echo "create $CONFIG_FILE finished"
+echo "$CONFIG_FILE created"
 echo "--------"
-echo "`date +%Y%m%d%k%M%S` $0 create $CONFIG_FILE finished" >> $LOG_FILE
+echo "`date +%Y%m%d%k%M%S` $0 $CONFIG_FILE created" >> $LOG_FILE
 
 exit 0

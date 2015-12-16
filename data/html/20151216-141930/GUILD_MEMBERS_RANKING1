@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="jp">
+<head>
+<meta charset="utf-8">
+<title>ランキング</title>
+<meta name="viewport" content="320px,initial-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi,maximum-scale=1.0,minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT">
+<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/css/ranking_common.css?" media="screen">
+<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/css/g_ranking.css?" media="screen">
+</head>
+
+<body id="target">
+
+<!--ヘッダー-->
+<!--/ヘッダー-->
+<div class="center">
+<p id="header_title"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/images/ranking2.png?" alt="yesterday top30" width=100%></p>
+</div>
+
+<!--注意書き-->
+<div class="infomation center">
+<p>※ランキングは1/01 09:30までにクリアしたクエストが集計されます。</p>
+<p>※1/01 09:00以降、コンティニューができません。</p>
+</div>
+
+
+<!--ボタン-->
+<div class="center clear clearfix mb5" style="width:91%;" style="height:100%;" id="space">
+    <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2038&page=1&uid=4dd9524137cc065dc68c14af1b0c4ea4">
+    <p class="t_rank left" id="bottun3" ></p> </a>
+    <p class="g_rank_off right" id="bottun3"></p>
+</div>
+
+<!--メインコンテンツ-->
+
+<!--自分の順位-->
+<div class="paper_area04" id="rankTop">
+    <p class="myranking_areaTop" id="top">あなたの順位</p>
+    <div class="myranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td id="rank">
+                    <p class="rank" id="rank">#0 /home/smap/deploy/releases/20151214093920/tmpl/html/sp_item_guild_ranking.html(46): {closure}(8, 'Undefined index...', '/home/smap/depl...', 46, Array)
+#1 /home/smap/deploy/releases/20151214093920/src/app/output/Output_HTML_App.php(41): include('/home/smap/depl...')
+#2 /home/smap/deploy/releases/20151214093920/src/fw/core/action/_Action.php(120): Output_HTML_App->output()
+#3 /home/smap/deploy/releases/20151214093920/src/fw/core/action/_Action.php(93): _Action->output()
+#4 /home/smap/deploy/releases/20151214093920/www/index.php(57): _Action->doAct()
+#5 {main}{"error_data":{"error_title":"\u30a8\u30e9\u30fc","error_body":"\u4e88\u671f\u305b\u306c\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\n\u4e00\u5ea6\u30a2\u30d7\u30ea\u3092\u7d42\u4e86\u3057\u518d\u8d77\u52d5\u3092\u884c\u3063\u3066\u4e0b\u3055\u3044\u3002","error_type":"3"}}
