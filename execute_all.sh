@@ -2,7 +2,9 @@
 # bash
 cd `dirname $0`
 
-if [ -e configure.sh ];then bash configure.sh > /dev/null 2>&1; fi
+echo "configure.sh"
+#if [ -e configure.sh ];then bash configure.sh > /dev/null 2>&1; fi
+bash configure.sh > /dev/null 2>&1
 
 source "lib/util/util.sh"
 function getconf_() { getconf "$1" "etc/configure.txt";}
@@ -36,8 +38,8 @@ echo "get_html.sh"
 OPERATE_HTML_DIR="$ROOTDIR/lib/html"
 #date=`bash $OPERATE_HTML_DIR/get_html.sh`
 #HTML_DIR=`getconf_ HTMLDIR`/$date
-HTML_DIR=/Volumes/share/Dropbox/program/puyoque/data/html/20151128-214715
-HTML_LIST=$HTML_DIR/html_list
+date="20151204-150513"
+HTML_DIR=/Volumes/share/Dropbox/program/puyoque/data/html/20151204-150513
 log_info_ "HTML_DIR=$HTML_DIR\n`ls $HTML_DIR`"
 
 target_categorys=(
@@ -45,15 +47,19 @@ ALL_MEMBERS_RANKING
 GUILD_MEMBERS_RANKING
 BORDER_OF_RANKING
 )
+#target_categorys=(
+#GUILD_MEMBERS_RANKING
+#)
 
 for category in ${target_categorys[@]}; do
-	:> $HTML_LIST
-	ls $HTML_DIR | grep "$category" | while read html_file; do
-		echo $HTML_DIR/$html_file >> $HTML_LIST
+	HTML_LIST="$HTML_DIR/$category"_LIST
+	merged_output=$HTML_DIR/$category.csv
+	:>$merged_output
+	cat $HTML_LIST | while read html_file; do
+		echo convert_html_to_csv.sh $category
+		bash $OPERATE_HTML_DIR/convert_html_to_csv.sh $html_file $html_file.csv
+		cat $html_file.csv >> $merged_output
 	done
-	log_info_ "HTML_LIST=\n`cat $HTML_LIST`"
-	bash $OPERATE_HTML_DIR/convert_html_to_csv.sh $HTML_LIST
-
 done
 
 #ls $HTMLDIR | while read html;do

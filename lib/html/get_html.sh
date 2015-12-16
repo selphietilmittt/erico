@@ -17,10 +17,15 @@ log_info "get_html start OUTPUTDIR=$OUTPUTDIR"
 
 if [ ! -d $OUTPUTDIR ];then mkdir -p $OUTPUTDIR; fi
 
+
+# get ALL_MEMBERS_RANKING
+FILE_LIST="$OUTPUTDIR/ALL_MEMBERS_RANKING_LIST"
+:>$FILE_LIST
 i=1
 cat $CONFIG_FILE | grep ALL_MEMBERS_RANKING_URL | awk -F ' ' '{print $2}' | while read url; do
 	log_info "wget -r -l 1 $url --output-document=$OUTPUTDIR/ALL_MEMBERS_RANKING$i"
 	wget -r -l 1 $url --output-document="$OUTPUTDIR/ALL_MEMBERS_RANKING$i" >& /dev/null
+	echo "$OUTPUTDIR/ALL_MEMBERS_RANKING$i" >> $FILE_LIST
 	if [ ! -s "$OUTPUTDIR/ALL_MEMBERS_RANKING$i" ];then
 		log_warning "$OUTPUTDIR/ALL_MEMBERS_RANKING$i is empty."
 	fi
@@ -28,10 +33,13 @@ cat $CONFIG_FILE | grep ALL_MEMBERS_RANKING_URL | awk -F ' ' '{print $2}' | whil
 done
 
 # get GUILD_MEMBERS_RANKING_URL
+FILE_LIST="$OUTPUTDIR/GUILD_MEMBERS_RANKING_LIST"
+:>$FILE_LIST
 i=1
 cat $CONFIG_FILE | grep GUILD_MEMBERS_RANKING_URL | awk -F ' ' '{print $2}' | while read url; do
 	log_info "wget -r -l 1 $url --output-document=$OUTPUTDIR/GUILD_MEMBERS_RANKING$i"
 	wget -r -l 1 $url --output-document="$OUTPUTDIR/GUILD_MEMBERS_RANKING$i" >& /dev/null
+	echo "$OUTPUTDIR/GUILD_MEMBERS_RANKING$i" >> $FILE_LIST
 	if [ ! -s "$OUTPUTDIR/GUILD_MEMBERS_RANKING$i" ];then
 		log_warning "$OUTPUTDIR/GUILD_MEMBERS_RANKING$i is empty."
 	fi
@@ -39,10 +47,13 @@ cat $CONFIG_FILE | grep GUILD_MEMBERS_RANKING_URL | awk -F ' ' '{print $2}' | wh
 done
 
 # get BORDER_OF_RANKING_URL
+FILE_LIST="$OUTPUTDIR/BORDER_OF_RANKING_LIST"
+:>$FILE_LIST
 i=1
 cat $CONFIG_FILE | grep BORDER_OF_RANKING_URL | awk -F ' ' '{print $2}' | while read url; do
 	log_info "wget -r -l 1 $url --output-document=$OUTPUTDIR/BORDER_OF_RANKING$i"
 	wget -r -l 1 $url --output-document="$OUTPUTDIR/BORDER_OF_RANKING$i" >& /dev/null
+	echo "$OUTPUTDIR/BORDER_OF_RANKING$i" >> $FILE_LIST
 	if [ ! -s "$OUTPUTDIR/BORDER_OF_RANKING$i" ];then
 		log_warning "$OUTPUTDIR/BORDER_OF_RANKING$i is empty."
 	fi

@@ -18,11 +18,9 @@ if ARGV.size != 2 then;@util.fatal("ARGV.size not equal 2");end
 
 @user_array.each do |user|
 	@output_file.ranking.push user.css('.rank').text.chomp
-	#print @output_file.ranking.push user.css('#dani').css('.rank_user').text.chomp
-	#@output_file.dani.push user.css('.dani').text.chomp
-	@output_file.name.push user.css('.name').text.chomp
-	print user.xpath('tr/td/p[@class="rank_user"]').text
+	@output_file.dani.push user.css("#dani").css(".rank_user").text.chomp
+	@output_file.name.push user.css("#name").css(".rank_user").text.chomp
 	@output_file.count.push user.css('.progress_icon_b').text.chomp
 end
-#@output_file.print_name
-#@output_file.output_csv
+#@output_file.print_dani
+@output_file.output_csv

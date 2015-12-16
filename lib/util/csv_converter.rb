@@ -24,6 +24,7 @@ class CSV_converter
 		@output_filename = output_filename
 		@util.info("convert\nfrom["+@input_filename+"]\nto["+@output_filename+"]")
 	end
+	
 	#def read_input_file
 	def read_html()
 		@util.info("read_html["+ @input_filename + "]")

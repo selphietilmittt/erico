@@ -40,9 +40,10 @@ class CSV_manager
 		if(@dani.empty?) then
 			p @ranking.size
 		else
+			#output_array= [@ranking, @dani, @name, @count]
 			output_array= [@ranking, @dani, @name, @count]
 			transposed_array = output_array.transpose
-			CSV.open(@csv_filename, "a", encoding: "Shift_JIS") do |csv|
+			CSV.open(@csv_filename, "a", encoding: "UTF-8") do |csv|
 				transposed_array.each do |line|
 					csv << line
 				end
@@ -87,15 +88,21 @@ class CSV_manager
 		print @ranking
 	end
 
-	def print_count()
-		@util.info("CSV_manager.print_count")
-		print @count
+	def print_dani()
+		@util.info("CSV_manager.print_name")
+		print @dani
 	end
 
 	def print_name()
 		@util.info("CSV_manager.print_name")
 		print @name
 	end
+
+	def print_count()
+		@util.info("CSV_manager.print_count")
+		print @count
+	end
+
 
 
 end
