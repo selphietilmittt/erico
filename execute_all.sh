@@ -40,8 +40,6 @@ echo "get_html.sh"
 OPERATE_HTML_DIR="$ROOTDIR/lib/html"
 date=`bash $OPERATE_HTML_DIR/get_html.sh`
 HTML_DIR=`getconf_ HTMLDIR`/$date
-#date="20151204-150513"
-#HTML_DIR=/Volumes/share/Dropbox/program/puyoque/data/html/20151204-150513
 log_info_ "HTML_DIR=$HTML_DIR\n`ls $HTML_DIR`"
 
 target_categorys=(

@@ -4,19 +4,18 @@
 ## user config
 ## set EVENT_NAME: person, guild,gbattle
 EVENT_NAME="person"
-CAMPAIGN_ID=2038
+CAMPAIGN_ID=2040
 ## num of page
 TARGET_RANKING=330
 BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 )
 ####
 
 ## package check
-# sudi apt-get install wget
-# sudi apt-get install nkf
-# sudi apt-get install ruby
+# sudo -y apt-get install wget
+# sudo -y apt-get install nkf
+# sudo -y apt-get install ruby ruby-dev
+# sudo apt-get -y install libxml2 libxml2-dev libxslt-dev zlib1g-dev
 # sudo gem install nokogiri
-#$ sudo apt-get install libxml2 libxml2-dev libxslt libxslt-dev
-#$ gem install nokogiri
 
 cd `dirname $0`
 
@@ -74,7 +73,8 @@ else
 fi
 
 ## set personal id
-GUILD_ID=115783 #thomson
+#GUILD_ID=115783 #thomson
+GUILD_ID=197519 #doroeri
 USER_ID=4dd9524137cc065dc68c14af1b0c4ea4 #erio
 
 ## path of profile
