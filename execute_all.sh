@@ -13,7 +13,7 @@ function log_info_() { log_info "$1" "etc/log";}
 function log_warning_() { log_warning "$1" "etc/log";}
 function log_fatal_() { log_fatal "$1" "etc/log";}
 
-date=`date +%Y%m%d-%k%M%S`
+date=`date +%Y%m%d-%H%M%S`
 echo -e "execute_all.sh at $date start."
 log_info_ "\n\nexecute_all.sh at $date start.\n"
 
@@ -68,7 +68,7 @@ GUILD_MEMBERS_RANKING
 BORDER_OF_RANKING
 )
 #target_categorys=(
-#GUILD_MEMBERS_RANKING
+#GUILD_MEMBER_RANKING
 #)
 
 for category in ${target_categorys[@]}; do
@@ -86,8 +86,11 @@ done
 echo "merge_all_minitely_files"
 OPERATE_FILE_DIR=`getconf_ OPERATEFILEDIR`
 merged_minitely_file=`bash $OPERATE_FILE_DIR/merge_all_minitely_files.sh $date`
+#echo $merged_minitely_file
+#echo "$PREFIX-$date.csv"
 cp $merged_minitely_file "$DATADIR/$PREFIX-$date.csv"
-echo "$DATADIR/$PREFIX-$date" >> $FILELIST
+nkf -s --overwrite "$DATADIR/$PREFIX-$date.csv"
+echo "$PREFIX-$date" >> $FILELIST
 #FILELIST=`getconf_ NULL_FILELIST`
 #NULL_OUTPUT=`getconf_ NULL_OUTPUT`
 
@@ -99,7 +102,10 @@ log_info_ "minutely processes finished."
 ##execute_hourly
 min=`echo ${date: -4:2}`
 if [ $min = "00" ];then	
-	bash execute_hourly.sh latest
+	log_info_ "create_hourly_filelist.sh latest start"
+	bash lib/calc_speed/create_hourly_filelist.sh latest > /dev/null
+	log_info_ "calc_speedph.sh latest start"
+	bash lib/calc_speed/calc_speedph.sh latest > /dev/null
 	log_info_ "hourly processes finished."
 fi
 

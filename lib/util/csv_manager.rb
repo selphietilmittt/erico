@@ -25,10 +25,13 @@ class CSV_manager
 
 		@util.info("csv_filename="+@csv_filename)
 		#if csv_filename not exiest fatal
-		CSV.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |row|
+		#CSV.foreach(@csv_filename, encoding: "Shift_JIS:UTF-8") do |row|
+		CSV.foreach(@csv_filename, encoding: "CP932:UTF-8") do |row|
+			#print "row[0]:" + row[0] + ", row[1]:" + row[1] + ", row[2]:" + row[2] + ", row[3]:" + row[3] + "\n"
 			@ranking.push row[0]
-			@count.push row[1]
+			@dani.push row[1]
 			@name.push row[2]
+			@count.push row[3]
 		end
 	end
 	attr_reader :ranking

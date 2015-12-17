@@ -1,0 +1,511 @@
+ls: bash にアクセスできません: そのようなファイルやディレクトリはありません
+ls: null にアクセスできません: そのようなファイルやディレクトリはありません
+execute_all.sh*
+
+/home/alladmin/puyoQue/personsantaamitie20151216_ericotest/:
+1*
+configure.sh*
+data/
+etc/
+execperl.sh*
+execute_all.sh*
+execute_hourly.sh*
+lib/
+operateIndex.pl*
+output/
+ls: bash にアクセスできません: そのようなファイルやディレクトリはありません
+ls: null にアクセスできません: そのようなファイルやディレクトリはありません
+/home/alladmin/puyoQue/personsantaamitie20151216_ericotest/execute_all.sh*
+cat: bash: そのようなファイルやディレクトリはありません
+
+# bash
+cd `dirname $0`
+
+
+echo "configure.sh"
+#if [ -e configure.sh ];then bash configure.sh > /dev/null 2>&1; fi
+#bash configure.sh > /dev/null 2>&1
+
+source "lib/util/util.sh"
+function getconf_() { getconf "$1" "etc/configure.txt";}
+function log_info_() { log_info "$1" "etc/log";}
+function log_warning_() { log_warning "$1" "etc/log";}
+function log_fatal_() { log_fatal "$1" "etc/log";}
+
+date=`date +%Y%m%d-%k%M%S`
+echo -e "execute_all.sh at $date start."
+log_info_ "\n\nexecute_all.sh at $date start.\n"
+
+CONFIG_FILE=`getconf_ CONFIG_FILE`
+ROOTDIR=`getconf_ ROOTDIR`
+DATADIR="$ROOTDIR/data"
+OUTPUTDIR="$ROOTDIR/output"
+UTILDIR="$ROOTDIR/lib/util"
+ETCDIR="$ROOTDIR/etc"
+
+if [ ! -d "$DATADIR" ];then mkdir $DATADIR ; fi
+if [ ! -d "$OUTPUTDIR" ];then mkdir $OUTPUTDIR ; fi
+if [ ! -d "$UTILDIR" ];then mkdir $UTILDIR ; fi
+if [ ! -d "$ETCDIR" ];then mkdir $ETCDIR ; fi
+
+if [ -z $1 ];then
+	log_fatal_ "[**.sh] TARGET is EMPTY"
+	exit 1
+elif [ $1 = "null" ];then
+	PREFIX="null"
+	FILELIST=$DATADIR/$PREFIX`getconf_ ALL_FILELIST_SUFFIX`
+	echo $FILELIST
+	USER_ID=`getconf_ USER_ID`
+	GUILD_ID=`getconf_ GUILD_ID`
+elif [ $1 = "thomson" ];then
+	PREFIX=`getconf_ THOMSON_ID`
+	USER_ID=`getconf_ THOMSON_MEMBER_ID`
+	GUILD_ID=`getconf_ THOMSON_ID`
+elif [ $1 = "doroeri" ];then
+	PREFIX=`getconf_ DOROERI_ID`
+	USER_ID=`getconf_ DOROERI_MEMBER_ID`
+	GUILD_ID=`getconf_ DOROERI_ID`	
+else
+	log_fatal_ "[execute.sh] MODE ERROR[$1]"
+	exit 1
+fi
+log_info_ "PREFIX=$PREFIX, USER_ID=$USER_ID, GUILD_ID=$GUILD_ID"
+
+
+
+cd $ROOTDIR
+
+echo "get_html"
+OPERATE_HTML_DIR="$ROOTDIR/lib/html"
+HTML_DIR=`getconf_ HTMLDIR`/$date
+bash $OPERATE_HTML_DIR/get_html.sh $date $USER_ID $GUILD_ID > /dev/null 
+log_info_ "HTML_DIR=$HTML_DIR\n`ls $HTML_DIR`"
+
+target_categorys=(
+ALL_MEMBERS_RANKING
+GUILD_MEMBERS_RANKING
+BORDER_OF_RANKING
+)
+#target_categorys=(
+#GUILD_MEMBERS_RANKING
+#)
+
+for category in ${target_categorys[@]}; do
+	echo convert_html_to_csv.sh $category
+	HTML_LIST="$HTML_DIR/$category"_LIST
+	merged_output=$HTML_DIR/$category.csv
+	:>$merged_output
+	cat $HTML_LIST | while read html_file; do
+		#echo convert_html_to_csv.sh $category
+		bash $OPERATE_HTML_DIR/convert_html_to_csv.sh $html_file $html_file.csv
+		cat $html_file.csv >> $merged_output
+	done
+done
+
+echo "merge_all_minitely_files"
+OPERATE_FILE_DIR=`getconf_ OPERATEFILEDIR`
+merged_minitely_file=`bash $OPERATE_FILE_DIR/merge_all_minitely_files.sh $date`
+cp $merged_minitely_file "$DATADIR/$PREFIX-$date.csv"
+echo "$PREFIX-$date" >> $FILELIST
+#FILELIST=`getconf_ NULL_FILELIST`
+#NULL_OUTPUT=`getconf_ NULL_OUTPUT`
+
+
+echo "minutely processes finished."
+log_info_ "minutely processes finished."
+
+
+##execute_hourly
+min=`echo ${date: -4:2}`
+if [ $min = "00" ];then	
+	bash execute_hourly.sh latest
+	log_info_ "hourly processes finished."
+fi
+
+#log_info_execall "create_hourly_filelist.sh latest start"
+#bash lib/calc_speed/create_hourly_filelist.sh latest
+#log_info_execall "calc_speedph.sh latest start"
+#bash lib/calc_speed/calc_speedph.sh latest
+
+exit 0
+cat: null: そのようなファイルやディレクトリはありません
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1' に保存中
+
+     0K .......... ..........                                  21.0M=0.001s
+
+2015-12-17 22:00:33 (21.0 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1' へ保存終了 [21288]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.05s
+ダウンロード完了: 1 ファイル、21K バイトを 0.001s で取得 (21.0 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=2
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=2' に保存中
+
+     0K .......... .......... .                                1.66M=0.01s
+
+2015-12-17 22:00:33 (1.66 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=2' へ保存終了 [21524]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.08s
+ダウンロード完了: 1 ファイル、21K バイトを 0.01s で取得 (1.66 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=3
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=3' に保存中
+
+     0K .......... .......... .                                7.04M=0.003s
+
+2015-12-17 22:00:33 (7.04 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=3' へ保存終了 [21508]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.07s
+ダウンロード完了: 1 ファイル、21K バイトを 0.003s で取得 (7.04 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=4
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=4' に保存中
+
+     0K .......... ..........                                  10.3M=0.002s
+
+2015-12-17 22:00:33 (10.3 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=4' へ保存終了 [21492]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.07s
+ダウンロード完了: 1 ファイル、21K バイトを 0.002s で取得 (10.3 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=5
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=5' に保存中
+
+     0K .......... .......... .                                5.10M=0.004s
+
+2015-12-17 22:00:33 (5.10 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=5' へ保存終了 [21525]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.05s
+ダウンロード完了: 1 ファイル、21K バイトを 0.004s で取得 (5.10 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=6
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=6' に保存中
+
+     0K .......... ..........                                  5.36M=0.004s
+
+2015-12-17 22:00:33 (5.36 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=6' へ保存終了 [21493]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.05s
+ダウンロード完了: 1 ファイル、21K バイトを 0.004s で取得 (5.36 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=7
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=7' に保存中
+
+     0K .......... .......... .                                4.87M=0.004s
+
+2015-12-17 22:00:33 (4.87 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=7' へ保存終了 [21534]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.05s
+ダウンロード完了: 1 ファイル、21K バイトを 0.004s で取得 (4.87 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=8
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=8' に保存中
+
+     0K .......... .......... .                                12.7M=0.002s
+
+2015-12-17 22:00:33 (12.7 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=8' へ保存終了 [21509]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.05s
+ダウンロード完了: 1 ファイル、21K バイトを 0.002s で取得 (12.7 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=9
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=9' に保存中
+
+     0K .......... ..........                                  6.82M=0.003s
+
+2015-12-17 22:00:33 (6.82 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=9' へ保存終了 [21483]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.05s
+ダウンロード完了: 1 ファイル、21K バイトを 0.003s で取得 (6.82 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=10
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=10' に保存中
+
+     0K .......... ..........                                  17.2M=0.001s
+
+2015-12-17 22:00:33 (17.2 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=10' へ保存終了 [21484]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.06s
+ダウンロード完了: 1 ファイル、21K バイトを 0.001s で取得 (17.2 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:00:33--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=11
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=11' に保存中
+
+     0K .......... .......... .                                4.47M=0.005s
+
+2015-12-17 22:00:33 (4.47 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=11' へ保存終了 [21546]
+
+終了しました --2015-12-17 22:00:33--
+経過時間: 0.05s
+ダウンロード完了: 1 ファイル、21K バイトを 0.005s で取得 (4.47 MB/s)
+
+operateIndex.pl processed by erico
+head: `output_file.csv' を 読み込み用に開くことが出来ません: そのようなファイルやディレクトリはありません
+head: `[[[FATAL]]]' を 読み込み用に開くことが出来ません: そのようなファイルやディレクトリはありません
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:39--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1' に保存中
+
+     0K .......... ..........                                  2.86M=0.007s
+
+2015-12-17 22:02:40 (2.86 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=1' へ保存終了 [21288]
+
+終了しました --2015-12-17 22:02:40--
+経過時間: 0.3s
+ダウンロード完了: 1 ファイル、21K バイトを 0.007s で取得 (2.86 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:40--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=2
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=2' に保存中
+
+     0K .......... .......... .                                1.26M=0.02s
+
+2015-12-17 22:02:40 (1.26 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=2' へ保存終了 [21524]
+
+終了しました --2015-12-17 22:02:40--
+経過時間: 0.4s
+ダウンロード完了: 1 ファイル、21K バイトを 0.02s で取得 (1.26 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:40--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=3
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=3' に保存中
+
+     0K .......... .......... .                                3.38M=0.006s
+
+2015-12-17 22:02:40 (3.38 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=3' へ保存終了 [21508]
+
+終了しました --2015-12-17 22:02:40--
+経過時間: 0.3s
+ダウンロード完了: 1 ファイル、21K バイトを 0.006s で取得 (3.38 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:40--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=4
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=4' に保存中
+
+     0K .......... ..........                                  2.01M=0.01s
+
+2015-12-17 22:02:41 (2.01 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=4' へ保存終了 [21492]
+
+終了しました --2015-12-17 22:02:41--
+経過時間: 0.3s
+ダウンロード完了: 1 ファイル、21K バイトを 0.01s で取得 (2.01 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:41--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=5
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=5' に保存中
+
+     0K .......... .......... .                                6.18M=0.003s
+
+2015-12-17 22:02:41 (6.18 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=5' へ保存終了 [21510]
+
+終了しました --2015-12-17 22:02:41--
+経過時間: 0.4s
+ダウンロード完了: 1 ファイル、21K バイトを 0.003s で取得 (6.18 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:41--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=6
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=6' に保存中
+
+     0K .......... .......... .                                2.88M=0.007s
+
+2015-12-17 22:02:41 (2.88 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=6' へ保存終了 [21507]
+
+終了しました --2015-12-17 22:02:41--
+経過時間: 0.4s
+ダウンロード完了: 1 ファイル、21K バイトを 0.007s で取得 (2.88 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:41--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=7
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=7' に保存中
+
+     0K .......... .......... .                                5.60M=0.004s
+
+2015-12-17 22:02:42 (5.60 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=7' へ保存終了 [21531]
+
+終了しました --2015-12-17 22:02:42--
+経過時間: 0.3s
+ダウンロード完了: 1 ファイル、21K バイトを 0.004s で取得 (5.60 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:42--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=8
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=8' に保存中
+
+     0K .......... ..........                                  1.26M=0.02s
+
+2015-12-17 22:02:42 (1.26 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=8' へ保存終了 [21503]
+
+終了しました --2015-12-17 22:02:42--
+経過時間: 0.4s
+ダウンロード完了: 1 ファイル、21K バイトを 0.02s で取得 (1.26 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:42--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=9
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=9' に保存中
+
+     0K .......... ..........                                  1.74M=0.01s
+
+2015-12-17 22:02:42 (1.74 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=9' へ保存終了 [21488]
+
+終了しました --2015-12-17 22:02:42--
+経過時間: 0.3s
+ダウンロード完了: 1 ファイル、21K バイトを 0.01s で取得 (1.74 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:42--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=10
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=10' に保存中
+
+     0K .......... ..........                                  1.34M=0.02s
+
+2015-12-17 22:02:43 (1.34 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=10' へ保存終了 [21489]
+
+終了しました --2015-12-17 22:02:43--
+経過時間: 0.3s
+ダウンロード完了: 1 ファイル、21K バイトを 0.02s で取得 (1.34 MB/s)
+警告: -r や -p と -O を一緒に使うと、ダウンロードした内容は、
+全て指定された一つのファイルに入ることを意味します。
+
+--2015-12-17 22:02:43--  http://api.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=11
+api.puyoquest.jp (api.puyoquest.jp) をDNSに問いあわせています... 202.144.253.55
+api.puyoquest.jp (api.puyoquest.jp)|202.144.253.55|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 特定できません [text/html]
+`api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=11' に保存中
+
+     0K .......... .......... .                                1.18M=0.02s
+
+2015-12-17 22:02:43 (1.18 MB/s) - `api.puyoquest.jp/html/person_ranking_sp_item_festival/_campaign_id=2040&uid=4dd9524137cc065dc68c14af1b0c4ea4&page=11' へ保存終了 [21558]
+
+終了しました --2015-12-17 22:02:43--
+経過時間: 0.4s
+ダウンロード完了: 1 ファイル、21K バイトを 0.02s で取得 (1.18 MB/s)
+
+operateIndex.pl processed by erico

@@ -24,8 +24,9 @@ class CSV_manager_with_diff < CSV_manager
 		@log.info("output_filename :" + @output_filename)
 		array = [@ranking, @name, @count, @diff]
 		transposed_array = array.transpose
-		CSV.open(@output_filename, "a", encoding: "Shift_JIS") do |csv|
-			transposed_array.each do |row|
+		#CSV.open(@output_filename, "a", encoding: "Shift_JIS") do |csv|
+		CSV.open(@output_filename, "a", encoding: "CP932") do |csv|
+					transposed_array.each do |row|
 				csv << row
 			end
 			#csv << transposed_array

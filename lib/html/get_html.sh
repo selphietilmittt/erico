@@ -6,7 +6,7 @@ log_info "get_html start"
 CONFIG_FILE=`getconf CONFIG_FILE`
 HTMLDIR=`getconf HTMLDIR`
 
-if [ ! -z $1 ];then
+if [ -z $1 ];then
 		date=`date +%Y%m%d-%k%M%S`
 	else
 		date=$1

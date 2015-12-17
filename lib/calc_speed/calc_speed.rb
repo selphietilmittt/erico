@@ -13,9 +13,10 @@ require "../calc_speed/csv_manager_with_diff.rb"
 @output_filename=ARGV[2]
 @util.info('--calc_speed.rb :main')
 @util.info "ARGV: " + @following_filename + " , " +@previous_filename + "\n"
-
 @previous_file = CSV_manager.new(@previous_filename)
+#@previous_file.print_count()
 @following_file_with_diff=CSV_manager_with_diff.new(@following_filename, @output_filename)
 @calc_diff=Calc_diff.new(@previous_file, @following_file_with_diff)
 @calc_diff. calc_diff()
 @calc_diff.following_file_with_diff.write_arrays_to_outputfile()
+#print "finish\n"

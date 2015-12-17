@@ -49,8 +49,9 @@ class Calc_diff
 				#@log.info("@following_file_with_diff.diff.push(out_of_rank)")
 				@following_file_with_diff.diff.push("out_of_rank")
 			else
+				@log.info(following_count.to_s + " - " + previous_count.to_s)
 				diff = following_count.to_i - previous_count.to_i
-				#@log.info("diff = " + diff.to_s)
+				@log.info("diff = " + diff.to_s)
 				@following_file_with_diff.diff.push(diff.to_s)
 			end
 			i = i + 1	

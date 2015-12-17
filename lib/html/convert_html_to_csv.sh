@@ -8,8 +8,8 @@ INPUT_FILE=$1
 OUTPUT_FILE=$2
 log_info "convert_html_to_csv start\nfrom $INPUT_FILE\nto$OUTPUT_FILE"
 :>$OUTPUT_FILE
-
-exit `ruby convert_html_to_csv.rb $INPUT_FILE $OUTPUT_FILE`
+ruby convert_html_to_csv.rb $INPUT_FILE $OUTPUT_FILE
+#exit `ruby convert_html_to_csv.rb $INPUT_FILE $OUTPUT_FILE`
 
 
 

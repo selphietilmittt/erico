@@ -5,7 +5,6 @@ source "../util/util.sh"
 log_info "merge_all_minitely_files.sh start arg[1]=$1"
 
 function extract_number () {
-	line=$1
 	num=`echo $line | awk -F ',' '{print $4}' | sed -e 's/[^0-9]//g'`
 	line=`echo $line | awk -F ',' '{print $1","$2","$3}'`
 	echo "$line,$num"
@@ -33,16 +32,16 @@ function merge_all_minitely_files () {
 	s=`echo ${HTML_DIR: -2:2}`	
 	time="$y/$mo/$d $h:$min:$s"
 	log_info "set time[$time]"
-	echo $time >> $MERGED_FILE
+	echo ",,$time," >> $MERGED_FILE
 
-	#set TOPPICKUPNAME
+	#set TOPPICKUPNAME only frame
 	echo TARGET >> $MERGED_FILE
 	TOPPICKUPNAME_FILE=`getconf PROFILE_TOPPICKUPNAME`
 	log_info "set toppickupname[$TOPPICKUPNAME_FILE]"
 	cat $TOPPICKUPNAME_FILE | while read name;do
 		echo $name >> $MERGED_FILE
-		echo "num" >> $MERGED_FILE
-		echo "speed" >> $MERGED_FILE
+		echo "" >> $MERGED_FILE # space for num
+		echo "" >> $MERGED_FILE # space for speed
 	done
 
 	#set ALL_MEMBERS_RANKING_LIST
@@ -93,6 +92,13 @@ function merge_all_minitely_files () {
 		done
 	done
 
+	#set TOPPICKUPNAME only frame
+	START_OF_TOP_PICKUP_NAME=`getconf START_OF_TOP_PICKUP_NAME`
+	END_OF_TOP_PICKUP_NAME=`getconf END_OF_TOP_PICKUP_NAME`
+	START_OF_RANKING=`getconf START_OF_RANKING`
+	END_OF_RANKING=`getconf END_OF_RANKING`
+	#head -n $END_OF_TOP_PICKUP_NAME $MERGED_FILE | tail -n `expr $END_OF_TOP_PICKUP_NAME - $START_OF_TOP_PICKUP_NAME + 1`
+	
 	echo $MERGED_FILE
 }
 
