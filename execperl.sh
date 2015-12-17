@@ -102,7 +102,7 @@ log_info_execall "minutely processes finished."
 ##execute_hourly
 min=`echo ${date: -4:2}`
 if [ $min = "00" ];then	
-	execute_hourly.sh latest
+	bash execute_hourly.sh latest
 	log_info_execall "hourly processes finished."
 fi
 

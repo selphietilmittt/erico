@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+<meta charset="utf-8">
+<title>ランキング</title>
+<meta name="viewport" content="320px,initial-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi,maximum-scale=1.0,minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT">
+<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/css/ranking_common.css?1450144872" media="screen">
+<link rel="stylesheet" href="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/css/ranking.css?1450144872" media="screen">
+</head>
+
+<body id="target">
+
+<!--ヘッダー-->
+<!--/ヘッダー-->
+<p id="header_title"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/images/ranking.png?1450144872" alt="yesterday top30" width=100%></p>
+
+
+<!--注意書き-->
+<div class="infomation center">
+<p>※ランキングは12/25 00:29までにクリアしたクエストが集計されます。</p>
+<p>※12/24 23:59以降、コンティニューができません。</p>
+</div>
+
+<!--ボタン-->
+<div class="center clear clearfix mb5" style="width:91%;" style="height:100%;" id="space">
+    <p class="t_rank_off left" id="bottun3" ></p>
+        <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival_guild/?campaign_id=2040&page=1&uid=4dd9524137cc065dc68c14af1b0c4ea4&guild_id=197519"><p class="g_rank right" id="bottun3"></p></a>
+    </div>
+
+<a href="#open01" class="present pre" id="bottun2"> </a>
+
+<!--メインコンテンツ-->
+
+<!--自分の順位-->
+<div class="paper_area04">
+    <p class="myranking_areaTop" id="top">あなたの順位</p>
+    <div class="myranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+                    <tr>
+                <td id="rank">
+                    <p class="rank" id="rank">1945位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user" id="name">えりお</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">14799個</p>
+                </td>
+            </tr>
+                </table>
+    </div>
+    <p class="myranking_areaBottom mb10"></p>
+</div>
+
+<!--現在の報酬に必要な獲得数-->
+<div class="paper_area03">
+        <p class="myranking_areaTop" id="top">現在の報酬に必要な獲得数</p>
+    <div class="myranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td id="rank2">
+                    <p class="rank">3000位</p>
+                </td>
+                <td id="item2">
+                    <p class="progress_icon_b" id="item">11516個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p class="border_areaBottom mb10" id="btm"></p>
+    </div>
+
+<!--ボーダー-->
+<div class="paper_area03 mt30">
+        <p class="myranking_areaTop" id="top">ワンランク上の報酬に必要な獲得数</p>
+    <div class="myranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td id="rank2">
+                    <p class="rank">1000位</p>
+                </td>
+                <td id="item2">
+                    <p class="progress_icon_b" id="item">22397個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p class="border_areaBottom" id="btm"></p>
+    </div>
+
+<br>
+
+<!--ボタン-->
+<div class="center clear mb30 clearfix" style="width:91%;" style="height:100%;" id="space">
+        <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&page=6666&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_l left" id="bottun"></p></a>
+            <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&page=6668&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_r right" id="bottun"></p></a>
+    </div>
+
+<!--ランキング-->
+<div class="paper_area02" id="rankTop">
+    <p class="ranking_areaTop" id="top">6667ページ</p>
+
+    <!--インデックス-->
+    <div class="ranking_area_index">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <th  id="rank">
+                    <p class="rank_index">順位</p>
+                </th>
+                <th id="name">
+                    <p class="rank_index">ユーザー名</p>
+                </th>
+                <th id="item">
+                    <p class="rank_index" id="item">獲得数</p>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <!--以下ランキング-->
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199833位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">yuki👑</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">378個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199833位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">ろんろん</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">378個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199833位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">クロネ@受験生</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">378個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">スコたろう</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">Rec</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">かける</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">(愛ω歌)</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">カイマ</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">プリン</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">つかさ</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">のん</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">ひろ</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">しょーこ</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">Qwe</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">朔</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">パパちゃんマン</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">のある♤</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">穴掘職人/</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">アメダマ</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">ぽよよん大使</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">パンダちゃん</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">みるく</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">はいたん</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">ナオカ</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">リリー</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">✾♡ゆう♡✾</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">lete</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">助手になりました</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">とーと</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="ranking_area">
+        <table width="100%" border="0" cellspacing="0" id="cell">
+            <tr>
+                <td  id="rank">
+                    <p class="rank">199984位</p>
+                </td>
+                <td id="name">
+                    <p class="rank_user">CK</p>
+                </td>
+                <td id="item">
+                    <p class="progress_icon_b" id="item">377個</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <p class="ranking_areaBottom" id="btm2">6667ページ</p>
+
+</div>
+
+<br>
+<!--ボタン-->
+<div class="center clear mb30 mt10 clearfix" style="width:91%;">
+        <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&page=6666&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_l left" id="bottun"></p></a>
+            <a href="http://tapi.puyoquest.jp/html/person_ranking_sp_item_festival/?campaign_id=2040&page=6668&uid=4dd9524137cc065dc68c14af1b0c4ea4"><p class="bt_r right" id="bottun"></p></a>
+    </div>
+
+<div class="mb30"></div>
+
+<div id="modal">
+    <div id="open01">
+        <a href="#" class="close_overlay"></a>
+        <div class="modal_window">
+            <p id="header_title"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/images/goods.png?1450144872" alt="Open" width=100%></p>
+
+            <a href="#body"><img src="http://tapi.puyoquest.jp/smap_img/webres/ranking/spitem/images/return.png?1450144872" alt="close" width="12%" class="mt"></a>
+
+        </div><!--/.modal_window-->
+
+    </div><!--/#open01-->
+</div><!--/#modal-->
+
+<!--/メインコンテンツ-->
+</body>
+</html>

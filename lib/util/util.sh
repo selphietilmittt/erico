@@ -11,14 +11,22 @@ function log_info() {
 }
 
 function log_warning(){
-	LOG_FILE=`getconf LOG_FILE`
+	if [ ! -z $2 ];then
+		LOG_FILE=$2
+	else
+		LOG_FILE=`getconf LOG_FILE`
+	fi
 	echo "--------"`date +%Y%m%d%k%M%S` $0"--------" >> $LOG_FILE
 	echo "[[WARNING]] $1" >> $LOG_FILE
 	echo "[[WARNING]] $1"
 }
 
 function log_fatal(){
-	LOG_FILE=`getconf LOG_FILE`
+	if [ ! -z $2 ];then
+		LOG_FILE=$2
+	else
+		LOG_FILE=`getconf LOG_FILE`
+	fi
 	echo "--FATAL-- "`date +%Y%m%d%k%M%S` $0"--------" >> $LOG_FILE
 	echo "[[[FATAL]]]] $1" >> $LOG_FILE
 	echo "[[[FATAL]]] $1"

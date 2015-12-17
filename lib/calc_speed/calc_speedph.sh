@@ -65,7 +65,6 @@ if [ -z $CALCMODE ];then
 	echo "CALCMODE is EMPTY. please set all or latest"
 	exit 1
 elif [ $CALCMODE == "all" ];then
-	echo "all"
 	if [ -e $OUTPUTDIR/"speed.csv" ];then
 		mv $OUTPUTDIR/"speed.csv" $OUTPUTDIR/"speed.csv.1"
 	fi
