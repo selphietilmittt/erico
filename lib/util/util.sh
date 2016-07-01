@@ -1,7 +1,18 @@
 
 #bash
 
+function log_debug() {
+	echo "uuu"
+	if [ ! -z $2 ];then
+		LOG_FILE=$2
+	else
+		LOG_FILE=`getconf LOG_FILE`
+	fi
+	echo "--------"`date +%Y%m%d%k%M%S` $0 "--------" >> $LOG_FILE;echo -e "[DEBUG] $1" >> $LOG_FILE
+}
+
 function log_info() {
+	echo "eee"
 	if [ ! -z $2 ];then
 		LOG_FILE=$2
 	else
@@ -40,7 +51,11 @@ function getconf(){
 	else
 		CONFIG_FILE="../../etc/configure.txt"
 	fi
+	echo "iii"
 	conf=`cat $CONFIG_FILE | grep $1 | awk -F " " '{print $2}'`
+	echo "iii"
+	log_debug "getconf"
+	echo "iii"
 	echo $conf
 	exit 0
 }
