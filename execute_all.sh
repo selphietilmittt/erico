@@ -91,9 +91,11 @@ merged_minitely_file=`bash $OPERATE_FILE_DIR/merge_all_minitely_files.sh $date`
 cp $merged_minitely_file "$DATADIR/$PREFIX-$date.csv"
 nkf -s --overwrite "$DATADIR/$PREFIX-$date.csv"
 echo "$PREFIX-$date" >> $FILELIST
-#FILELIST=`getconf_ NULL_FILELIST`
-#NULL_OUTPUT=`getconf_ NULL_OUTPUT`
+FILELIST=`getconf_ NULL_FILELIST`
+NULL_OUTPUT=`getconf_ NULL_OUTPUT`
 
+echo $FILELIST
+echo $NULL_OUTPUT
 
 echo "minutely processes finished."
 log_info_ "minutely processes finished."
