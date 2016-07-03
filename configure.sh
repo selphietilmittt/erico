@@ -1,21 +1,25 @@
 
-#zsh
+#bash
 
 ## user config
-## set EVENT_NAME: person, guild,gbattle
-EVENT_NAME="person"
-CAMPAIGN_ID=2040
+LOG_LEVEL=INFO # DEBUG or INFO or WARN or FATAL
+HTMLFILE_FLAG=DISCARD #DISCARD or KEEP
+## set EVENT_NAME: person or guild or gbattle
+EVENT_NAME="guild"
+CAMPAIGN_ID=6997
 ## num of page
 TARGET_RANKING=330
 BORDER_OF_RANKING=( 1 10 30 300 1000 3000 10000 30000 50000 80000 100000 200000 500000)
 ####
 
 ## package check
-# sudo -y apt-get install wget
-# sudo -y apt-get install nkf
-# sudo -y apt-get install ruby ruby-dev
+# sudo apt-get -y install git
+# sudo apt-get -y install wget
+# sudo apt-get -y install nkf
+# sudo apt-get -y install ruby ruby-dev
 # sudo apt-get -y install libxml2 libxml2-dev libxslt-dev zlib1g-dev
 # sudo gem install nokogiri
+# sudo gem install activesupport #for str.blank?
 
 cd `dirname $0`
 
@@ -48,6 +52,10 @@ OUTPUT_SUFFIX="-output.csv"
 NULL_FILELIST="$DATADIR/null$ALL_FILELIST_SUFFIX"
 NULL_HOURLYFILELIST="$DATADIR/null$HOURLYFILELIST_SUFFIX"
 NULL_OUTPUT="$DATADIR/null$OUTPUT_SUFFIX"
+FULLDATA_DEFEATING_NUM_SUFFIX="-fulldata.csv"
+NULL_DEFEATING_NUM_FULLDATA="$OUTPUTDIR/null$FULLDATA_DEFEATING_NUM_SUFFIX"
+FULLDATA_SPEED_SUFFIX="-fullspeed.csv"
+NULL_SPEED_FULLDATA="$OUTPUTDIR/null$FULLDATA_SPEED_SUFFIX"
 
 DEFEATING_TIME_OF_=$OUTPUTDIR"/defeating_time_of_" # _guile_name.csv
 DEFEATING_TIME_BY_ENDNUM_OF_=$OUTPUTDIR"/defeating_time_by_endnum_of_" # _guile_name.csv
@@ -137,6 +145,8 @@ NULL_MERGED_MINITELY_FILE=null-merged-minitely-file.csv
 echo ""
 echo "writing to config.txt"
 VAR=(\
+	 LOG_LEVEL\
+	 HTMLFILE_FLAG\
 	 CONFIG_FILE\
 	 ROOTDIR\
 	 DATADIR\
@@ -151,6 +161,8 @@ VAR=(\
 	 NULL_FILELIST\
 	 NULL_HOURLYFILELIST\
 	 NULL_OUTPUT\
+	 NULL_DEFEATING_NUM_FULLDATA\
+	 NULL_SPEED_FULLDATA\
 	 DEFEATING_TIME_OF_\
 	 DEFEATING_TIME_BY_ENDNUM_OF_\
 	 LOG_FILE\

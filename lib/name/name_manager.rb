@@ -9,8 +9,13 @@ class NAME_manager
 	#var
 	@CSV_manager
 	
-	def initialize(csv_manager)
-		@CSV_manager = csv_manager
+	def initialize
+	#def initialize(csv_manager)
 	end
+	
+	def get_current_name(previous_name)
+		return previous_name
+	end
+	
 end
 

@@ -1,0 +1,3632 @@
+create_fulldata.rb start.
+toppickupname[Dizzy
+], ranking[0], name[Dizzy], num[1600
+toppickupname[Dizzy
+], ranking[1], name[Mumin谷], num[1600
+toppickupname[Dizzy
+], ranking[2], name[さんらいず], num[1600
+toppickupname[Dizzy
+], ranking[3], name[トムソン], num[1570
+toppickupname[Dizzy
+], ranking[4], name[嵐山], num[1566
+toppickupname[Dizzy
+], ranking[5], name[☆☆ながれ星彡], num[1539
+toppickupname[Dizzy
+], ranking[6], name[上位目指す隊], num[1536
+toppickupname[Dizzy
+], ranking[7], name[ばよえ～ん。], num[1505
+toppickupname[Dizzy
+], ranking[8], name[えすぽらーず], num[1499
+toppickupname[Dizzy
+], ranking[9], name[赤い妖精], num[1489
+toppickupname[Dizzy
+], ranking[10], name[まるむすてぃーん], num[1486
+toppickupname[Dizzy
+], ranking[11], name[早乙女学園], num[1479
+toppickupname[Dizzy
+], ranking[12], name[Raffine], num[1449
+toppickupname[Dizzy
+], ranking[13], name[さんせっと], num[1449
+toppickupname[Dizzy
+], ranking[14], name[谷口ぴーまん], num[1437
+toppickupname[Dizzy
+], ranking[15], name[†とわいらいと†], num[1418
+toppickupname[Dizzy
+], ranking[16], name[Lipton　], num[1409
+toppickupname[Dizzy
+], ranking[17], name[Antenna], num[1400
+toppickupname[Dizzy
+], ranking[18], name[RedbuII], num[1399
+toppickupname[Dizzy
+], ranking[19], name[カーバンクル], num[1399
+toppickupname[Dizzy
+], ranking[20], name[☆命蓮寺☆], num[1399
+toppickupname[Dizzy
+], ranking[21], name[ぴんぽーん], num[1392
+toppickupname[Dizzy
+], ranking[22], name[プリンシパル☆彡], num[1370
+toppickupname[Dizzy
+], ranking[23], name[いちごぷよ隊], num[1367
+toppickupname[Dizzy
+], ranking[24], name[LovE], num[1362
+toppickupname[Dizzy
+], ranking[25], name[賢者モード], num[1354
+toppickupname[Dizzy
+], ranking[26], name[ねこたらんど], num[1349
+toppickupname[Dizzy
+], ranking[27], name[とれっきんぐ], num[1349
+toppickupname[Dizzy
+], ranking[28], name[ファンタビーチ], num[1349
+toppickupname[Dizzy
+], ranking[29], name[やわらかギルド], num[1335
+toppickupname[Dizzy
+], ranking[30], name[だららんゴロゴロ], num[1332
+toppickupname[Dizzy
+], ranking[31], name[ねこずき], num[1331
+toppickupname[Dizzy
+], ranking[32], name[同じ穴のぷよら～], num[1326
+toppickupname[Dizzy
+], ranking[33], name[ももにち！], num[1321
+toppickupname[Dizzy
+], ranking[34], name[★愉快な仲間達☆], num[1318
+toppickupname[Dizzy
+], ranking[35], name[からあげ流星群], num[1317
+toppickupname[Dizzy
+], ranking[36], name[かもみ～るかふぇ], num[1314
+toppickupname[Dizzy
+], ranking[37], name[Ｃlair], num[1311
+toppickupname[Dizzy
+], ranking[38], name[にないか], num[1299
+toppickupname[Dizzy
+], ranking[39], name[Lαviｎ'υ], num[1293
+toppickupname[Dizzy
+], ranking[40], name[ＢＢ団], num[1278
+toppickupname[Dizzy
+], ranking[41], name[ぷよビ～ッチ☆], num[1277
+toppickupname[Dizzy
+], ranking[42], name[ぷよクエ楽しみ隊], num[1270
+toppickupname[Dizzy
+], ranking[43], name[Buzz], num[1265
+toppickupname[Dizzy
+], ranking[44], name[★エーミール★], num[1259
+toppickupname[Dizzy
+], ranking[45], name[Luxillia], num[1259
+toppickupname[Dizzy
+], ranking[46], name[果物の缶詰], num[1249
+toppickupname[Dizzy
+], ranking[47], name[にゃ～んだふる♪], num[1249
+toppickupname[Dizzy
+], ranking[48], name[無課金こそ愉悦!], num[1249
+toppickupname[Dizzy
+], ranking[49], name[かわいいはせいぎ], num[1247
+toppickupname[Dizzy
+], ranking[50], name[Law@], num[1239
+toppickupname[Dizzy
+], ranking[51], name[BestLuck], num[1239
+toppickupname[Dizzy
+], ranking[52], name[ぐみぷよ], num[1234
+toppickupname[Dizzy
+], ranking[53], name[ねこぽよ軍], num[1232
+toppickupname[Dizzy
+], ranking[54], name[無KG板ギルド], num[1227
+toppickupname[Dizzy
+], ranking[55], name[ぷよクエRUSH], num[1225
+toppickupname[Dizzy
+], ranking[56], name[ももピーチ帝国], num[1222
+toppickupname[Dizzy
+], ranking[57], name[淡麗生!!], num[1222
+toppickupname[Dizzy
+], ranking[58], name[遊戯都市第七地区], num[1217
+toppickupname[Dizzy
+], ranking[59], name[コスモツリー], num[1215
+toppickupname[Dizzy
+], ranking[60], name[ぷよろう会], num[1214
+toppickupname[Dizzy
+], ranking[61], name[チームかつをぶし], num[1211
+toppickupname[Dizzy
+], ranking[62], name[うさぎの巣_], num[1209
+toppickupname[Dizzy
+], ranking[63], name[お笑い研究亭], num[1208
+toppickupname[Dizzy
+], ranking[64], name[ちょびぎるど], num[1199
+toppickupname[Dizzy
+], ranking[65], name[チームさかな], num[1199
+toppickupname[Dizzy
+], ranking[66], name[☆ネコカフェ☆], num[1184
+toppickupname[Dizzy
+], ranking[67], name[V.I.P.], num[1183
+toppickupname[Dizzy
+], ranking[68], name[ブルーウィング], num[1179
+toppickupname[Dizzy
+], ranking[69], name[陽だまりのねこ], num[1179
+toppickupname[Dizzy
+], ranking[70], name[手製ぷよ], num[1175
+toppickupname[Dizzy
+], ranking[71], name[みなとみらい], num[1171
+toppickupname[Dizzy
+], ranking[72], name[パンダ百匹！！！], num[1171
+toppickupname[Dizzy
+], ranking[73], name[_かおりワールド], num[1168
+toppickupname[Dizzy
+], ranking[74], name[コンパイルクラブ], num[1168
+toppickupname[Dizzy
+], ranking[75], name[トウーンタウン], num[1165
+toppickupname[Dizzy
+], ranking[76], name[怪盗スケルトン], num[1165
+toppickupname[Dizzy
+], ranking[77], name[ラフィ亭], num[1162
+toppickupname[Dizzy
+], ranking[78], name[Agile], num[1159
+toppickupname[Dizzy
+], ranking[79], name[ウィッチ魔法学院], num[1157
+toppickupname[Dizzy
+], ranking[80], name[2chスレギルド], num[1152
+toppickupname[Dizzy
+], ranking[81], name[Ｋ２], num[1149
+toppickupname[Dizzy
+], ranking[82], name[一生を寝てい隊], num[1149
+toppickupname[Dizzy
+], ranking[83], name[おこたでアイス], num[1145
+toppickupname[Dizzy
+], ranking[84], name[サークルフォイ], num[1142
+toppickupname[Dizzy
+], ranking[85], name[CMB], num[1139
+toppickupname[Dizzy
+], ranking[86], name[あるぱっか牧場], num[1137
+toppickupname[Dizzy
+], ranking[87], name[たいようのほこら], num[1136
+toppickupname[Dizzy
+], ranking[88], name[_KoB_], num[1132
+toppickupname[Dizzy
+], ranking[89], name[みんなでぷよぷよ], num[1129
+toppickupname[Dizzy
+], ranking[90], name[風来のぷよ使い], num[1126
+toppickupname[Dizzy
+], ranking[91], name[もち猫カルテット], num[1125
+toppickupname[Dizzy
+], ranking[92], name[六猫おーき軍], num[1124
+toppickupname[Dizzy
+], ranking[93], name[ぷよりすと♪], num[1124
+toppickupname[Dizzy
+], ranking[94], name[早起は三文SSS], num[1121
+toppickupname[Dizzy
+], ranking[95], name[すたんどあっぷ], num[1119
+toppickupname[Dizzy
+], ranking[96], name[マミーポコ♪], num[1119
+toppickupname[Dizzy
+], ranking[97], name[セカハナの卵], num[1114
+toppickupname[Dizzy
+], ranking[98], name[しーこ], num[1112
+toppickupname[Dizzy
+], ranking[99], name[SPIRAL★彡], num[1109
+toppickupname[Dizzy
+], ranking[100], name[運命石の扉], num[1099
+toppickupname[Dizzy
+], ranking[101], name[プヨクエ海賊団], num[1099
+toppickupname[Dizzy
+], ranking[102], name[あわわっ子], num[1099
+toppickupname[Dizzy
+], ranking[103], name[佐久間上水], num[1099
+toppickupname[Dizzy
+], ranking[104], name[ぷよよん同盟], num[1077
+toppickupname[Dizzy
+], ranking[105], name[猫好き仙人界], num[1074
+toppickupname[Dizzy
+], ranking[106], name[かーくんギルド], num[1073
+toppickupname[Dizzy
+], ranking[107], name[パーミテーション], num[1071
+toppickupname[Dizzy
+], ranking[108], name[will], num[1069
+toppickupname[Dizzy
+], ranking[109], name[☆りぼーん☆], num[1064
+toppickupname[Dizzy
+], ranking[110], name[ジュビレーション], num[1064
+toppickupname[Dizzy
+], ranking[111], name[アクアベール], num[1063
+toppickupname[Dizzy
+], ranking[112], name[でぃあれすと], num[1061
+toppickupname[Dizzy
+], ranking[113], name[地獄の3丁目], num[1059
+toppickupname[Dizzy
+], ranking[114], name[レベルアーップ！], num[1059
+toppickupname[Dizzy
+], ranking[115], name[ひろす], num[1059
+toppickupname[Dizzy
+], ranking[116], name[Tぷよ軍団], num[1059
+toppickupname[Dizzy
+], ranking[117], name[楽しく遊ぶ団], num[1054
+toppickupname[Dizzy
+], ranking[118], name[シルバーシープ], num[1054
+toppickupname[Dizzy
+], ranking[119], name[☆月のうさぎ☆], num[1053
+toppickupname[Dizzy
+], ranking[120], name[じゅげむ♪♪], num[1053
+toppickupname[Dizzy
+], ranking[121], name[いえろ～こんび♪], num[1051
+toppickupname[Dizzy
+], ranking[122], name[もんげ～_＞ω＜], num[1051
+toppickupname[Dizzy
+], ranking[123], name[Rash☆TM], num[1051
+toppickupname[Dizzy
+], ranking[124], name[TEREON's], num[1049
+toppickupname[Dizzy
+], ranking[125], name[†魔導学校†], num[1049
+toppickupname[Dizzy
+], ranking[126], name[nOa], num[1049
+toppickupname[Dizzy
+], ranking[127], name[進撃の無課金兵団], num[1048
+toppickupname[Dizzy
+], ranking[128], name[宮崎藩], num[1047
+toppickupname[Dizzy
+], ranking[129], name[にくきゅう], num[1044
+toppickupname[Dizzy
+], ranking[130], name[COLORS＊*], num[1040
+toppickupname[Dizzy
+], ranking[131], name[Promis], num[1039
+toppickupname[Dizzy
+], ranking[132], name[ももぐみ], num[1039
+toppickupname[Dizzy
+], ranking[133], name[上弦の月], num[1039
+toppickupname[Dizzy
+], ranking[134], name[にゃまにゃま], num[1035
+toppickupname[Dizzy
+], ranking[135], name[まったり勢。], num[1034
+toppickupname[Dizzy
+], ranking[136], name[ΑLL_FREE], num[1031
+toppickupname[Dizzy
+], ranking[137], name[flower], num[1030
+toppickupname[Dizzy
+], ranking[138], name[LVE], num[1029
+toppickupname[Dizzy
+], ranking[139], name[絆KIZUNA], num[1025
+toppickupname[Dizzy
+], ranking[140], name[いちにさん], num[1025
+toppickupname[Dizzy
+], ranking[141], name[たけのこ派！], num[1020
+toppickupname[Dizzy
+], ranking[142], name[みなみけ], num[1012
+toppickupname[Dizzy
+], ranking[143], name[アンシェル], num[1011
+toppickupname[Dizzy
+], ranking[144], name[ぷよよよよよん], num[1010
+toppickupname[Dizzy
+], ranking[145], name[JINN’], num[1009
+toppickupname[Dizzy
+], ranking[146], name[りらっくすたいむ], num[1006
+toppickupname[Dizzy
+], ranking[147], name[まったりにゃーん], num[1005
+toppickupname[Dizzy
+], ranking[148], name[ぼっち魔導師っ！], num[1005
+toppickupname[Dizzy
+], ranking[149], name[☆ぷよザイル☆], num[1002
+toppickupname[Dizzy
+], ranking[150], name[おいしいみかん], num[1001
+toppickupname[Dizzy
+], ranking[151], name[ぷよっとパニック], num[999
+toppickupname[Dizzy
+], ranking[152], name[JanneABC], num[999
+toppickupname[Dizzy
+], ranking[153], name[お腹@ばよ～支店], num[999
+toppickupname[Dizzy
+], ranking[154], name[ナノクローム], num[999
+toppickupname[Dizzy
+], ranking[155], name[魔神宮], num[998
+toppickupname[Dizzy
+], ranking[156], name[Blackチョコ], num[996
+toppickupname[Dizzy
+], ranking[157], name[_ほうきぼし], num[993
+toppickupname[Dizzy
+], ranking[158], name[きまぐれいやー], num[993
+toppickupname[Dizzy
+], ranking[159], name[あおいの御紋], num[990
+toppickupname[Dizzy
+], ranking[160], name[月蝕雑技団], num[990
+toppickupname[Dizzy
+], ranking[161], name[コンパイル懐古会], num[990
+toppickupname[Dizzy
+], ranking[162], name[レプレ], num[989
+toppickupname[Dizzy
+], ranking[163], name[ほんわかたつむり], num[988
+toppickupname[Dizzy
+], ranking[164], name[Gunners!], num[986
+toppickupname[Dizzy
+], ranking[165], name[ΣΘ)β47羽], num[984
+toppickupname[Dizzy
+], ranking[166], name[かーにばる☆彡], num[984
+toppickupname[Dizzy
+], ranking[167], name[クンパルシータ], num[984
+toppickupname[Dizzy
+], ranking[168], name[ぷよりんず], num[981
+toppickupname[Dizzy
+], ranking[169], name[むかきんぐだーむ], num[981
+toppickupname[Dizzy
+], ranking[170], name[猫娘。亭], num[979
+toppickupname[Dizzy
+], ranking[171], name[チームハマー], num[978
+toppickupname[Dizzy
+], ranking[172], name[輝きみーつぉー], num[978
+toppickupname[Dizzy
+], ranking[173], name[チビコロ☆], num[977
+toppickupname[Dizzy
+], ranking[174], name[のんびり☆きまま], num[977
+toppickupname[Dizzy
+], ranking[175], name[こでまりテラス], num[974
+toppickupname[Dizzy
+], ranking[176], name[ArcadiA], num[972
+toppickupname[Dizzy
+], ranking[177], name[にわかあめ], num[971
+toppickupname[Dizzy
+], ranking[178], name[しろくまっ☆], num[967
+toppickupname[Dizzy
+], ranking[179], name[スナ], num[965
+toppickupname[Dizzy
+], ranking[180], name[エリザベート21], num[964
+toppickupname[Dizzy
+], ranking[181], name[ルーエンハイム], num[962
+toppickupname[Dizzy
+], ranking[182], name[全開タコ殴り], num[960
+toppickupname[Dizzy
+], ranking[183], name[連鎖反応☆NEO], num[959
+toppickupname[Dizzy
+], ranking[184], name[aLLLight], num[959
+toppickupname[Dizzy
+], ranking[185], name[J&G], num[959
+toppickupname[Dizzy
+], ranking[186], name[ウィッチ様FC], num[959
+toppickupname[Dizzy
+], ranking[187], name[毎度おおきに！], num[958
+toppickupname[Dizzy
+], ranking[188], name[Phoenix☆], num[957
+toppickupname[Dizzy
+], ranking[189], name[北の大地☆人情派], num[956
+toppickupname[Dizzy
+], ranking[190], name[カラマギア], num[955
+toppickupname[Dizzy
+], ranking[191], name[エランド], num[955
+toppickupname[Dizzy
+], ranking[192], name[自由空間五色の館], num[954
+toppickupname[Dizzy
+], ranking[193], name[全力マッタリーナ], num[953
+toppickupname[Dizzy
+], ranking[194], name[ぷよぷよ艦隊], num[946
+toppickupname[Dizzy
+], ranking[195], name[あひるたぃちょ組], num[941
+toppickupname[Dizzy
+], ranking[196], name[ぱお～ん！！], num[940
+toppickupname[Dizzy
+], ranking[197], name[楽ぷよＣＬＵＢ], num[939
+toppickupname[Dizzy
+], ranking[198], name[気ままに組], num[937
+toppickupname[Dizzy
+], ranking[199], name[しろぷよ♪], num[935
+toppickupname[Dizzy
+], ranking[200], name[ゼロ鎮魂歌], num[931
+toppickupname[Dizzy
+], ranking[201], name[ガンバ祝SS♪], num[931
+toppickupname[Dizzy
+], ranking[202], name[マリンバトル], num[930
+toppickupname[Dizzy
+], ranking[203], name[Pu---Yo], num[929
+toppickupname[Dizzy
+], ranking[204], name[チームやどかり], num[929
+toppickupname[Dizzy
+], ranking[205], name[WeLOVEぷよ], num[929
+toppickupname[Dizzy
+], ranking[206], name[レッツモーフィン], num[929
+toppickupname[Dizzy
+], ranking[207], name[ぬゅるす], num[929
+toppickupname[Dizzy
+], ranking[208], name[ぷにょぷにん], num[929
+toppickupname[Dizzy
+], ranking[209], name[らららコッペパン], num[929
+toppickupname[Dizzy
+], ranking[210], name[のんびりギル], num[928
+toppickupname[Dizzy
+], ranking[211], name[月の光　∮], num[927
+toppickupname[Dizzy
+], ranking[212], name[Ragnark], num[927
+toppickupname[Dizzy
+], ranking[213], name[グラン・シャリオ], num[927
+toppickupname[Dizzy
+], ranking[214], name[～のんびり隠居～], num[926
+toppickupname[Dizzy
+], ranking[215], name[Liberty☆], num[923
+toppickupname[Dizzy
+], ranking[216], name[∞ぷるんちょ∞], num[922
+toppickupname[Dizzy
+], ranking[217], name[わんうぇいあっぷ], num[920
+toppickupname[Dizzy
+], ranking[218], name[花橘], num[918
+toppickupname[Dizzy
+], ranking[219], name[アオハライド☆彡], num[916
+toppickupname[Dizzy
+], ranking[220], name[ぷ(♪-∀-)よ], num[913
+toppickupname[Dizzy
+], ranking[221], name[Clock], num[913
+toppickupname[Dizzy
+], ranking[222], name[ぷにっぷに～！], num[911
+toppickupname[Dizzy
+], ranking[223], name[ふぇんりる], num[911
+toppickupname[Dizzy
+], ranking[224], name[melody], num[911
+toppickupname[Dizzy
+], ranking[225], name[みすてりあす。], num[911
+toppickupname[Dizzy
+], ranking[226], name[_☆きずな☆], num[909
+toppickupname[Dizzy
+], ranking[227], name[脳みそコネコネ], num[907
+toppickupname[Dizzy
+], ranking[228], name[★リトルスター★], num[907
+toppickupname[Dizzy
+], ranking[229], name[goro's], num[906
+toppickupname[Dizzy
+], ranking[230], name[ぷよぷよTime], num[904
+toppickupname[Dizzy
+], ranking[231], name[KMコミュニティ], num[904
+toppickupname[Dizzy
+], ranking[232], name[凱歌ノ記憶], num[904
+toppickupname[Dizzy
+], ranking[233], name[鎌倉幕府], num[904
+toppickupname[Dizzy
+], ranking[234], name[きずなタワー], num[903
+toppickupname[Dizzy
+], ranking[235], name[美味しい紅茶の泉], num[901
+toppickupname[Dizzy
+], ranking[236], name[カラフル], num[901
+toppickupname[Dizzy
+], ranking[237], name[参加は自由でした], num[900
+toppickupname[Dizzy
+], ranking[238], name[ダムダムブルー], num[900
+toppickupname[Dizzy
+], ranking[239], name[黝ぷよ騎士団], num[899
+toppickupname[Dizzy
+], ranking[240], name[虹-niji-], num[899
+toppickupname[Dizzy
+], ranking[241], name[ゴルゴ11], num[899
+toppickupname[Dizzy
+], ranking[242], name[まちょー], num[899
+toppickupname[Dizzy
+], ranking[243], name[bookworm], num[899
+toppickupname[Dizzy
+], ranking[244], name[ぽすてりざん], num[899
+toppickupname[Dizzy
+], ranking[245], name[ピタゴラスイッチ], num[899
+toppickupname[Dizzy
+], ranking[246], name[めろんぱんず], num[895
+toppickupname[Dizzy
+], ranking[247], name[真☆碧茶], num[894
+toppickupname[Dizzy
+], ranking[248], name[きなこもち＊], num[893
+toppickupname[Dizzy
+], ranking[249], name[スイ－トヨコヅナ], num[891
+toppickupname[Dizzy
+], ranking[250], name[_], num[889
+toppickupname[Dizzy
+], ranking[251], name[ウォッカコーヒー], num[889
+toppickupname[Dizzy
+], ranking[252], name[おのゴリちゃん], num[887
+toppickupname[Dizzy
+], ranking[253], name[☆], num[887
+toppickupname[Dizzy
+], ranking[254], name[_Nadja], num[886
+toppickupname[Dizzy
+], ranking[255], name[おいもいも], num[884
+toppickupname[Dizzy
+], ranking[256], name[働くおじさん], num[882
+toppickupname[Dizzy
+], ranking[257], name[joyfull☆], num[881
+toppickupname[Dizzy
+], ranking[258], name[チームお代官様], num[880
+toppickupname[Dizzy
+], ranking[259], name[水守革命], num[879
+toppickupname[Dizzy
+], ranking[260], name[ポレポレ村夢番地], num[879
+toppickupname[Dizzy
+], ranking[261], name[みるふぃーゆ♪], num[876
+toppickupname[Dizzy
+], ranking[262], name[ふぁくとり～♪], num[876
+toppickupname[Dizzy
+], ranking[263], name[会話なしギルド], num[874
+toppickupname[Dizzy
+], ranking[264], name[アシュブロ☆], num[874
+toppickupname[Dizzy
+], ranking[265], name[超初心者ポコリン], num[873
+toppickupname[Dizzy
+], ranking[266], name[オールフォーワン], num[872
+toppickupname[Dizzy
+], ranking[267], name[モヤ2さまぁ～ず], num[872
+toppickupname[Dizzy
+], ranking[268], name[ＬＥ－ＣＩＥＬ], num[869
+toppickupname[Dizzy
+], ranking[269], name[MYM318☆彡], num[869
+toppickupname[Dizzy
+], ranking[270], name[ピルクル500], num[869
+toppickupname[Dizzy
+], ranking[271], name[比翼の不死鳥], num[869
+toppickupname[Dizzy
+], ranking[272], name[ゆるくやろう], num[867
+toppickupname[Dizzy
+], ranking[273], name[Fate#Ω#], num[865
+toppickupname[Dizzy
+], ranking[274], name[モモレオ], num[862
+toppickupname[Dizzy
+], ranking[275], name[ex-☆], num[861
+toppickupname[Dizzy
+], ranking[276], name[P-STYLE], num[861
+toppickupname[Dizzy
+], ranking[277], name[ギルドチャンプ], num[860
+toppickupname[Dizzy
+], ranking[278], name[ぷよラテ], num[859
+toppickupname[Dizzy
+], ranking[279], name[ぷよります会], num[859
+toppickupname[Dizzy
+], ranking[280], name[猪突猛進], num[859
+toppickupname[Dizzy
+], ranking[281], name[Sirius], num[859
+toppickupname[Dizzy
+], ranking[282], name[のんびり仲良く], num[858
+toppickupname[Dizzy
+], ranking[283], name[既製ぷよ@隠居], num[858
+toppickupname[Dizzy
+], ranking[284], name[UNICORN], num[856
+toppickupname[Dizzy
+], ranking[285], name[藤原豆腐店], num[855
+toppickupname[Dizzy
+], ranking[286], name[風鈴ちりんΦ彡], num[855
+toppickupname[Dizzy
+], ranking[287], name[ここ(*≧艸≦)], num[854
+toppickupname[Dizzy
+], ranking[288], name[無課金修行部], num[851
+toppickupname[Dizzy
+], ranking[289], name[(_ω)о〇], num[851
+toppickupname[Dizzy
+], ranking[290], name[ミッドガルド], num[851
+toppickupname[Dizzy
+], ranking[291], name[七色きかちゅう], num[850
+toppickupname[Dizzy
+], ranking[292], name[月の雫.。°], num[849
+toppickupname[Dizzy
+], ranking[293], name[☆ＳＴＹ☆], num[849
+toppickupname[Dizzy
+], ranking[294], name[アウトランナーズ], num[848
+toppickupname[Dizzy
+], ranking[295], name[元気ハツラツ！], num[848
+toppickupname[Dizzy
+], ranking[296], name[だいふくギルド], num[846
+toppickupname[Dizzy
+], ranking[297], name[水パ], num[844
+toppickupname[Dizzy
+], ranking[298], name[L_T_E], num[844
+toppickupname[Dizzy
+], ranking[299], name[ねこのうにメロン], num[841
+toppickupname[Dizzy
+], ranking[300], name[錬金術協会], num[840
+toppickupname[Dizzy
+], ranking[301], name[オワニモ時空転移], num[840
+toppickupname[Dizzy
+], ranking[302], name[こんぱいるクラブ], num[839
+toppickupname[Dizzy
+], ranking[303], name[あのぎるど], num[839
+toppickupname[Dizzy
+], ranking[304], name[☆Ｓロード☆], num[839
+toppickupname[Dizzy
+], ranking[305], name[HOKKAIDO], num[838
+toppickupname[Dizzy
+], ranking[306], name[赤い彗星のニャア], num[838
+toppickupname[Dizzy
+], ranking[307], name[文化の森], num[837
+toppickupname[Dizzy
+], ranking[308], name[asoVIVA], num[836
+toppickupname[Dizzy
+], ranking[309], name[秘密のお菓子工房], num[835
+toppickupname[Dizzy
+], ranking[310], name[＊みるふぃーゆ＊], num[831
+toppickupname[Dizzy
+], ranking[311], name[けにくら！], num[831
+toppickupname[Dizzy
+], ranking[312], name[みつばさんち], num[831
+toppickupname[Dizzy
+], ranking[313], name[ルイーダの酒場], num[830
+toppickupname[Dizzy
+], ranking[314], name[ラフィーナ連邦], num[830
+toppickupname[Dizzy
+], ranking[315], name[ちーむ★ぷよ], num[829
+toppickupname[Dizzy
+], ranking[316], name[毎日猫をもふり隊], num[829
+toppickupname[Dizzy
+], ranking[317], name[神聖まけまけ帝国], num[829
+toppickupname[Dizzy
+], ranking[318], name[蒼天ぷよ], num[829
+toppickupname[Dizzy
+], ranking[319], name[青空団♪], num[829
+toppickupname[Dizzy
+], ranking[320], name[★home★], num[827
+toppickupname[Dizzy
+], ranking[321], name[まろん茶], num[824
+toppickupname[Dizzy
+], ranking[322], name[黄色鳥OP大作戦], num[824
+toppickupname[Dizzy
+], ranking[323], name[寝ながら進む。], num[821
+toppickupname[Dizzy
+], ranking[324], name[†Bible†], num[821
+toppickupname[Dizzy
+], ranking[325], name[旅立(^O^)], num[819
+toppickupname[Dizzy
+], ranking[326], name[ドリームポポ♪], num[819
+toppickupname[Dizzy
+], ranking[327], name[ずきゅーん♪], num[817
+toppickupname[Dizzy
+], ranking[328], name[ブラザーフット], num[815
+toppickupname[Dizzy
+], ranking[329], name[七色の愛情], num[814
+toppickupname[Mumin
+], ranking[0], name[Dizzy], num[1600
+toppickupname[Mumin
+], ranking[1], name[Mumin谷], num[1600
+toppickupname[Mumin
+], ranking[2], name[さんらいず], num[1600
+toppickupname[Mumin
+], ranking[3], name[トムソン], num[1570
+toppickupname[Mumin
+], ranking[4], name[嵐山], num[1566
+toppickupname[Mumin
+], ranking[5], name[☆☆ながれ星彡], num[1539
+toppickupname[Mumin
+], ranking[6], name[上位目指す隊], num[1536
+toppickupname[Mumin
+], ranking[7], name[ばよえ～ん。], num[1505
+toppickupname[Mumin
+], ranking[8], name[えすぽらーず], num[1499
+toppickupname[Mumin
+], ranking[9], name[赤い妖精], num[1489
+toppickupname[Mumin
+], ranking[10], name[まるむすてぃーん], num[1486
+toppickupname[Mumin
+], ranking[11], name[早乙女学園], num[1479
+toppickupname[Mumin
+], ranking[12], name[Raffine], num[1449
+toppickupname[Mumin
+], ranking[13], name[さんせっと], num[1449
+toppickupname[Mumin
+], ranking[14], name[谷口ぴーまん], num[1437
+toppickupname[Mumin
+], ranking[15], name[†とわいらいと†], num[1418
+toppickupname[Mumin
+], ranking[16], name[Lipton　], num[1409
+toppickupname[Mumin
+], ranking[17], name[Antenna], num[1400
+toppickupname[Mumin
+], ranking[18], name[RedbuII], num[1399
+toppickupname[Mumin
+], ranking[19], name[カーバンクル], num[1399
+toppickupname[Mumin
+], ranking[20], name[☆命蓮寺☆], num[1399
+toppickupname[Mumin
+], ranking[21], name[ぴんぽーん], num[1392
+toppickupname[Mumin
+], ranking[22], name[プリンシパル☆彡], num[1370
+toppickupname[Mumin
+], ranking[23], name[いちごぷよ隊], num[1367
+toppickupname[Mumin
+], ranking[24], name[LovE], num[1362
+toppickupname[Mumin
+], ranking[25], name[賢者モード], num[1354
+toppickupname[Mumin
+], ranking[26], name[ねこたらんど], num[1349
+toppickupname[Mumin
+], ranking[27], name[とれっきんぐ], num[1349
+toppickupname[Mumin
+], ranking[28], name[ファンタビーチ], num[1349
+toppickupname[Mumin
+], ranking[29], name[やわらかギルド], num[1335
+toppickupname[Mumin
+], ranking[30], name[だららんゴロゴロ], num[1332
+toppickupname[Mumin
+], ranking[31], name[ねこずき], num[1331
+toppickupname[Mumin
+], ranking[32], name[同じ穴のぷよら～], num[1326
+toppickupname[Mumin
+], ranking[33], name[ももにち！], num[1321
+toppickupname[Mumin
+], ranking[34], name[★愉快な仲間達☆], num[1318
+toppickupname[Mumin
+], ranking[35], name[からあげ流星群], num[1317
+toppickupname[Mumin
+], ranking[36], name[かもみ～るかふぇ], num[1314
+toppickupname[Mumin
+], ranking[37], name[Ｃlair], num[1311
+toppickupname[Mumin
+], ranking[38], name[にないか], num[1299
+toppickupname[Mumin
+], ranking[39], name[Lαviｎ'υ], num[1293
+toppickupname[Mumin
+], ranking[40], name[ＢＢ団], num[1278
+toppickupname[Mumin
+], ranking[41], name[ぷよビ～ッチ☆], num[1277
+toppickupname[Mumin
+], ranking[42], name[ぷよクエ楽しみ隊], num[1270
+toppickupname[Mumin
+], ranking[43], name[Buzz], num[1265
+toppickupname[Mumin
+], ranking[44], name[★エーミール★], num[1259
+toppickupname[Mumin
+], ranking[45], name[Luxillia], num[1259
+toppickupname[Mumin
+], ranking[46], name[果物の缶詰], num[1249
+toppickupname[Mumin
+], ranking[47], name[にゃ～んだふる♪], num[1249
+toppickupname[Mumin
+], ranking[48], name[無課金こそ愉悦!], num[1249
+toppickupname[Mumin
+], ranking[49], name[かわいいはせいぎ], num[1247
+toppickupname[Mumin
+], ranking[50], name[Law@], num[1239
+toppickupname[Mumin
+], ranking[51], name[BestLuck], num[1239
+toppickupname[Mumin
+], ranking[52], name[ぐみぷよ], num[1234
+toppickupname[Mumin
+], ranking[53], name[ねこぽよ軍], num[1232
+toppickupname[Mumin
+], ranking[54], name[無KG板ギルド], num[1227
+toppickupname[Mumin
+], ranking[55], name[ぷよクエRUSH], num[1225
+toppickupname[Mumin
+], ranking[56], name[ももピーチ帝国], num[1222
+toppickupname[Mumin
+], ranking[57], name[淡麗生!!], num[1222
+toppickupname[Mumin
+], ranking[58], name[遊戯都市第七地区], num[1217
+toppickupname[Mumin
+], ranking[59], name[コスモツリー], num[1215
+toppickupname[Mumin
+], ranking[60], name[ぷよろう会], num[1214
+toppickupname[Mumin
+], ranking[61], name[チームかつをぶし], num[1211
+toppickupname[Mumin
+], ranking[62], name[うさぎの巣_], num[1209
+toppickupname[Mumin
+], ranking[63], name[お笑い研究亭], num[1208
+toppickupname[Mumin
+], ranking[64], name[ちょびぎるど], num[1199
+toppickupname[Mumin
+], ranking[65], name[チームさかな], num[1199
+toppickupname[Mumin
+], ranking[66], name[☆ネコカフェ☆], num[1184
+toppickupname[Mumin
+], ranking[67], name[V.I.P.], num[1183
+toppickupname[Mumin
+], ranking[68], name[ブルーウィング], num[1179
+toppickupname[Mumin
+], ranking[69], name[陽だまりのねこ], num[1179
+toppickupname[Mumin
+], ranking[70], name[手製ぷよ], num[1175
+toppickupname[Mumin
+], ranking[71], name[みなとみらい], num[1171
+toppickupname[Mumin
+], ranking[72], name[パンダ百匹！！！], num[1171
+toppickupname[Mumin
+], ranking[73], name[_かおりワールド], num[1168
+toppickupname[Mumin
+], ranking[74], name[コンパイルクラブ], num[1168
+toppickupname[Mumin
+], ranking[75], name[トウーンタウン], num[1165
+toppickupname[Mumin
+], ranking[76], name[怪盗スケルトン], num[1165
+toppickupname[Mumin
+], ranking[77], name[ラフィ亭], num[1162
+toppickupname[Mumin
+], ranking[78], name[Agile], num[1159
+toppickupname[Mumin
+], ranking[79], name[ウィッチ魔法学院], num[1157
+toppickupname[Mumin
+], ranking[80], name[2chスレギルド], num[1152
+toppickupname[Mumin
+], ranking[81], name[Ｋ２], num[1149
+toppickupname[Mumin
+], ranking[82], name[一生を寝てい隊], num[1149
+toppickupname[Mumin
+], ranking[83], name[おこたでアイス], num[1145
+toppickupname[Mumin
+], ranking[84], name[サークルフォイ], num[1142
+toppickupname[Mumin
+], ranking[85], name[CMB], num[1139
+toppickupname[Mumin
+], ranking[86], name[あるぱっか牧場], num[1137
+toppickupname[Mumin
+], ranking[87], name[たいようのほこら], num[1136
+toppickupname[Mumin
+], ranking[88], name[_KoB_], num[1132
+toppickupname[Mumin
+], ranking[89], name[みんなでぷよぷよ], num[1129
+toppickupname[Mumin
+], ranking[90], name[風来のぷよ使い], num[1126
+toppickupname[Mumin
+], ranking[91], name[もち猫カルテット], num[1125
+toppickupname[Mumin
+], ranking[92], name[六猫おーき軍], num[1124
+toppickupname[Mumin
+], ranking[93], name[ぷよりすと♪], num[1124
+toppickupname[Mumin
+], ranking[94], name[早起は三文SSS], num[1121
+toppickupname[Mumin
+], ranking[95], name[すたんどあっぷ], num[1119
+toppickupname[Mumin
+], ranking[96], name[マミーポコ♪], num[1119
+toppickupname[Mumin
+], ranking[97], name[セカハナの卵], num[1114
+toppickupname[Mumin
+], ranking[98], name[しーこ], num[1112
+toppickupname[Mumin
+], ranking[99], name[SPIRAL★彡], num[1109
+toppickupname[Mumin
+], ranking[100], name[運命石の扉], num[1099
+toppickupname[Mumin
+], ranking[101], name[プヨクエ海賊団], num[1099
+toppickupname[Mumin
+], ranking[102], name[あわわっ子], num[1099
+toppickupname[Mumin
+], ranking[103], name[佐久間上水], num[1099
+toppickupname[Mumin
+], ranking[104], name[ぷよよん同盟], num[1077
+toppickupname[Mumin
+], ranking[105], name[猫好き仙人界], num[1074
+toppickupname[Mumin
+], ranking[106], name[かーくんギルド], num[1073
+toppickupname[Mumin
+], ranking[107], name[パーミテーション], num[1071
+toppickupname[Mumin
+], ranking[108], name[will], num[1069
+toppickupname[Mumin
+], ranking[109], name[☆りぼーん☆], num[1064
+toppickupname[Mumin
+], ranking[110], name[ジュビレーション], num[1064
+toppickupname[Mumin
+], ranking[111], name[アクアベール], num[1063
+toppickupname[Mumin
+], ranking[112], name[でぃあれすと], num[1061
+toppickupname[Mumin
+], ranking[113], name[地獄の3丁目], num[1059
+toppickupname[Mumin
+], ranking[114], name[レベルアーップ！], num[1059
+toppickupname[Mumin
+], ranking[115], name[ひろす], num[1059
+toppickupname[Mumin
+], ranking[116], name[Tぷよ軍団], num[1059
+toppickupname[Mumin
+], ranking[117], name[楽しく遊ぶ団], num[1054
+toppickupname[Mumin
+], ranking[118], name[シルバーシープ], num[1054
+toppickupname[Mumin
+], ranking[119], name[☆月のうさぎ☆], num[1053
+toppickupname[Mumin
+], ranking[120], name[じゅげむ♪♪], num[1053
+toppickupname[Mumin
+], ranking[121], name[いえろ～こんび♪], num[1051
+toppickupname[Mumin
+], ranking[122], name[もんげ～_＞ω＜], num[1051
+toppickupname[Mumin
+], ranking[123], name[Rash☆TM], num[1051
+toppickupname[Mumin
+], ranking[124], name[TEREON's], num[1049
+toppickupname[Mumin
+], ranking[125], name[†魔導学校†], num[1049
+toppickupname[Mumin
+], ranking[126], name[nOa], num[1049
+toppickupname[Mumin
+], ranking[127], name[進撃の無課金兵団], num[1048
+toppickupname[Mumin
+], ranking[128], name[宮崎藩], num[1047
+toppickupname[Mumin
+], ranking[129], name[にくきゅう], num[1044
+toppickupname[Mumin
+], ranking[130], name[COLORS＊*], num[1040
+toppickupname[Mumin
+], ranking[131], name[Promis], num[1039
+toppickupname[Mumin
+], ranking[132], name[ももぐみ], num[1039
+toppickupname[Mumin
+], ranking[133], name[上弦の月], num[1039
+toppickupname[Mumin
+], ranking[134], name[にゃまにゃま], num[1035
+toppickupname[Mumin
+], ranking[135], name[まったり勢。], num[1034
+toppickupname[Mumin
+], ranking[136], name[ΑLL_FREE], num[1031
+toppickupname[Mumin
+], ranking[137], name[flower], num[1030
+toppickupname[Mumin
+], ranking[138], name[LVE], num[1029
+toppickupname[Mumin
+], ranking[139], name[絆KIZUNA], num[1025
+toppickupname[Mumin
+], ranking[140], name[いちにさん], num[1025
+toppickupname[Mumin
+], ranking[141], name[たけのこ派！], num[1020
+toppickupname[Mumin
+], ranking[142], name[みなみけ], num[1012
+toppickupname[Mumin
+], ranking[143], name[アンシェル], num[1011
+toppickupname[Mumin
+], ranking[144], name[ぷよよよよよん], num[1010
+toppickupname[Mumin
+], ranking[145], name[JINN’], num[1009
+toppickupname[Mumin
+], ranking[146], name[りらっくすたいむ], num[1006
+toppickupname[Mumin
+], ranking[147], name[まったりにゃーん], num[1005
+toppickupname[Mumin
+], ranking[148], name[ぼっち魔導師っ！], num[1005
+toppickupname[Mumin
+], ranking[149], name[☆ぷよザイル☆], num[1002
+toppickupname[Mumin
+], ranking[150], name[おいしいみかん], num[1001
+toppickupname[Mumin
+], ranking[151], name[ぷよっとパニック], num[999
+toppickupname[Mumin
+], ranking[152], name[JanneABC], num[999
+toppickupname[Mumin
+], ranking[153], name[お腹@ばよ～支店], num[999
+toppickupname[Mumin
+], ranking[154], name[ナノクローム], num[999
+toppickupname[Mumin
+], ranking[155], name[魔神宮], num[998
+toppickupname[Mumin
+], ranking[156], name[Blackチョコ], num[996
+toppickupname[Mumin
+], ranking[157], name[_ほうきぼし], num[993
+toppickupname[Mumin
+], ranking[158], name[きまぐれいやー], num[993
+toppickupname[Mumin
+], ranking[159], name[あおいの御紋], num[990
+toppickupname[Mumin
+], ranking[160], name[月蝕雑技団], num[990
+toppickupname[Mumin
+], ranking[161], name[コンパイル懐古会], num[990
+toppickupname[Mumin
+], ranking[162], name[レプレ], num[989
+toppickupname[Mumin
+], ranking[163], name[ほんわかたつむり], num[988
+toppickupname[Mumin
+], ranking[164], name[Gunners!], num[986
+toppickupname[Mumin
+], ranking[165], name[ΣΘ)β47羽], num[984
+toppickupname[Mumin
+], ranking[166], name[かーにばる☆彡], num[984
+toppickupname[Mumin
+], ranking[167], name[クンパルシータ], num[984
+toppickupname[Mumin
+], ranking[168], name[ぷよりんず], num[981
+toppickupname[Mumin
+], ranking[169], name[むかきんぐだーむ], num[981
+toppickupname[Mumin
+], ranking[170], name[猫娘。亭], num[979
+toppickupname[Mumin
+], ranking[171], name[チームハマー], num[978
+toppickupname[Mumin
+], ranking[172], name[輝きみーつぉー], num[978
+toppickupname[Mumin
+], ranking[173], name[チビコロ☆], num[977
+toppickupname[Mumin
+], ranking[174], name[のんびり☆きまま], num[977
+toppickupname[Mumin
+], ranking[175], name[こでまりテラス], num[974
+toppickupname[Mumin
+], ranking[176], name[ArcadiA], num[972
+toppickupname[Mumin
+], ranking[177], name[にわかあめ], num[971
+toppickupname[Mumin
+], ranking[178], name[しろくまっ☆], num[967
+toppickupname[Mumin
+], ranking[179], name[スナ], num[965
+toppickupname[Mumin
+], ranking[180], name[エリザベート21], num[964
+toppickupname[Mumin
+], ranking[181], name[ルーエンハイム], num[962
+toppickupname[Mumin
+], ranking[182], name[全開タコ殴り], num[960
+toppickupname[Mumin
+], ranking[183], name[連鎖反応☆NEO], num[959
+toppickupname[Mumin
+], ranking[184], name[aLLLight], num[959
+toppickupname[Mumin
+], ranking[185], name[J&G], num[959
+toppickupname[Mumin
+], ranking[186], name[ウィッチ様FC], num[959
+toppickupname[Mumin
+], ranking[187], name[毎度おおきに！], num[958
+toppickupname[Mumin
+], ranking[188], name[Phoenix☆], num[957
+toppickupname[Mumin
+], ranking[189], name[北の大地☆人情派], num[956
+toppickupname[Mumin
+], ranking[190], name[カラマギア], num[955
+toppickupname[Mumin
+], ranking[191], name[エランド], num[955
+toppickupname[Mumin
+], ranking[192], name[自由空間五色の館], num[954
+toppickupname[Mumin
+], ranking[193], name[全力マッタリーナ], num[953
+toppickupname[Mumin
+], ranking[194], name[ぷよぷよ艦隊], num[946
+toppickupname[Mumin
+], ranking[195], name[あひるたぃちょ組], num[941
+toppickupname[Mumin
+], ranking[196], name[ぱお～ん！！], num[940
+toppickupname[Mumin
+], ranking[197], name[楽ぷよＣＬＵＢ], num[939
+toppickupname[Mumin
+], ranking[198], name[気ままに組], num[937
+toppickupname[Mumin
+], ranking[199], name[しろぷよ♪], num[935
+toppickupname[Mumin
+], ranking[200], name[ゼロ鎮魂歌], num[931
+toppickupname[Mumin
+], ranking[201], name[ガンバ祝SS♪], num[931
+toppickupname[Mumin
+], ranking[202], name[マリンバトル], num[930
+toppickupname[Mumin
+], ranking[203], name[Pu---Yo], num[929
+toppickupname[Mumin
+], ranking[204], name[チームやどかり], num[929
+toppickupname[Mumin
+], ranking[205], name[WeLOVEぷよ], num[929
+toppickupname[Mumin
+], ranking[206], name[レッツモーフィン], num[929
+toppickupname[Mumin
+], ranking[207], name[ぬゅるす], num[929
+toppickupname[Mumin
+], ranking[208], name[ぷにょぷにん], num[929
+toppickupname[Mumin
+], ranking[209], name[らららコッペパン], num[929
+toppickupname[Mumin
+], ranking[210], name[のんびりギル], num[928
+toppickupname[Mumin
+], ranking[211], name[月の光　∮], num[927
+toppickupname[Mumin
+], ranking[212], name[Ragnark], num[927
+toppickupname[Mumin
+], ranking[213], name[グラン・シャリオ], num[927
+toppickupname[Mumin
+], ranking[214], name[～のんびり隠居～], num[926
+toppickupname[Mumin
+], ranking[215], name[Liberty☆], num[923
+toppickupname[Mumin
+], ranking[216], name[∞ぷるんちょ∞], num[922
+toppickupname[Mumin
+], ranking[217], name[わんうぇいあっぷ], num[920
+toppickupname[Mumin
+], ranking[218], name[花橘], num[918
+toppickupname[Mumin
+], ranking[219], name[アオハライド☆彡], num[916
+toppickupname[Mumin
+], ranking[220], name[ぷ(♪-∀-)よ], num[913
+toppickupname[Mumin
+], ranking[221], name[Clock], num[913
+toppickupname[Mumin
+], ranking[222], name[ぷにっぷに～！], num[911
+toppickupname[Mumin
+], ranking[223], name[ふぇんりる], num[911
+toppickupname[Mumin
+], ranking[224], name[melody], num[911
+toppickupname[Mumin
+], ranking[225], name[みすてりあす。], num[911
+toppickupname[Mumin
+], ranking[226], name[_☆きずな☆], num[909
+toppickupname[Mumin
+], ranking[227], name[脳みそコネコネ], num[907
+toppickupname[Mumin
+], ranking[228], name[★リトルスター★], num[907
+toppickupname[Mumin
+], ranking[229], name[goro's], num[906
+toppickupname[Mumin
+], ranking[230], name[ぷよぷよTime], num[904
+toppickupname[Mumin
+], ranking[231], name[KMコミュニティ], num[904
+toppickupname[Mumin
+], ranking[232], name[凱歌ノ記憶], num[904
+toppickupname[Mumin
+], ranking[233], name[鎌倉幕府], num[904
+toppickupname[Mumin
+], ranking[234], name[きずなタワー], num[903
+toppickupname[Mumin
+], ranking[235], name[美味しい紅茶の泉], num[901
+toppickupname[Mumin
+], ranking[236], name[カラフル], num[901
+toppickupname[Mumin
+], ranking[237], name[参加は自由でした], num[900
+toppickupname[Mumin
+], ranking[238], name[ダムダムブルー], num[900
+toppickupname[Mumin
+], ranking[239], name[黝ぷよ騎士団], num[899
+toppickupname[Mumin
+], ranking[240], name[虹-niji-], num[899
+toppickupname[Mumin
+], ranking[241], name[ゴルゴ11], num[899
+toppickupname[Mumin
+], ranking[242], name[まちょー], num[899
+toppickupname[Mumin
+], ranking[243], name[bookworm], num[899
+toppickupname[Mumin
+], ranking[244], name[ぽすてりざん], num[899
+toppickupname[Mumin
+], ranking[245], name[ピタゴラスイッチ], num[899
+toppickupname[Mumin
+], ranking[246], name[めろんぱんず], num[895
+toppickupname[Mumin
+], ranking[247], name[真☆碧茶], num[894
+toppickupname[Mumin
+], ranking[248], name[きなこもち＊], num[893
+toppickupname[Mumin
+], ranking[249], name[スイ－トヨコヅナ], num[891
+toppickupname[Mumin
+], ranking[250], name[_], num[889
+toppickupname[Mumin
+], ranking[251], name[ウォッカコーヒー], num[889
+toppickupname[Mumin
+], ranking[252], name[おのゴリちゃん], num[887
+toppickupname[Mumin
+], ranking[253], name[☆], num[887
+toppickupname[Mumin
+], ranking[254], name[_Nadja], num[886
+toppickupname[Mumin
+], ranking[255], name[おいもいも], num[884
+toppickupname[Mumin
+], ranking[256], name[働くおじさん], num[882
+toppickupname[Mumin
+], ranking[257], name[joyfull☆], num[881
+toppickupname[Mumin
+], ranking[258], name[チームお代官様], num[880
+toppickupname[Mumin
+], ranking[259], name[水守革命], num[879
+toppickupname[Mumin
+], ranking[260], name[ポレポレ村夢番地], num[879
+toppickupname[Mumin
+], ranking[261], name[みるふぃーゆ♪], num[876
+toppickupname[Mumin
+], ranking[262], name[ふぁくとり～♪], num[876
+toppickupname[Mumin
+], ranking[263], name[会話なしギルド], num[874
+toppickupname[Mumin
+], ranking[264], name[アシュブロ☆], num[874
+toppickupname[Mumin
+], ranking[265], name[超初心者ポコリン], num[873
+toppickupname[Mumin
+], ranking[266], name[オールフォーワン], num[872
+toppickupname[Mumin
+], ranking[267], name[モヤ2さまぁ～ず], num[872
+toppickupname[Mumin
+], ranking[268], name[ＬＥ－ＣＩＥＬ], num[869
+toppickupname[Mumin
+], ranking[269], name[MYM318☆彡], num[869
+toppickupname[Mumin
+], ranking[270], name[ピルクル500], num[869
+toppickupname[Mumin
+], ranking[271], name[比翼の不死鳥], num[869
+toppickupname[Mumin
+], ranking[272], name[ゆるくやろう], num[867
+toppickupname[Mumin
+], ranking[273], name[Fate#Ω#], num[865
+toppickupname[Mumin
+], ranking[274], name[モモレオ], num[862
+toppickupname[Mumin
+], ranking[275], name[ex-☆], num[861
+toppickupname[Mumin
+], ranking[276], name[P-STYLE], num[861
+toppickupname[Mumin
+], ranking[277], name[ギルドチャンプ], num[860
+toppickupname[Mumin
+], ranking[278], name[ぷよラテ], num[859
+toppickupname[Mumin
+], ranking[279], name[ぷよります会], num[859
+toppickupname[Mumin
+], ranking[280], name[猪突猛進], num[859
+toppickupname[Mumin
+], ranking[281], name[Sirius], num[859
+toppickupname[Mumin
+], ranking[282], name[のんびり仲良く], num[858
+toppickupname[Mumin
+], ranking[283], name[既製ぷよ@隠居], num[858
+toppickupname[Mumin
+], ranking[284], name[UNICORN], num[856
+toppickupname[Mumin
+], ranking[285], name[藤原豆腐店], num[855
+toppickupname[Mumin
+], ranking[286], name[風鈴ちりんΦ彡], num[855
+toppickupname[Mumin
+], ranking[287], name[ここ(*≧艸≦)], num[854
+toppickupname[Mumin
+], ranking[288], name[無課金修行部], num[851
+toppickupname[Mumin
+], ranking[289], name[(_ω)о〇], num[851
+toppickupname[Mumin
+], ranking[290], name[ミッドガルド], num[851
+toppickupname[Mumin
+], ranking[291], name[七色きかちゅう], num[850
+toppickupname[Mumin
+], ranking[292], name[月の雫.。°], num[849
+toppickupname[Mumin
+], ranking[293], name[☆ＳＴＹ☆], num[849
+toppickupname[Mumin
+], ranking[294], name[アウトランナーズ], num[848
+toppickupname[Mumin
+], ranking[295], name[元気ハツラツ！], num[848
+toppickupname[Mumin
+], ranking[296], name[だいふくギルド], num[846
+toppickupname[Mumin
+], ranking[297], name[水パ], num[844
+toppickupname[Mumin
+], ranking[298], name[L_T_E], num[844
+toppickupname[Mumin
+], ranking[299], name[ねこのうにメロン], num[841
+toppickupname[Mumin
+], ranking[300], name[錬金術協会], num[840
+toppickupname[Mumin
+], ranking[301], name[オワニモ時空転移], num[840
+toppickupname[Mumin
+], ranking[302], name[こんぱいるクラブ], num[839
+toppickupname[Mumin
+], ranking[303], name[あのぎるど], num[839
+toppickupname[Mumin
+], ranking[304], name[☆Ｓロード☆], num[839
+toppickupname[Mumin
+], ranking[305], name[HOKKAIDO], num[838
+toppickupname[Mumin
+], ranking[306], name[赤い彗星のニャア], num[838
+toppickupname[Mumin
+], ranking[307], name[文化の森], num[837
+toppickupname[Mumin
+], ranking[308], name[asoVIVA], num[836
+toppickupname[Mumin
+], ranking[309], name[秘密のお菓子工房], num[835
+toppickupname[Mumin
+], ranking[310], name[＊みるふぃーゆ＊], num[831
+toppickupname[Mumin
+], ranking[311], name[けにくら！], num[831
+toppickupname[Mumin
+], ranking[312], name[みつばさんち], num[831
+toppickupname[Mumin
+], ranking[313], name[ルイーダの酒場], num[830
+toppickupname[Mumin
+], ranking[314], name[ラフィーナ連邦], num[830
+toppickupname[Mumin
+], ranking[315], name[ちーむ★ぷよ], num[829
+toppickupname[Mumin
+], ranking[316], name[毎日猫をもふり隊], num[829
+toppickupname[Mumin
+], ranking[317], name[神聖まけまけ帝国], num[829
+toppickupname[Mumin
+], ranking[318], name[蒼天ぷよ], num[829
+toppickupname[Mumin
+], ranking[319], name[青空団♪], num[829
+toppickupname[Mumin
+], ranking[320], name[★home★], num[827
+toppickupname[Mumin
+], ranking[321], name[まろん茶], num[824
+toppickupname[Mumin
+], ranking[322], name[黄色鳥OP大作戦], num[824
+toppickupname[Mumin
+], ranking[323], name[寝ながら進む。], num[821
+toppickupname[Mumin
+], ranking[324], name[†Bible†], num[821
+toppickupname[Mumin
+], ranking[325], name[旅立(^O^)], num[819
+toppickupname[Mumin
+], ranking[326], name[ドリームポポ♪], num[819
+toppickupname[Mumin
+], ranking[327], name[ずきゅーん♪], num[817
+toppickupname[Mumin
+], ranking[328], name[ブラザーフット], num[815
+toppickupname[Mumin
+], ranking[329], name[七色の愛情], num[814
+toppickupname[さんらいず
+], ranking[0], name[Dizzy], num[1600
+toppickupname[さんらいず
+], ranking[1], name[Mumin谷], num[1600
+toppickupname[さんらいず
+], ranking[2], name[さんらいず], num[1600
+toppickupname[さんらいず
+], ranking[3], name[トムソン], num[1570
+toppickupname[さんらいず
+], ranking[4], name[嵐山], num[1566
+toppickupname[さんらいず
+], ranking[5], name[☆☆ながれ星彡], num[1539
+toppickupname[さんらいず
+], ranking[6], name[上位目指す隊], num[1536
+toppickupname[さんらいず
+], ranking[7], name[ばよえ～ん。], num[1505
+toppickupname[さんらいず
+], ranking[8], name[えすぽらーず], num[1499
+toppickupname[さんらいず
+], ranking[9], name[赤い妖精], num[1489
+toppickupname[さんらいず
+], ranking[10], name[まるむすてぃーん], num[1486
+toppickupname[さんらいず
+], ranking[11], name[早乙女学園], num[1479
+toppickupname[さんらいず
+], ranking[12], name[Raffine], num[1449
+toppickupname[さんらいず
+], ranking[13], name[さんせっと], num[1449
+toppickupname[さんらいず
+], ranking[14], name[谷口ぴーまん], num[1437
+toppickupname[さんらいず
+], ranking[15], name[†とわいらいと†], num[1418
+toppickupname[さんらいず
+], ranking[16], name[Lipton　], num[1409
+toppickupname[さんらいず
+], ranking[17], name[Antenna], num[1400
+toppickupname[さんらいず
+], ranking[18], name[RedbuII], num[1399
+toppickupname[さんらいず
+], ranking[19], name[カーバンクル], num[1399
+toppickupname[さんらいず
+], ranking[20], name[☆命蓮寺☆], num[1399
+toppickupname[さんらいず
+], ranking[21], name[ぴんぽーん], num[1392
+toppickupname[さんらいず
+], ranking[22], name[プリンシパル☆彡], num[1370
+toppickupname[さんらいず
+], ranking[23], name[いちごぷよ隊], num[1367
+toppickupname[さんらいず
+], ranking[24], name[LovE], num[1362
+toppickupname[さんらいず
+], ranking[25], name[賢者モード], num[1354
+toppickupname[さんらいず
+], ranking[26], name[ねこたらんど], num[1349
+toppickupname[さんらいず
+], ranking[27], name[とれっきんぐ], num[1349
+toppickupname[さんらいず
+], ranking[28], name[ファンタビーチ], num[1349
+toppickupname[さんらいず
+], ranking[29], name[やわらかギルド], num[1335
+toppickupname[さんらいず
+], ranking[30], name[だららんゴロゴロ], num[1332
+toppickupname[さんらいず
+], ranking[31], name[ねこずき], num[1331
+toppickupname[さんらいず
+], ranking[32], name[同じ穴のぷよら～], num[1326
+toppickupname[さんらいず
+], ranking[33], name[ももにち！], num[1321
+toppickupname[さんらいず
+], ranking[34], name[★愉快な仲間達☆], num[1318
+toppickupname[さんらいず
+], ranking[35], name[からあげ流星群], num[1317
+toppickupname[さんらいず
+], ranking[36], name[かもみ～るかふぇ], num[1314
+toppickupname[さんらいず
+], ranking[37], name[Ｃlair], num[1311
+toppickupname[さんらいず
+], ranking[38], name[にないか], num[1299
+toppickupname[さんらいず
+], ranking[39], name[Lαviｎ'υ], num[1293
+toppickupname[さんらいず
+], ranking[40], name[ＢＢ団], num[1278
+toppickupname[さんらいず
+], ranking[41], name[ぷよビ～ッチ☆], num[1277
+toppickupname[さんらいず
+], ranking[42], name[ぷよクエ楽しみ隊], num[1270
+toppickupname[さんらいず
+], ranking[43], name[Buzz], num[1265
+toppickupname[さんらいず
+], ranking[44], name[★エーミール★], num[1259
+toppickupname[さんらいず
+], ranking[45], name[Luxillia], num[1259
+toppickupname[さんらいず
+], ranking[46], name[果物の缶詰], num[1249
+toppickupname[さんらいず
+], ranking[47], name[にゃ～んだふる♪], num[1249
+toppickupname[さんらいず
+], ranking[48], name[無課金こそ愉悦!], num[1249
+toppickupname[さんらいず
+], ranking[49], name[かわいいはせいぎ], num[1247
+toppickupname[さんらいず
+], ranking[50], name[Law@], num[1239
+toppickupname[さんらいず
+], ranking[51], name[BestLuck], num[1239
+toppickupname[さんらいず
+], ranking[52], name[ぐみぷよ], num[1234
+toppickupname[さんらいず
+], ranking[53], name[ねこぽよ軍], num[1232
+toppickupname[さんらいず
+], ranking[54], name[無KG板ギルド], num[1227
+toppickupname[さんらいず
+], ranking[55], name[ぷよクエRUSH], num[1225
+toppickupname[さんらいず
+], ranking[56], name[ももピーチ帝国], num[1222
+toppickupname[さんらいず
+], ranking[57], name[淡麗生!!], num[1222
+toppickupname[さんらいず
+], ranking[58], name[遊戯都市第七地区], num[1217
+toppickupname[さんらいず
+], ranking[59], name[コスモツリー], num[1215
+toppickupname[さんらいず
+], ranking[60], name[ぷよろう会], num[1214
+toppickupname[さんらいず
+], ranking[61], name[チームかつをぶし], num[1211
+toppickupname[さんらいず
+], ranking[62], name[うさぎの巣_], num[1209
+toppickupname[さんらいず
+], ranking[63], name[お笑い研究亭], num[1208
+toppickupname[さんらいず
+], ranking[64], name[ちょびぎるど], num[1199
+toppickupname[さんらいず
+], ranking[65], name[チームさかな], num[1199
+toppickupname[さんらいず
+], ranking[66], name[☆ネコカフェ☆], num[1184
+toppickupname[さんらいず
+], ranking[67], name[V.I.P.], num[1183
+toppickupname[さんらいず
+], ranking[68], name[ブルーウィング], num[1179
+toppickupname[さんらいず
+], ranking[69], name[陽だまりのねこ], num[1179
+toppickupname[さんらいず
+], ranking[70], name[手製ぷよ], num[1175
+toppickupname[さんらいず
+], ranking[71], name[みなとみらい], num[1171
+toppickupname[さんらいず
+], ranking[72], name[パンダ百匹！！！], num[1171
+toppickupname[さんらいず
+], ranking[73], name[_かおりワールド], num[1168
+toppickupname[さんらいず
+], ranking[74], name[コンパイルクラブ], num[1168
+toppickupname[さんらいず
+], ranking[75], name[トウーンタウン], num[1165
+toppickupname[さんらいず
+], ranking[76], name[怪盗スケルトン], num[1165
+toppickupname[さんらいず
+], ranking[77], name[ラフィ亭], num[1162
+toppickupname[さんらいず
+], ranking[78], name[Agile], num[1159
+toppickupname[さんらいず
+], ranking[79], name[ウィッチ魔法学院], num[1157
+toppickupname[さんらいず
+], ranking[80], name[2chスレギルド], num[1152
+toppickupname[さんらいず
+], ranking[81], name[Ｋ２], num[1149
+toppickupname[さんらいず
+], ranking[82], name[一生を寝てい隊], num[1149
+toppickupname[さんらいず
+], ranking[83], name[おこたでアイス], num[1145
+toppickupname[さんらいず
+], ranking[84], name[サークルフォイ], num[1142
+toppickupname[さんらいず
+], ranking[85], name[CMB], num[1139
+toppickupname[さんらいず
+], ranking[86], name[あるぱっか牧場], num[1137
+toppickupname[さんらいず
+], ranking[87], name[たいようのほこら], num[1136
+toppickupname[さんらいず
+], ranking[88], name[_KoB_], num[1132
+toppickupname[さんらいず
+], ranking[89], name[みんなでぷよぷよ], num[1129
+toppickupname[さんらいず
+], ranking[90], name[風来のぷよ使い], num[1126
+toppickupname[さんらいず
+], ranking[91], name[もち猫カルテット], num[1125
+toppickupname[さんらいず
+], ranking[92], name[六猫おーき軍], num[1124
+toppickupname[さんらいず
+], ranking[93], name[ぷよりすと♪], num[1124
+toppickupname[さんらいず
+], ranking[94], name[早起は三文SSS], num[1121
+toppickupname[さんらいず
+], ranking[95], name[すたんどあっぷ], num[1119
+toppickupname[さんらいず
+], ranking[96], name[マミーポコ♪], num[1119
+toppickupname[さんらいず
+], ranking[97], name[セカハナの卵], num[1114
+toppickupname[さんらいず
+], ranking[98], name[しーこ], num[1112
+toppickupname[さんらいず
+], ranking[99], name[SPIRAL★彡], num[1109
+toppickupname[さんらいず
+], ranking[100], name[運命石の扉], num[1099
+toppickupname[さんらいず
+], ranking[101], name[プヨクエ海賊団], num[1099
+toppickupname[さんらいず
+], ranking[102], name[あわわっ子], num[1099
+toppickupname[さんらいず
+], ranking[103], name[佐久間上水], num[1099
+toppickupname[さんらいず
+], ranking[104], name[ぷよよん同盟], num[1077
+toppickupname[さんらいず
+], ranking[105], name[猫好き仙人界], num[1074
+toppickupname[さんらいず
+], ranking[106], name[かーくんギルド], num[1073
+toppickupname[さんらいず
+], ranking[107], name[パーミテーション], num[1071
+toppickupname[さんらいず
+], ranking[108], name[will], num[1069
+toppickupname[さんらいず
+], ranking[109], name[☆りぼーん☆], num[1064
+toppickupname[さんらいず
+], ranking[110], name[ジュビレーション], num[1064
+toppickupname[さんらいず
+], ranking[111], name[アクアベール], num[1063
+toppickupname[さんらいず
+], ranking[112], name[でぃあれすと], num[1061
+toppickupname[さんらいず
+], ranking[113], name[地獄の3丁目], num[1059
+toppickupname[さんらいず
+], ranking[114], name[レベルアーップ！], num[1059
+toppickupname[さんらいず
+], ranking[115], name[ひろす], num[1059
+toppickupname[さんらいず
+], ranking[116], name[Tぷよ軍団], num[1059
+toppickupname[さんらいず
+], ranking[117], name[楽しく遊ぶ団], num[1054
+toppickupname[さんらいず
+], ranking[118], name[シルバーシープ], num[1054
+toppickupname[さんらいず
+], ranking[119], name[☆月のうさぎ☆], num[1053
+toppickupname[さんらいず
+], ranking[120], name[じゅげむ♪♪], num[1053
+toppickupname[さんらいず
+], ranking[121], name[いえろ～こんび♪], num[1051
+toppickupname[さんらいず
+], ranking[122], name[もんげ～_＞ω＜], num[1051
+toppickupname[さんらいず
+], ranking[123], name[Rash☆TM], num[1051
+toppickupname[さんらいず
+], ranking[124], name[TEREON's], num[1049
+toppickupname[さんらいず
+], ranking[125], name[†魔導学校†], num[1049
+toppickupname[さんらいず
+], ranking[126], name[nOa], num[1049
+toppickupname[さんらいず
+], ranking[127], name[進撃の無課金兵団], num[1048
+toppickupname[さんらいず
+], ranking[128], name[宮崎藩], num[1047
+toppickupname[さんらいず
+], ranking[129], name[にくきゅう], num[1044
+toppickupname[さんらいず
+], ranking[130], name[COLORS＊*], num[1040
+toppickupname[さんらいず
+], ranking[131], name[Promis], num[1039
+toppickupname[さんらいず
+], ranking[132], name[ももぐみ], num[1039
+toppickupname[さんらいず
+], ranking[133], name[上弦の月], num[1039
+toppickupname[さんらいず
+], ranking[134], name[にゃまにゃま], num[1035
+toppickupname[さんらいず
+], ranking[135], name[まったり勢。], num[1034
+toppickupname[さんらいず
+], ranking[136], name[ΑLL_FREE], num[1031
+toppickupname[さんらいず
+], ranking[137], name[flower], num[1030
+toppickupname[さんらいず
+], ranking[138], name[LVE], num[1029
+toppickupname[さんらいず
+], ranking[139], name[絆KIZUNA], num[1025
+toppickupname[さんらいず
+], ranking[140], name[いちにさん], num[1025
+toppickupname[さんらいず
+], ranking[141], name[たけのこ派！], num[1020
+toppickupname[さんらいず
+], ranking[142], name[みなみけ], num[1012
+toppickupname[さんらいず
+], ranking[143], name[アンシェル], num[1011
+toppickupname[さんらいず
+], ranking[144], name[ぷよよよよよん], num[1010
+toppickupname[さんらいず
+], ranking[145], name[JINN’], num[1009
+toppickupname[さんらいず
+], ranking[146], name[りらっくすたいむ], num[1006
+toppickupname[さんらいず
+], ranking[147], name[まったりにゃーん], num[1005
+toppickupname[さんらいず
+], ranking[148], name[ぼっち魔導師っ！], num[1005
+toppickupname[さんらいず
+], ranking[149], name[☆ぷよザイル☆], num[1002
+toppickupname[さんらいず
+], ranking[150], name[おいしいみかん], num[1001
+toppickupname[さんらいず
+], ranking[151], name[ぷよっとパニック], num[999
+toppickupname[さんらいず
+], ranking[152], name[JanneABC], num[999
+toppickupname[さんらいず
+], ranking[153], name[お腹@ばよ～支店], num[999
+toppickupname[さんらいず
+], ranking[154], name[ナノクローム], num[999
+toppickupname[さんらいず
+], ranking[155], name[魔神宮], num[998
+toppickupname[さんらいず
+], ranking[156], name[Blackチョコ], num[996
+toppickupname[さんらいず
+], ranking[157], name[_ほうきぼし], num[993
+toppickupname[さんらいず
+], ranking[158], name[きまぐれいやー], num[993
+toppickupname[さんらいず
+], ranking[159], name[あおいの御紋], num[990
+toppickupname[さんらいず
+], ranking[160], name[月蝕雑技団], num[990
+toppickupname[さんらいず
+], ranking[161], name[コンパイル懐古会], num[990
+toppickupname[さんらいず
+], ranking[162], name[レプレ], num[989
+toppickupname[さんらいず
+], ranking[163], name[ほんわかたつむり], num[988
+toppickupname[さんらいず
+], ranking[164], name[Gunners!], num[986
+toppickupname[さんらいず
+], ranking[165], name[ΣΘ)β47羽], num[984
+toppickupname[さんらいず
+], ranking[166], name[かーにばる☆彡], num[984
+toppickupname[さんらいず
+], ranking[167], name[クンパルシータ], num[984
+toppickupname[さんらいず
+], ranking[168], name[ぷよりんず], num[981
+toppickupname[さんらいず
+], ranking[169], name[むかきんぐだーむ], num[981
+toppickupname[さんらいず
+], ranking[170], name[猫娘。亭], num[979
+toppickupname[さんらいず
+], ranking[171], name[チームハマー], num[978
+toppickupname[さんらいず
+], ranking[172], name[輝きみーつぉー], num[978
+toppickupname[さんらいず
+], ranking[173], name[チビコロ☆], num[977
+toppickupname[さんらいず
+], ranking[174], name[のんびり☆きまま], num[977
+toppickupname[さんらいず
+], ranking[175], name[こでまりテラス], num[974
+toppickupname[さんらいず
+], ranking[176], name[ArcadiA], num[972
+toppickupname[さんらいず
+], ranking[177], name[にわかあめ], num[971
+toppickupname[さんらいず
+], ranking[178], name[しろくまっ☆], num[967
+toppickupname[さんらいず
+], ranking[179], name[スナ], num[965
+toppickupname[さんらいず
+], ranking[180], name[エリザベート21], num[964
+toppickupname[さんらいず
+], ranking[181], name[ルーエンハイム], num[962
+toppickupname[さんらいず
+], ranking[182], name[全開タコ殴り], num[960
+toppickupname[さんらいず
+], ranking[183], name[連鎖反応☆NEO], num[959
+toppickupname[さんらいず
+], ranking[184], name[aLLLight], num[959
+toppickupname[さんらいず
+], ranking[185], name[J&G], num[959
+toppickupname[さんらいず
+], ranking[186], name[ウィッチ様FC], num[959
+toppickupname[さんらいず
+], ranking[187], name[毎度おおきに！], num[958
+toppickupname[さんらいず
+], ranking[188], name[Phoenix☆], num[957
+toppickupname[さんらいず
+], ranking[189], name[北の大地☆人情派], num[956
+toppickupname[さんらいず
+], ranking[190], name[カラマギア], num[955
+toppickupname[さんらいず
+], ranking[191], name[エランド], num[955
+toppickupname[さんらいず
+], ranking[192], name[自由空間五色の館], num[954
+toppickupname[さんらいず
+], ranking[193], name[全力マッタリーナ], num[953
+toppickupname[さんらいず
+], ranking[194], name[ぷよぷよ艦隊], num[946
+toppickupname[さんらいず
+], ranking[195], name[あひるたぃちょ組], num[941
+toppickupname[さんらいず
+], ranking[196], name[ぱお～ん！！], num[940
+toppickupname[さんらいず
+], ranking[197], name[楽ぷよＣＬＵＢ], num[939
+toppickupname[さんらいず
+], ranking[198], name[気ままに組], num[937
+toppickupname[さんらいず
+], ranking[199], name[しろぷよ♪], num[935
+toppickupname[さんらいず
+], ranking[200], name[ゼロ鎮魂歌], num[931
+toppickupname[さんらいず
+], ranking[201], name[ガンバ祝SS♪], num[931
+toppickupname[さんらいず
+], ranking[202], name[マリンバトル], num[930
+toppickupname[さんらいず
+], ranking[203], name[Pu---Yo], num[929
+toppickupname[さんらいず
+], ranking[204], name[チームやどかり], num[929
+toppickupname[さんらいず
+], ranking[205], name[WeLOVEぷよ], num[929
+toppickupname[さんらいず
+], ranking[206], name[レッツモーフィン], num[929
+toppickupname[さんらいず
+], ranking[207], name[ぬゅるす], num[929
+toppickupname[さんらいず
+], ranking[208], name[ぷにょぷにん], num[929
+toppickupname[さんらいず
+], ranking[209], name[らららコッペパン], num[929
+toppickupname[さんらいず
+], ranking[210], name[のんびりギル], num[928
+toppickupname[さんらいず
+], ranking[211], name[月の光　∮], num[927
+toppickupname[さんらいず
+], ranking[212], name[Ragnark], num[927
+toppickupname[さんらいず
+], ranking[213], name[グラン・シャリオ], num[927
+toppickupname[さんらいず
+], ranking[214], name[～のんびり隠居～], num[926
+toppickupname[さんらいず
+], ranking[215], name[Liberty☆], num[923
+toppickupname[さんらいず
+], ranking[216], name[∞ぷるんちょ∞], num[922
+toppickupname[さんらいず
+], ranking[217], name[わんうぇいあっぷ], num[920
+toppickupname[さんらいず
+], ranking[218], name[花橘], num[918
+toppickupname[さんらいず
+], ranking[219], name[アオハライド☆彡], num[916
+toppickupname[さんらいず
+], ranking[220], name[ぷ(♪-∀-)よ], num[913
+toppickupname[さんらいず
+], ranking[221], name[Clock], num[913
+toppickupname[さんらいず
+], ranking[222], name[ぷにっぷに～！], num[911
+toppickupname[さんらいず
+], ranking[223], name[ふぇんりる], num[911
+toppickupname[さんらいず
+], ranking[224], name[melody], num[911
+toppickupname[さんらいず
+], ranking[225], name[みすてりあす。], num[911
+toppickupname[さんらいず
+], ranking[226], name[_☆きずな☆], num[909
+toppickupname[さんらいず
+], ranking[227], name[脳みそコネコネ], num[907
+toppickupname[さんらいず
+], ranking[228], name[★リトルスター★], num[907
+toppickupname[さんらいず
+], ranking[229], name[goro's], num[906
+toppickupname[さんらいず
+], ranking[230], name[ぷよぷよTime], num[904
+toppickupname[さんらいず
+], ranking[231], name[KMコミュニティ], num[904
+toppickupname[さんらいず
+], ranking[232], name[凱歌ノ記憶], num[904
+toppickupname[さんらいず
+], ranking[233], name[鎌倉幕府], num[904
+toppickupname[さんらいず
+], ranking[234], name[きずなタワー], num[903
+toppickupname[さんらいず
+], ranking[235], name[美味しい紅茶の泉], num[901
+toppickupname[さんらいず
+], ranking[236], name[カラフル], num[901
+toppickupname[さんらいず
+], ranking[237], name[参加は自由でした], num[900
+toppickupname[さんらいず
+], ranking[238], name[ダムダムブルー], num[900
+toppickupname[さんらいず
+], ranking[239], name[黝ぷよ騎士団], num[899
+toppickupname[さんらいず
+], ranking[240], name[虹-niji-], num[899
+toppickupname[さんらいず
+], ranking[241], name[ゴルゴ11], num[899
+toppickupname[さんらいず
+], ranking[242], name[まちょー], num[899
+toppickupname[さんらいず
+], ranking[243], name[bookworm], num[899
+toppickupname[さんらいず
+], ranking[244], name[ぽすてりざん], num[899
+toppickupname[さんらいず
+], ranking[245], name[ピタゴラスイッチ], num[899
+toppickupname[さんらいず
+], ranking[246], name[めろんぱんず], num[895
+toppickupname[さんらいず
+], ranking[247], name[真☆碧茶], num[894
+toppickupname[さんらいず
+], ranking[248], name[きなこもち＊], num[893
+toppickupname[さんらいず
+], ranking[249], name[スイ－トヨコヅナ], num[891
+toppickupname[さんらいず
+], ranking[250], name[_], num[889
+toppickupname[さんらいず
+], ranking[251], name[ウォッカコーヒー], num[889
+toppickupname[さんらいず
+], ranking[252], name[おのゴリちゃん], num[887
+toppickupname[さんらいず
+], ranking[253], name[☆], num[887
+toppickupname[さんらいず
+], ranking[254], name[_Nadja], num[886
+toppickupname[さんらいず
+], ranking[255], name[おいもいも], num[884
+toppickupname[さんらいず
+], ranking[256], name[働くおじさん], num[882
+toppickupname[さんらいず
+], ranking[257], name[joyfull☆], num[881
+toppickupname[さんらいず
+], ranking[258], name[チームお代官様], num[880
+toppickupname[さんらいず
+], ranking[259], name[水守革命], num[879
+toppickupname[さんらいず
+], ranking[260], name[ポレポレ村夢番地], num[879
+toppickupname[さんらいず
+], ranking[261], name[みるふぃーゆ♪], num[876
+toppickupname[さんらいず
+], ranking[262], name[ふぁくとり～♪], num[876
+toppickupname[さんらいず
+], ranking[263], name[会話なしギルド], num[874
+toppickupname[さんらいず
+], ranking[264], name[アシュブロ☆], num[874
+toppickupname[さんらいず
+], ranking[265], name[超初心者ポコリン], num[873
+toppickupname[さんらいず
+], ranking[266], name[オールフォーワン], num[872
+toppickupname[さんらいず
+], ranking[267], name[モヤ2さまぁ～ず], num[872
+toppickupname[さんらいず
+], ranking[268], name[ＬＥ－ＣＩＥＬ], num[869
+toppickupname[さんらいず
+], ranking[269], name[MYM318☆彡], num[869
+toppickupname[さんらいず
+], ranking[270], name[ピルクル500], num[869
+toppickupname[さんらいず
+], ranking[271], name[比翼の不死鳥], num[869
+toppickupname[さんらいず
+], ranking[272], name[ゆるくやろう], num[867
+toppickupname[さんらいず
+], ranking[273], name[Fate#Ω#], num[865
+toppickupname[さんらいず
+], ranking[274], name[モモレオ], num[862
+toppickupname[さんらいず
+], ranking[275], name[ex-☆], num[861
+toppickupname[さんらいず
+], ranking[276], name[P-STYLE], num[861
+toppickupname[さんらいず
+], ranking[277], name[ギルドチャンプ], num[860
+toppickupname[さんらいず
+], ranking[278], name[ぷよラテ], num[859
+toppickupname[さんらいず
+], ranking[279], name[ぷよります会], num[859
+toppickupname[さんらいず
+], ranking[280], name[猪突猛進], num[859
+toppickupname[さんらいず
+], ranking[281], name[Sirius], num[859
+toppickupname[さんらいず
+], ranking[282], name[のんびり仲良く], num[858
+toppickupname[さんらいず
+], ranking[283], name[既製ぷよ@隠居], num[858
+toppickupname[さんらいず
+], ranking[284], name[UNICORN], num[856
+toppickupname[さんらいず
+], ranking[285], name[藤原豆腐店], num[855
+toppickupname[さんらいず
+], ranking[286], name[風鈴ちりんΦ彡], num[855
+toppickupname[さんらいず
+], ranking[287], name[ここ(*≧艸≦)], num[854
+toppickupname[さんらいず
+], ranking[288], name[無課金修行部], num[851
+toppickupname[さんらいず
+], ranking[289], name[(_ω)о〇], num[851
+toppickupname[さんらいず
+], ranking[290], name[ミッドガルド], num[851
+toppickupname[さんらいず
+], ranking[291], name[七色きかちゅう], num[850
+toppickupname[さんらいず
+], ranking[292], name[月の雫.。°], num[849
+toppickupname[さんらいず
+], ranking[293], name[☆ＳＴＹ☆], num[849
+toppickupname[さんらいず
+], ranking[294], name[アウトランナーズ], num[848
+toppickupname[さんらいず
+], ranking[295], name[元気ハツラツ！], num[848
+toppickupname[さんらいず
+], ranking[296], name[だいふくギルド], num[846
+toppickupname[さんらいず
+], ranking[297], name[水パ], num[844
+toppickupname[さんらいず
+], ranking[298], name[L_T_E], num[844
+toppickupname[さんらいず
+], ranking[299], name[ねこのうにメロン], num[841
+toppickupname[さんらいず
+], ranking[300], name[錬金術協会], num[840
+toppickupname[さんらいず
+], ranking[301], name[オワニモ時空転移], num[840
+toppickupname[さんらいず
+], ranking[302], name[こんぱいるクラブ], num[839
+toppickupname[さんらいず
+], ranking[303], name[あのぎるど], num[839
+toppickupname[さんらいず
+], ranking[304], name[☆Ｓロード☆], num[839
+toppickupname[さんらいず
+], ranking[305], name[HOKKAIDO], num[838
+toppickupname[さんらいず
+], ranking[306], name[赤い彗星のニャア], num[838
+toppickupname[さんらいず
+], ranking[307], name[文化の森], num[837
+toppickupname[さんらいず
+], ranking[308], name[asoVIVA], num[836
+toppickupname[さんらいず
+], ranking[309], name[秘密のお菓子工房], num[835
+toppickupname[さんらいず
+], ranking[310], name[＊みるふぃーゆ＊], num[831
+toppickupname[さんらいず
+], ranking[311], name[けにくら！], num[831
+toppickupname[さんらいず
+], ranking[312], name[みつばさんち], num[831
+toppickupname[さんらいず
+], ranking[313], name[ルイーダの酒場], num[830
+toppickupname[さんらいず
+], ranking[314], name[ラフィーナ連邦], num[830
+toppickupname[さんらいず
+], ranking[315], name[ちーむ★ぷよ], num[829
+toppickupname[さんらいず
+], ranking[316], name[毎日猫をもふり隊], num[829
+toppickupname[さんらいず
+], ranking[317], name[神聖まけまけ帝国], num[829
+toppickupname[さんらいず
+], ranking[318], name[蒼天ぷよ], num[829
+toppickupname[さんらいず
+], ranking[319], name[青空団♪], num[829
+toppickupname[さんらいず
+], ranking[320], name[★home★], num[827
+toppickupname[さんらいず
+], ranking[321], name[まろん茶], num[824
+toppickupname[さんらいず
+], ranking[322], name[黄色鳥OP大作戦], num[824
+toppickupname[さんらいず
+], ranking[323], name[寝ながら進む。], num[821
+toppickupname[さんらいず
+], ranking[324], name[†Bible†], num[821
+toppickupname[さんらいず
+], ranking[325], name[旅立(^O^)], num[819
+toppickupname[さんらいず
+], ranking[326], name[ドリームポポ♪], num[819
+toppickupname[さんらいず
+], ranking[327], name[ずきゅーん♪], num[817
+toppickupname[さんらいず
+], ranking[328], name[ブラザーフット], num[815
+toppickupname[さんらいず
+], ranking[329], name[七色の愛情], num[814
+toppickupname[嵐山
+], ranking[0], name[Dizzy], num[1600
+toppickupname[嵐山
+], ranking[1], name[Mumin谷], num[1600
+toppickupname[嵐山
+], ranking[2], name[さんらいず], num[1600
+toppickupname[嵐山
+], ranking[3], name[トムソン], num[1570
+toppickupname[嵐山
+], ranking[4], name[嵐山], num[1566
+toppickupname[嵐山
+], ranking[5], name[☆☆ながれ星彡], num[1539
+toppickupname[嵐山
+], ranking[6], name[上位目指す隊], num[1536
+toppickupname[嵐山
+], ranking[7], name[ばよえ～ん。], num[1505
+toppickupname[嵐山
+], ranking[8], name[えすぽらーず], num[1499
+toppickupname[嵐山
+], ranking[9], name[赤い妖精], num[1489
+toppickupname[嵐山
+], ranking[10], name[まるむすてぃーん], num[1486
+toppickupname[嵐山
+], ranking[11], name[早乙女学園], num[1479
+toppickupname[嵐山
+], ranking[12], name[Raffine], num[1449
+toppickupname[嵐山
+], ranking[13], name[さんせっと], num[1449
+toppickupname[嵐山
+], ranking[14], name[谷口ぴーまん], num[1437
+toppickupname[嵐山
+], ranking[15], name[†とわいらいと†], num[1418
+toppickupname[嵐山
+], ranking[16], name[Lipton　], num[1409
+toppickupname[嵐山
+], ranking[17], name[Antenna], num[1400
+toppickupname[嵐山
+], ranking[18], name[RedbuII], num[1399
+toppickupname[嵐山
+], ranking[19], name[カーバンクル], num[1399
+toppickupname[嵐山
+], ranking[20], name[☆命蓮寺☆], num[1399
+toppickupname[嵐山
+], ranking[21], name[ぴんぽーん], num[1392
+toppickupname[嵐山
+], ranking[22], name[プリンシパル☆彡], num[1370
+toppickupname[嵐山
+], ranking[23], name[いちごぷよ隊], num[1367
+toppickupname[嵐山
+], ranking[24], name[LovE], num[1362
+toppickupname[嵐山
+], ranking[25], name[賢者モード], num[1354
+toppickupname[嵐山
+], ranking[26], name[ねこたらんど], num[1349
+toppickupname[嵐山
+], ranking[27], name[とれっきんぐ], num[1349
+toppickupname[嵐山
+], ranking[28], name[ファンタビーチ], num[1349
+toppickupname[嵐山
+], ranking[29], name[やわらかギルド], num[1335
+toppickupname[嵐山
+], ranking[30], name[だららんゴロゴロ], num[1332
+toppickupname[嵐山
+], ranking[31], name[ねこずき], num[1331
+toppickupname[嵐山
+], ranking[32], name[同じ穴のぷよら～], num[1326
+toppickupname[嵐山
+], ranking[33], name[ももにち！], num[1321
+toppickupname[嵐山
+], ranking[34], name[★愉快な仲間達☆], num[1318
+toppickupname[嵐山
+], ranking[35], name[からあげ流星群], num[1317
+toppickupname[嵐山
+], ranking[36], name[かもみ～るかふぇ], num[1314
+toppickupname[嵐山
+], ranking[37], name[Ｃlair], num[1311
+toppickupname[嵐山
+], ranking[38], name[にないか], num[1299
+toppickupname[嵐山
+], ranking[39], name[Lαviｎ'υ], num[1293
+toppickupname[嵐山
+], ranking[40], name[ＢＢ団], num[1278
+toppickupname[嵐山
+], ranking[41], name[ぷよビ～ッチ☆], num[1277
+toppickupname[嵐山
+], ranking[42], name[ぷよクエ楽しみ隊], num[1270
+toppickupname[嵐山
+], ranking[43], name[Buzz], num[1265
+toppickupname[嵐山
+], ranking[44], name[★エーミール★], num[1259
+toppickupname[嵐山
+], ranking[45], name[Luxillia], num[1259
+toppickupname[嵐山
+], ranking[46], name[果物の缶詰], num[1249
+toppickupname[嵐山
+], ranking[47], name[にゃ～んだふる♪], num[1249
+toppickupname[嵐山
+], ranking[48], name[無課金こそ愉悦!], num[1249
+toppickupname[嵐山
+], ranking[49], name[かわいいはせいぎ], num[1247
+toppickupname[嵐山
+], ranking[50], name[Law@], num[1239
+toppickupname[嵐山
+], ranking[51], name[BestLuck], num[1239
+toppickupname[嵐山
+], ranking[52], name[ぐみぷよ], num[1234
+toppickupname[嵐山
+], ranking[53], name[ねこぽよ軍], num[1232
+toppickupname[嵐山
+], ranking[54], name[無KG板ギルド], num[1227
+toppickupname[嵐山
+], ranking[55], name[ぷよクエRUSH], num[1225
+toppickupname[嵐山
+], ranking[56], name[ももピーチ帝国], num[1222
+toppickupname[嵐山
+], ranking[57], name[淡麗生!!], num[1222
+toppickupname[嵐山
+], ranking[58], name[遊戯都市第七地区], num[1217
+toppickupname[嵐山
+], ranking[59], name[コスモツリー], num[1215
+toppickupname[嵐山
+], ranking[60], name[ぷよろう会], num[1214
+toppickupname[嵐山
+], ranking[61], name[チームかつをぶし], num[1211
+toppickupname[嵐山
+], ranking[62], name[うさぎの巣_], num[1209
+toppickupname[嵐山
+], ranking[63], name[お笑い研究亭], num[1208
+toppickupname[嵐山
+], ranking[64], name[ちょびぎるど], num[1199
+toppickupname[嵐山
+], ranking[65], name[チームさかな], num[1199
+toppickupname[嵐山
+], ranking[66], name[☆ネコカフェ☆], num[1184
+toppickupname[嵐山
+], ranking[67], name[V.I.P.], num[1183
+toppickupname[嵐山
+], ranking[68], name[ブルーウィング], num[1179
+toppickupname[嵐山
+], ranking[69], name[陽だまりのねこ], num[1179
+toppickupname[嵐山
+], ranking[70], name[手製ぷよ], num[1175
+toppickupname[嵐山
+], ranking[71], name[みなとみらい], num[1171
+toppickupname[嵐山
+], ranking[72], name[パンダ百匹！！！], num[1171
+toppickupname[嵐山
+], ranking[73], name[_かおりワールド], num[1168
+toppickupname[嵐山
+], ranking[74], name[コンパイルクラブ], num[1168
+toppickupname[嵐山
+], ranking[75], name[トウーンタウン], num[1165
+toppickupname[嵐山
+], ranking[76], name[怪盗スケルトン], num[1165
+toppickupname[嵐山
+], ranking[77], name[ラフィ亭], num[1162
+toppickupname[嵐山
+], ranking[78], name[Agile], num[1159
+toppickupname[嵐山
+], ranking[79], name[ウィッチ魔法学院], num[1157
+toppickupname[嵐山
+], ranking[80], name[2chスレギルド], num[1152
+toppickupname[嵐山
+], ranking[81], name[Ｋ２], num[1149
+toppickupname[嵐山
+], ranking[82], name[一生を寝てい隊], num[1149
+toppickupname[嵐山
+], ranking[83], name[おこたでアイス], num[1145
+toppickupname[嵐山
+], ranking[84], name[サークルフォイ], num[1142
+toppickupname[嵐山
+], ranking[85], name[CMB], num[1139
+toppickupname[嵐山
+], ranking[86], name[あるぱっか牧場], num[1137
+toppickupname[嵐山
+], ranking[87], name[たいようのほこら], num[1136
+toppickupname[嵐山
+], ranking[88], name[_KoB_], num[1132
+toppickupname[嵐山
+], ranking[89], name[みんなでぷよぷよ], num[1129
+toppickupname[嵐山
+], ranking[90], name[風来のぷよ使い], num[1126
+toppickupname[嵐山
+], ranking[91], name[もち猫カルテット], num[1125
+toppickupname[嵐山
+], ranking[92], name[六猫おーき軍], num[1124
+toppickupname[嵐山
+], ranking[93], name[ぷよりすと♪], num[1124
+toppickupname[嵐山
+], ranking[94], name[早起は三文SSS], num[1121
+toppickupname[嵐山
+], ranking[95], name[すたんどあっぷ], num[1119
+toppickupname[嵐山
+], ranking[96], name[マミーポコ♪], num[1119
+toppickupname[嵐山
+], ranking[97], name[セカハナの卵], num[1114
+toppickupname[嵐山
+], ranking[98], name[しーこ], num[1112
+toppickupname[嵐山
+], ranking[99], name[SPIRAL★彡], num[1109
+toppickupname[嵐山
+], ranking[100], name[運命石の扉], num[1099
+toppickupname[嵐山
+], ranking[101], name[プヨクエ海賊団], num[1099
+toppickupname[嵐山
+], ranking[102], name[あわわっ子], num[1099
+toppickupname[嵐山
+], ranking[103], name[佐久間上水], num[1099
+toppickupname[嵐山
+], ranking[104], name[ぷよよん同盟], num[1077
+toppickupname[嵐山
+], ranking[105], name[猫好き仙人界], num[1074
+toppickupname[嵐山
+], ranking[106], name[かーくんギルド], num[1073
+toppickupname[嵐山
+], ranking[107], name[パーミテーション], num[1071
+toppickupname[嵐山
+], ranking[108], name[will], num[1069
+toppickupname[嵐山
+], ranking[109], name[☆りぼーん☆], num[1064
+toppickupname[嵐山
+], ranking[110], name[ジュビレーション], num[1064
+toppickupname[嵐山
+], ranking[111], name[アクアベール], num[1063
+toppickupname[嵐山
+], ranking[112], name[でぃあれすと], num[1061
+toppickupname[嵐山
+], ranking[113], name[地獄の3丁目], num[1059
+toppickupname[嵐山
+], ranking[114], name[レベルアーップ！], num[1059
+toppickupname[嵐山
+], ranking[115], name[ひろす], num[1059
+toppickupname[嵐山
+], ranking[116], name[Tぷよ軍団], num[1059
+toppickupname[嵐山
+], ranking[117], name[楽しく遊ぶ団], num[1054
+toppickupname[嵐山
+], ranking[118], name[シルバーシープ], num[1054
+toppickupname[嵐山
+], ranking[119], name[☆月のうさぎ☆], num[1053
+toppickupname[嵐山
+], ranking[120], name[じゅげむ♪♪], num[1053
+toppickupname[嵐山
+], ranking[121], name[いえろ～こんび♪], num[1051
+toppickupname[嵐山
+], ranking[122], name[もんげ～_＞ω＜], num[1051
+toppickupname[嵐山
+], ranking[123], name[Rash☆TM], num[1051
+toppickupname[嵐山
+], ranking[124], name[TEREON's], num[1049
+toppickupname[嵐山
+], ranking[125], name[†魔導学校†], num[1049
+toppickupname[嵐山
+], ranking[126], name[nOa], num[1049
+toppickupname[嵐山
+], ranking[127], name[進撃の無課金兵団], num[1048
+toppickupname[嵐山
+], ranking[128], name[宮崎藩], num[1047
+toppickupname[嵐山
+], ranking[129], name[にくきゅう], num[1044
+toppickupname[嵐山
+], ranking[130], name[COLORS＊*], num[1040
+toppickupname[嵐山
+], ranking[131], name[Promis], num[1039
+toppickupname[嵐山
+], ranking[132], name[ももぐみ], num[1039
+toppickupname[嵐山
+], ranking[133], name[上弦の月], num[1039
+toppickupname[嵐山
+], ranking[134], name[にゃまにゃま], num[1035
+toppickupname[嵐山
+], ranking[135], name[まったり勢。], num[1034
+toppickupname[嵐山
+], ranking[136], name[ΑLL_FREE], num[1031
+toppickupname[嵐山
+], ranking[137], name[flower], num[1030
+toppickupname[嵐山
+], ranking[138], name[LVE], num[1029
+toppickupname[嵐山
+], ranking[139], name[絆KIZUNA], num[1025
+toppickupname[嵐山
+], ranking[140], name[いちにさん], num[1025
+toppickupname[嵐山
+], ranking[141], name[たけのこ派！], num[1020
+toppickupname[嵐山
+], ranking[142], name[みなみけ], num[1012
+toppickupname[嵐山
+], ranking[143], name[アンシェル], num[1011
+toppickupname[嵐山
+], ranking[144], name[ぷよよよよよん], num[1010
+toppickupname[嵐山
+], ranking[145], name[JINN’], num[1009
+toppickupname[嵐山
+], ranking[146], name[りらっくすたいむ], num[1006
+toppickupname[嵐山
+], ranking[147], name[まったりにゃーん], num[1005
+toppickupname[嵐山
+], ranking[148], name[ぼっち魔導師っ！], num[1005
+toppickupname[嵐山
+], ranking[149], name[☆ぷよザイル☆], num[1002
+toppickupname[嵐山
+], ranking[150], name[おいしいみかん], num[1001
+toppickupname[嵐山
+], ranking[151], name[ぷよっとパニック], num[999
+toppickupname[嵐山
+], ranking[152], name[JanneABC], num[999
+toppickupname[嵐山
+], ranking[153], name[お腹@ばよ～支店], num[999
+toppickupname[嵐山
+], ranking[154], name[ナノクローム], num[999
+toppickupname[嵐山
+], ranking[155], name[魔神宮], num[998
+toppickupname[嵐山
+], ranking[156], name[Blackチョコ], num[996
+toppickupname[嵐山
+], ranking[157], name[_ほうきぼし], num[993
+toppickupname[嵐山
+], ranking[158], name[きまぐれいやー], num[993
+toppickupname[嵐山
+], ranking[159], name[あおいの御紋], num[990
+toppickupname[嵐山
+], ranking[160], name[月蝕雑技団], num[990
+toppickupname[嵐山
+], ranking[161], name[コンパイル懐古会], num[990
+toppickupname[嵐山
+], ranking[162], name[レプレ], num[989
+toppickupname[嵐山
+], ranking[163], name[ほんわかたつむり], num[988
+toppickupname[嵐山
+], ranking[164], name[Gunners!], num[986
+toppickupname[嵐山
+], ranking[165], name[ΣΘ)β47羽], num[984
+toppickupname[嵐山
+], ranking[166], name[かーにばる☆彡], num[984
+toppickupname[嵐山
+], ranking[167], name[クンパルシータ], num[984
+toppickupname[嵐山
+], ranking[168], name[ぷよりんず], num[981
+toppickupname[嵐山
+], ranking[169], name[むかきんぐだーむ], num[981
+toppickupname[嵐山
+], ranking[170], name[猫娘。亭], num[979
+toppickupname[嵐山
+], ranking[171], name[チームハマー], num[978
+toppickupname[嵐山
+], ranking[172], name[輝きみーつぉー], num[978
+toppickupname[嵐山
+], ranking[173], name[チビコロ☆], num[977
+toppickupname[嵐山
+], ranking[174], name[のんびり☆きまま], num[977
+toppickupname[嵐山
+], ranking[175], name[こでまりテラス], num[974
+toppickupname[嵐山
+], ranking[176], name[ArcadiA], num[972
+toppickupname[嵐山
+], ranking[177], name[にわかあめ], num[971
+toppickupname[嵐山
+], ranking[178], name[しろくまっ☆], num[967
+toppickupname[嵐山
+], ranking[179], name[スナ], num[965
+toppickupname[嵐山
+], ranking[180], name[エリザベート21], num[964
+toppickupname[嵐山
+], ranking[181], name[ルーエンハイム], num[962
+toppickupname[嵐山
+], ranking[182], name[全開タコ殴り], num[960
+toppickupname[嵐山
+], ranking[183], name[連鎖反応☆NEO], num[959
+toppickupname[嵐山
+], ranking[184], name[aLLLight], num[959
+toppickupname[嵐山
+], ranking[185], name[J&G], num[959
+toppickupname[嵐山
+], ranking[186], name[ウィッチ様FC], num[959
+toppickupname[嵐山
+], ranking[187], name[毎度おおきに！], num[958
+toppickupname[嵐山
+], ranking[188], name[Phoenix☆], num[957
+toppickupname[嵐山
+], ranking[189], name[北の大地☆人情派], num[956
+toppickupname[嵐山
+], ranking[190], name[カラマギア], num[955
+toppickupname[嵐山
+], ranking[191], name[エランド], num[955
+toppickupname[嵐山
+], ranking[192], name[自由空間五色の館], num[954
+toppickupname[嵐山
+], ranking[193], name[全力マッタリーナ], num[953
+toppickupname[嵐山
+], ranking[194], name[ぷよぷよ艦隊], num[946
+toppickupname[嵐山
+], ranking[195], name[あひるたぃちょ組], num[941
+toppickupname[嵐山
+], ranking[196], name[ぱお～ん！！], num[940
+toppickupname[嵐山
+], ranking[197], name[楽ぷよＣＬＵＢ], num[939
+toppickupname[嵐山
+], ranking[198], name[気ままに組], num[937
+toppickupname[嵐山
+], ranking[199], name[しろぷよ♪], num[935
+toppickupname[嵐山
+], ranking[200], name[ゼロ鎮魂歌], num[931
+toppickupname[嵐山
+], ranking[201], name[ガンバ祝SS♪], num[931
+toppickupname[嵐山
+], ranking[202], name[マリンバトル], num[930
+toppickupname[嵐山
+], ranking[203], name[Pu---Yo], num[929
+toppickupname[嵐山
+], ranking[204], name[チームやどかり], num[929
+toppickupname[嵐山
+], ranking[205], name[WeLOVEぷよ], num[929
+toppickupname[嵐山
+], ranking[206], name[レッツモーフィン], num[929
+toppickupname[嵐山
+], ranking[207], name[ぬゅるす], num[929
+toppickupname[嵐山
+], ranking[208], name[ぷにょぷにん], num[929
+toppickupname[嵐山
+], ranking[209], name[らららコッペパン], num[929
+toppickupname[嵐山
+], ranking[210], name[のんびりギル], num[928
+toppickupname[嵐山
+], ranking[211], name[月の光　∮], num[927
+toppickupname[嵐山
+], ranking[212], name[Ragnark], num[927
+toppickupname[嵐山
+], ranking[213], name[グラン・シャリオ], num[927
+toppickupname[嵐山
+], ranking[214], name[～のんびり隠居～], num[926
+toppickupname[嵐山
+], ranking[215], name[Liberty☆], num[923
+toppickupname[嵐山
+], ranking[216], name[∞ぷるんちょ∞], num[922
+toppickupname[嵐山
+], ranking[217], name[わんうぇいあっぷ], num[920
+toppickupname[嵐山
+], ranking[218], name[花橘], num[918
+toppickupname[嵐山
+], ranking[219], name[アオハライド☆彡], num[916
+toppickupname[嵐山
+], ranking[220], name[ぷ(♪-∀-)よ], num[913
+toppickupname[嵐山
+], ranking[221], name[Clock], num[913
+toppickupname[嵐山
+], ranking[222], name[ぷにっぷに～！], num[911
+toppickupname[嵐山
+], ranking[223], name[ふぇんりる], num[911
+toppickupname[嵐山
+], ranking[224], name[melody], num[911
+toppickupname[嵐山
+], ranking[225], name[みすてりあす。], num[911
+toppickupname[嵐山
+], ranking[226], name[_☆きずな☆], num[909
+toppickupname[嵐山
+], ranking[227], name[脳みそコネコネ], num[907
+toppickupname[嵐山
+], ranking[228], name[★リトルスター★], num[907
+toppickupname[嵐山
+], ranking[229], name[goro's], num[906
+toppickupname[嵐山
+], ranking[230], name[ぷよぷよTime], num[904
+toppickupname[嵐山
+], ranking[231], name[KMコミュニティ], num[904
+toppickupname[嵐山
+], ranking[232], name[凱歌ノ記憶], num[904
+toppickupname[嵐山
+], ranking[233], name[鎌倉幕府], num[904
+toppickupname[嵐山
+], ranking[234], name[きずなタワー], num[903
+toppickupname[嵐山
+], ranking[235], name[美味しい紅茶の泉], num[901
+toppickupname[嵐山
+], ranking[236], name[カラフル], num[901
+toppickupname[嵐山
+], ranking[237], name[参加は自由でした], num[900
+toppickupname[嵐山
+], ranking[238], name[ダムダムブルー], num[900
+toppickupname[嵐山
+], ranking[239], name[黝ぷよ騎士団], num[899
+toppickupname[嵐山
+], ranking[240], name[虹-niji-], num[899
+toppickupname[嵐山
+], ranking[241], name[ゴルゴ11], num[899
+toppickupname[嵐山
+], ranking[242], name[まちょー], num[899
+toppickupname[嵐山
+], ranking[243], name[bookworm], num[899
+toppickupname[嵐山
+], ranking[244], name[ぽすてりざん], num[899
+toppickupname[嵐山
+], ranking[245], name[ピタゴラスイッチ], num[899
+toppickupname[嵐山
+], ranking[246], name[めろんぱんず], num[895
+toppickupname[嵐山
+], ranking[247], name[真☆碧茶], num[894
+toppickupname[嵐山
+], ranking[248], name[きなこもち＊], num[893
+toppickupname[嵐山
+], ranking[249], name[スイ－トヨコヅナ], num[891
+toppickupname[嵐山
+], ranking[250], name[_], num[889
+toppickupname[嵐山
+], ranking[251], name[ウォッカコーヒー], num[889
+toppickupname[嵐山
+], ranking[252], name[おのゴリちゃん], num[887
+toppickupname[嵐山
+], ranking[253], name[☆], num[887
+toppickupname[嵐山
+], ranking[254], name[_Nadja], num[886
+toppickupname[嵐山
+], ranking[255], name[おいもいも], num[884
+toppickupname[嵐山
+], ranking[256], name[働くおじさん], num[882
+toppickupname[嵐山
+], ranking[257], name[joyfull☆], num[881
+toppickupname[嵐山
+], ranking[258], name[チームお代官様], num[880
+toppickupname[嵐山
+], ranking[259], name[水守革命], num[879
+toppickupname[嵐山
+], ranking[260], name[ポレポレ村夢番地], num[879
+toppickupname[嵐山
+], ranking[261], name[みるふぃーゆ♪], num[876
+toppickupname[嵐山
+], ranking[262], name[ふぁくとり～♪], num[876
+toppickupname[嵐山
+], ranking[263], name[会話なしギルド], num[874
+toppickupname[嵐山
+], ranking[264], name[アシュブロ☆], num[874
+toppickupname[嵐山
+], ranking[265], name[超初心者ポコリン], num[873
+toppickupname[嵐山
+], ranking[266], name[オールフォーワン], num[872
+toppickupname[嵐山
+], ranking[267], name[モヤ2さまぁ～ず], num[872
+toppickupname[嵐山
+], ranking[268], name[ＬＥ－ＣＩＥＬ], num[869
+toppickupname[嵐山
+], ranking[269], name[MYM318☆彡], num[869
+toppickupname[嵐山
+], ranking[270], name[ピルクル500], num[869
+toppickupname[嵐山
+], ranking[271], name[比翼の不死鳥], num[869
+toppickupname[嵐山
+], ranking[272], name[ゆるくやろう], num[867
+toppickupname[嵐山
+], ranking[273], name[Fate#Ω#], num[865
+toppickupname[嵐山
+], ranking[274], name[モモレオ], num[862
+toppickupname[嵐山
+], ranking[275], name[ex-☆], num[861
+toppickupname[嵐山
+], ranking[276], name[P-STYLE], num[861
+toppickupname[嵐山
+], ranking[277], name[ギルドチャンプ], num[860
+toppickupname[嵐山
+], ranking[278], name[ぷよラテ], num[859
+toppickupname[嵐山
+], ranking[279], name[ぷよります会], num[859
+toppickupname[嵐山
+], ranking[280], name[猪突猛進], num[859
+toppickupname[嵐山
+], ranking[281], name[Sirius], num[859
+toppickupname[嵐山
+], ranking[282], name[のんびり仲良く], num[858
+toppickupname[嵐山
+], ranking[283], name[既製ぷよ@隠居], num[858
+toppickupname[嵐山
+], ranking[284], name[UNICORN], num[856
+toppickupname[嵐山
+], ranking[285], name[藤原豆腐店], num[855
+toppickupname[嵐山
+], ranking[286], name[風鈴ちりんΦ彡], num[855
+toppickupname[嵐山
+], ranking[287], name[ここ(*≧艸≦)], num[854
+toppickupname[嵐山
+], ranking[288], name[無課金修行部], num[851
+toppickupname[嵐山
+], ranking[289], name[(_ω)о〇], num[851
+toppickupname[嵐山
+], ranking[290], name[ミッドガルド], num[851
+toppickupname[嵐山
+], ranking[291], name[七色きかちゅう], num[850
+toppickupname[嵐山
+], ranking[292], name[月の雫.。°], num[849
+toppickupname[嵐山
+], ranking[293], name[☆ＳＴＹ☆], num[849
+toppickupname[嵐山
+], ranking[294], name[アウトランナーズ], num[848
+toppickupname[嵐山
+], ranking[295], name[元気ハツラツ！], num[848
+toppickupname[嵐山
+], ranking[296], name[だいふくギルド], num[846
+toppickupname[嵐山
+], ranking[297], name[水パ], num[844
+toppickupname[嵐山
+], ranking[298], name[L_T_E], num[844
+toppickupname[嵐山
+], ranking[299], name[ねこのうにメロン], num[841
+toppickupname[嵐山
+], ranking[300], name[錬金術協会], num[840
+toppickupname[嵐山
+], ranking[301], name[オワニモ時空転移], num[840
+toppickupname[嵐山
+], ranking[302], name[こんぱいるクラブ], num[839
+toppickupname[嵐山
+], ranking[303], name[あのぎるど], num[839
+toppickupname[嵐山
+], ranking[304], name[☆Ｓロード☆], num[839
+toppickupname[嵐山
+], ranking[305], name[HOKKAIDO], num[838
+toppickupname[嵐山
+], ranking[306], name[赤い彗星のニャア], num[838
+toppickupname[嵐山
+], ranking[307], name[文化の森], num[837
+toppickupname[嵐山
+], ranking[308], name[asoVIVA], num[836
+toppickupname[嵐山
+], ranking[309], name[秘密のお菓子工房], num[835
+toppickupname[嵐山
+], ranking[310], name[＊みるふぃーゆ＊], num[831
+toppickupname[嵐山
+], ranking[311], name[けにくら！], num[831
+toppickupname[嵐山
+], ranking[312], name[みつばさんち], num[831
+toppickupname[嵐山
+], ranking[313], name[ルイーダの酒場], num[830
+toppickupname[嵐山
+], ranking[314], name[ラフィーナ連邦], num[830
+toppickupname[嵐山
+], ranking[315], name[ちーむ★ぷよ], num[829
+toppickupname[嵐山
+], ranking[316], name[毎日猫をもふり隊], num[829
+toppickupname[嵐山
+], ranking[317], name[神聖まけまけ帝国], num[829
+toppickupname[嵐山
+], ranking[318], name[蒼天ぷよ], num[829
+toppickupname[嵐山
+], ranking[319], name[青空団♪], num[829
+toppickupname[嵐山
+], ranking[320], name[★home★], num[827
+toppickupname[嵐山
+], ranking[321], name[まろん茶], num[824
+toppickupname[嵐山
+], ranking[322], name[黄色鳥OP大作戦], num[824
+toppickupname[嵐山
+], ranking[323], name[寝ながら進む。], num[821
+toppickupname[嵐山
+], ranking[324], name[†Bible†], num[821
+toppickupname[嵐山
+], ranking[325], name[旅立(^O^)], num[819
+toppickupname[嵐山
+], ranking[326], name[ドリームポポ♪], num[819
+toppickupname[嵐山
+], ranking[327], name[ずきゅーん♪], num[817
+toppickupname[嵐山
+], ranking[328], name[ブラザーフット], num[815
+toppickupname[嵐山
+], ranking[329], name[七色の愛情], num[814
+toppickupname[トムソン
+], ranking[0], name[Dizzy], num[1600
+toppickupname[トムソン
+], ranking[1], name[Mumin谷], num[1600
+toppickupname[トムソン
+], ranking[2], name[さんらいず], num[1600
+toppickupname[トムソン
+], ranking[3], name[トムソン], num[1570
+toppickupname[トムソン
+], ranking[4], name[嵐山], num[1566
+toppickupname[トムソン
+], ranking[5], name[☆☆ながれ星彡], num[1539
+toppickupname[トムソン
+], ranking[6], name[上位目指す隊], num[1536
+toppickupname[トムソン
+], ranking[7], name[ばよえ～ん。], num[1505
+toppickupname[トムソン
+], ranking[8], name[えすぽらーず], num[1499
+toppickupname[トムソン
+], ranking[9], name[赤い妖精], num[1489
+toppickupname[トムソン
+], ranking[10], name[まるむすてぃーん], num[1486
+toppickupname[トムソン
+], ranking[11], name[早乙女学園], num[1479
+toppickupname[トムソン
+], ranking[12], name[Raffine], num[1449
+toppickupname[トムソン
+], ranking[13], name[さんせっと], num[1449
+toppickupname[トムソン
+], ranking[14], name[谷口ぴーまん], num[1437
+toppickupname[トムソン
+], ranking[15], name[†とわいらいと†], num[1418
+toppickupname[トムソン
+], ranking[16], name[Lipton　], num[1409
+toppickupname[トムソン
+], ranking[17], name[Antenna], num[1400
+toppickupname[トムソン
+], ranking[18], name[RedbuII], num[1399
+toppickupname[トムソン
+], ranking[19], name[カーバンクル], num[1399
+toppickupname[トムソン
+], ranking[20], name[☆命蓮寺☆], num[1399
+toppickupname[トムソン
+], ranking[21], name[ぴんぽーん], num[1392
+toppickupname[トムソン
+], ranking[22], name[プリンシパル☆彡], num[1370
+toppickupname[トムソン
+], ranking[23], name[いちごぷよ隊], num[1367
+toppickupname[トムソン
+], ranking[24], name[LovE], num[1362
+toppickupname[トムソン
+], ranking[25], name[賢者モード], num[1354
+toppickupname[トムソン
+], ranking[26], name[ねこたらんど], num[1349
+toppickupname[トムソン
+], ranking[27], name[とれっきんぐ], num[1349
+toppickupname[トムソン
+], ranking[28], name[ファンタビーチ], num[1349
+toppickupname[トムソン
+], ranking[29], name[やわらかギルド], num[1335
+toppickupname[トムソン
+], ranking[30], name[だららんゴロゴロ], num[1332
+toppickupname[トムソン
+], ranking[31], name[ねこずき], num[1331
+toppickupname[トムソン
+], ranking[32], name[同じ穴のぷよら～], num[1326
+toppickupname[トムソン
+], ranking[33], name[ももにち！], num[1321
+toppickupname[トムソン
+], ranking[34], name[★愉快な仲間達☆], num[1318
+toppickupname[トムソン
+], ranking[35], name[からあげ流星群], num[1317
+toppickupname[トムソン
+], ranking[36], name[かもみ～るかふぇ], num[1314
+toppickupname[トムソン
+], ranking[37], name[Ｃlair], num[1311
+toppickupname[トムソン
+], ranking[38], name[にないか], num[1299
+toppickupname[トムソン
+], ranking[39], name[Lαviｎ'υ], num[1293
+toppickupname[トムソン
+], ranking[40], name[ＢＢ団], num[1278
+toppickupname[トムソン
+], ranking[41], name[ぷよビ～ッチ☆], num[1277
+toppickupname[トムソン
+], ranking[42], name[ぷよクエ楽しみ隊], num[1270
+toppickupname[トムソン
+], ranking[43], name[Buzz], num[1265
+toppickupname[トムソン
+], ranking[44], name[★エーミール★], num[1259
+toppickupname[トムソン
+], ranking[45], name[Luxillia], num[1259
+toppickupname[トムソン
+], ranking[46], name[果物の缶詰], num[1249
+toppickupname[トムソン
+], ranking[47], name[にゃ～んだふる♪], num[1249
+toppickupname[トムソン
+], ranking[48], name[無課金こそ愉悦!], num[1249
+toppickupname[トムソン
+], ranking[49], name[かわいいはせいぎ], num[1247
+toppickupname[トムソン
+], ranking[50], name[Law@], num[1239
+toppickupname[トムソン
+], ranking[51], name[BestLuck], num[1239
+toppickupname[トムソン
+], ranking[52], name[ぐみぷよ], num[1234
+toppickupname[トムソン
+], ranking[53], name[ねこぽよ軍], num[1232
+toppickupname[トムソン
+], ranking[54], name[無KG板ギルド], num[1227
+toppickupname[トムソン
+], ranking[55], name[ぷよクエRUSH], num[1225
+toppickupname[トムソン
+], ranking[56], name[ももピーチ帝国], num[1222
+toppickupname[トムソン
+], ranking[57], name[淡麗生!!], num[1222
+toppickupname[トムソン
+], ranking[58], name[遊戯都市第七地区], num[1217
+toppickupname[トムソン
+], ranking[59], name[コスモツリー], num[1215
+toppickupname[トムソン
+], ranking[60], name[ぷよろう会], num[1214
+toppickupname[トムソン
+], ranking[61], name[チームかつをぶし], num[1211
+toppickupname[トムソン
+], ranking[62], name[うさぎの巣_], num[1209
+toppickupname[トムソン
+], ranking[63], name[お笑い研究亭], num[1208
+toppickupname[トムソン
+], ranking[64], name[ちょびぎるど], num[1199
+toppickupname[トムソン
+], ranking[65], name[チームさかな], num[1199
+toppickupname[トムソン
+], ranking[66], name[☆ネコカフェ☆], num[1184
+toppickupname[トムソン
+], ranking[67], name[V.I.P.], num[1183
+toppickupname[トムソン
+], ranking[68], name[ブルーウィング], num[1179
+toppickupname[トムソン
+], ranking[69], name[陽だまりのねこ], num[1179
+toppickupname[トムソン
+], ranking[70], name[手製ぷよ], num[1175
+toppickupname[トムソン
+], ranking[71], name[みなとみらい], num[1171
+toppickupname[トムソン
+], ranking[72], name[パンダ百匹！！！], num[1171
+toppickupname[トムソン
+], ranking[73], name[_かおりワールド], num[1168
+toppickupname[トムソン
+], ranking[74], name[コンパイルクラブ], num[1168
+toppickupname[トムソン
+], ranking[75], name[トウーンタウン], num[1165
+toppickupname[トムソン
+], ranking[76], name[怪盗スケルトン], num[1165
+toppickupname[トムソン
+], ranking[77], name[ラフィ亭], num[1162
+toppickupname[トムソン
+], ranking[78], name[Agile], num[1159
+toppickupname[トムソン
+], ranking[79], name[ウィッチ魔法学院], num[1157
+toppickupname[トムソン
+], ranking[80], name[2chスレギルド], num[1152
+toppickupname[トムソン
+], ranking[81], name[Ｋ２], num[1149
+toppickupname[トムソン
+], ranking[82], name[一生を寝てい隊], num[1149
+toppickupname[トムソン
+], ranking[83], name[おこたでアイス], num[1145
+toppickupname[トムソン
+], ranking[84], name[サークルフォイ], num[1142
+toppickupname[トムソン
+], ranking[85], name[CMB], num[1139
+toppickupname[トムソン
+], ranking[86], name[あるぱっか牧場], num[1137
+toppickupname[トムソン
+], ranking[87], name[たいようのほこら], num[1136
+toppickupname[トムソン
+], ranking[88], name[_KoB_], num[1132
+toppickupname[トムソン
+], ranking[89], name[みんなでぷよぷよ], num[1129
+toppickupname[トムソン
+], ranking[90], name[風来のぷよ使い], num[1126
+toppickupname[トムソン
+], ranking[91], name[もち猫カルテット], num[1125
+toppickupname[トムソン
+], ranking[92], name[六猫おーき軍], num[1124
+toppickupname[トムソン
+], ranking[93], name[ぷよりすと♪], num[1124
+toppickupname[トムソン
+], ranking[94], name[早起は三文SSS], num[1121
+toppickupname[トムソン
+], ranking[95], name[すたんどあっぷ], num[1119
+toppickupname[トムソン
+], ranking[96], name[マミーポコ♪], num[1119
+toppickupname[トムソン
+], ranking[97], name[セカハナの卵], num[1114
+toppickupname[トムソン
+], ranking[98], name[しーこ], num[1112
+toppickupname[トムソン
+], ranking[99], name[SPIRAL★彡], num[1109
+toppickupname[トムソン
+], ranking[100], name[運命石の扉], num[1099
+toppickupname[トムソン
+], ranking[101], name[プヨクエ海賊団], num[1099
+toppickupname[トムソン
+], ranking[102], name[あわわっ子], num[1099
+toppickupname[トムソン
+], ranking[103], name[佐久間上水], num[1099
+toppickupname[トムソン
+], ranking[104], name[ぷよよん同盟], num[1077
+toppickupname[トムソン
+], ranking[105], name[猫好き仙人界], num[1074
+toppickupname[トムソン
+], ranking[106], name[かーくんギルド], num[1073
+toppickupname[トムソン
+], ranking[107], name[パーミテーション], num[1071
+toppickupname[トムソン
+], ranking[108], name[will], num[1069
+toppickupname[トムソン
+], ranking[109], name[☆りぼーん☆], num[1064
+toppickupname[トムソン
+], ranking[110], name[ジュビレーション], num[1064
+toppickupname[トムソン
+], ranking[111], name[アクアベール], num[1063
+toppickupname[トムソン
+], ranking[112], name[でぃあれすと], num[1061
+toppickupname[トムソン
+], ranking[113], name[地獄の3丁目], num[1059
+toppickupname[トムソン
+], ranking[114], name[レベルアーップ！], num[1059
+toppickupname[トムソン
+], ranking[115], name[ひろす], num[1059
+toppickupname[トムソン
+], ranking[116], name[Tぷよ軍団], num[1059
+toppickupname[トムソン
+], ranking[117], name[楽しく遊ぶ団], num[1054
+toppickupname[トムソン
+], ranking[118], name[シルバーシープ], num[1054
+toppickupname[トムソン
+], ranking[119], name[☆月のうさぎ☆], num[1053
+toppickupname[トムソン
+], ranking[120], name[じゅげむ♪♪], num[1053
+toppickupname[トムソン
+], ranking[121], name[いえろ～こんび♪], num[1051
+toppickupname[トムソン
+], ranking[122], name[もんげ～_＞ω＜], num[1051
+toppickupname[トムソン
+], ranking[123], name[Rash☆TM], num[1051
+toppickupname[トムソン
+], ranking[124], name[TEREON's], num[1049
+toppickupname[トムソン
+], ranking[125], name[†魔導学校†], num[1049
+toppickupname[トムソン
+], ranking[126], name[nOa], num[1049
+toppickupname[トムソン
+], ranking[127], name[進撃の無課金兵団], num[1048
+toppickupname[トムソン
+], ranking[128], name[宮崎藩], num[1047
+toppickupname[トムソン
+], ranking[129], name[にくきゅう], num[1044
+toppickupname[トムソン
+], ranking[130], name[COLORS＊*], num[1040
+toppickupname[トムソン
+], ranking[131], name[Promis], num[1039
+toppickupname[トムソン
+], ranking[132], name[ももぐみ], num[1039
+toppickupname[トムソン
+], ranking[133], name[上弦の月], num[1039
+toppickupname[トムソン
+], ranking[134], name[にゃまにゃま], num[1035
+toppickupname[トムソン
+], ranking[135], name[まったり勢。], num[1034
+toppickupname[トムソン
+], ranking[136], name[ΑLL_FREE], num[1031
+toppickupname[トムソン
+], ranking[137], name[flower], num[1030
+toppickupname[トムソン
+], ranking[138], name[LVE], num[1029
+toppickupname[トムソン
+], ranking[139], name[絆KIZUNA], num[1025
+toppickupname[トムソン
+], ranking[140], name[いちにさん], num[1025
+toppickupname[トムソン
+], ranking[141], name[たけのこ派！], num[1020
+toppickupname[トムソン
+], ranking[142], name[みなみけ], num[1012
+toppickupname[トムソン
+], ranking[143], name[アンシェル], num[1011
+toppickupname[トムソン
+], ranking[144], name[ぷよよよよよん], num[1010
+toppickupname[トムソン
+], ranking[145], name[JINN’], num[1009
+toppickupname[トムソン
+], ranking[146], name[りらっくすたいむ], num[1006
+toppickupname[トムソン
+], ranking[147], name[まったりにゃーん], num[1005
+toppickupname[トムソン
+], ranking[148], name[ぼっち魔導師っ！], num[1005
+toppickupname[トムソン
+], ranking[149], name[☆ぷよザイル☆], num[1002
+toppickupname[トムソン
+], ranking[150], name[おいしいみかん], num[1001
+toppickupname[トムソン
+], ranking[151], name[ぷよっとパニック], num[999
+toppickupname[トムソン
+], ranking[152], name[JanneABC], num[999
+toppickupname[トムソン
+], ranking[153], name[お腹@ばよ～支店], num[999
+toppickupname[トムソン
+], ranking[154], name[ナノクローム], num[999
+toppickupname[トムソン
+], ranking[155], name[魔神宮], num[998
+toppickupname[トムソン
+], ranking[156], name[Blackチョコ], num[996
+toppickupname[トムソン
+], ranking[157], name[_ほうきぼし], num[993
+toppickupname[トムソン
+], ranking[158], name[きまぐれいやー], num[993
+toppickupname[トムソン
+], ranking[159], name[あおいの御紋], num[990
+toppickupname[トムソン
+], ranking[160], name[月蝕雑技団], num[990
+toppickupname[トムソン
+], ranking[161], name[コンパイル懐古会], num[990
+toppickupname[トムソン
+], ranking[162], name[レプレ], num[989
+toppickupname[トムソン
+], ranking[163], name[ほんわかたつむり], num[988
+toppickupname[トムソン
+], ranking[164], name[Gunners!], num[986
+toppickupname[トムソン
+], ranking[165], name[ΣΘ)β47羽], num[984
+toppickupname[トムソン
+], ranking[166], name[かーにばる☆彡], num[984
+toppickupname[トムソン
+], ranking[167], name[クンパルシータ], num[984
+toppickupname[トムソン
+], ranking[168], name[ぷよりんず], num[981
+toppickupname[トムソン
+], ranking[169], name[むかきんぐだーむ], num[981
+toppickupname[トムソン
+], ranking[170], name[猫娘。亭], num[979
+toppickupname[トムソン
+], ranking[171], name[チームハマー], num[978
+toppickupname[トムソン
+], ranking[172], name[輝きみーつぉー], num[978
+toppickupname[トムソン
+], ranking[173], name[チビコロ☆], num[977
+toppickupname[トムソン
+], ranking[174], name[のんびり☆きまま], num[977
+toppickupname[トムソン
+], ranking[175], name[こでまりテラス], num[974
+toppickupname[トムソン
+], ranking[176], name[ArcadiA], num[972
+toppickupname[トムソン
+], ranking[177], name[にわかあめ], num[971
+toppickupname[トムソン
+], ranking[178], name[しろくまっ☆], num[967
+toppickupname[トムソン
+], ranking[179], name[スナ], num[965
+toppickupname[トムソン
+], ranking[180], name[エリザベート21], num[964
+toppickupname[トムソン
+], ranking[181], name[ルーエンハイム], num[962
+toppickupname[トムソン
+], ranking[182], name[全開タコ殴り], num[960
+toppickupname[トムソン
+], ranking[183], name[連鎖反応☆NEO], num[959
+toppickupname[トムソン
+], ranking[184], name[aLLLight], num[959
+toppickupname[トムソン
+], ranking[185], name[J&G], num[959
+toppickupname[トムソン
+], ranking[186], name[ウィッチ様FC], num[959
+toppickupname[トムソン
+], ranking[187], name[毎度おおきに！], num[958
+toppickupname[トムソン
+], ranking[188], name[Phoenix☆], num[957
+toppickupname[トムソン
+], ranking[189], name[北の大地☆人情派], num[956
+toppickupname[トムソン
+], ranking[190], name[カラマギア], num[955
+toppickupname[トムソン
+], ranking[191], name[エランド], num[955
+toppickupname[トムソン
+], ranking[192], name[自由空間五色の館], num[954
+toppickupname[トムソン
+], ranking[193], name[全力マッタリーナ], num[953
+toppickupname[トムソン
+], ranking[194], name[ぷよぷよ艦隊], num[946
+toppickupname[トムソン
+], ranking[195], name[あひるたぃちょ組], num[941
+toppickupname[トムソン
+], ranking[196], name[ぱお～ん！！], num[940
+toppickupname[トムソン
+], ranking[197], name[楽ぷよＣＬＵＢ], num[939
+toppickupname[トムソン
+], ranking[198], name[気ままに組], num[937
+toppickupname[トムソン
+], ranking[199], name[しろぷよ♪], num[935
+toppickupname[トムソン
+], ranking[200], name[ゼロ鎮魂歌], num[931
+toppickupname[トムソン
+], ranking[201], name[ガンバ祝SS♪], num[931
+toppickupname[トムソン
+], ranking[202], name[マリンバトル], num[930
+toppickupname[トムソン
+], ranking[203], name[Pu---Yo], num[929
+toppickupname[トムソン
+], ranking[204], name[チームやどかり], num[929
+toppickupname[トムソン
+], ranking[205], name[WeLOVEぷよ], num[929
+toppickupname[トムソン
+], ranking[206], name[レッツモーフィン], num[929
+toppickupname[トムソン
+], ranking[207], name[ぬゅるす], num[929
+toppickupname[トムソン
+], ranking[208], name[ぷにょぷにん], num[929
+toppickupname[トムソン
+], ranking[209], name[らららコッペパン], num[929
+toppickupname[トムソン
+], ranking[210], name[のんびりギル], num[928
+toppickupname[トムソン
+], ranking[211], name[月の光　∮], num[927
+toppickupname[トムソン
+], ranking[212], name[Ragnark], num[927
+toppickupname[トムソン
+], ranking[213], name[グラン・シャリオ], num[927
+toppickupname[トムソン
+], ranking[214], name[～のんびり隠居～], num[926
+toppickupname[トムソン
+], ranking[215], name[Liberty☆], num[923
+toppickupname[トムソン
+], ranking[216], name[∞ぷるんちょ∞], num[922
+toppickupname[トムソン
+], ranking[217], name[わんうぇいあっぷ], num[920
+toppickupname[トムソン
+], ranking[218], name[花橘], num[918
+toppickupname[トムソン
+], ranking[219], name[アオハライド☆彡], num[916
+toppickupname[トムソン
+], ranking[220], name[ぷ(♪-∀-)よ], num[913
+toppickupname[トムソン
+], ranking[221], name[Clock], num[913
+toppickupname[トムソン
+], ranking[222], name[ぷにっぷに～！], num[911
+toppickupname[トムソン
+], ranking[223], name[ふぇんりる], num[911
+toppickupname[トムソン
+], ranking[224], name[melody], num[911
+toppickupname[トムソン
+], ranking[225], name[みすてりあす。], num[911
+toppickupname[トムソン
+], ranking[226], name[_☆きずな☆], num[909
+toppickupname[トムソン
+], ranking[227], name[脳みそコネコネ], num[907
+toppickupname[トムソン
+], ranking[228], name[★リトルスター★], num[907
+toppickupname[トムソン
+], ranking[229], name[goro's], num[906
+toppickupname[トムソン
+], ranking[230], name[ぷよぷよTime], num[904
+toppickupname[トムソン
+], ranking[231], name[KMコミュニティ], num[904
+toppickupname[トムソン
+], ranking[232], name[凱歌ノ記憶], num[904
+toppickupname[トムソン
+], ranking[233], name[鎌倉幕府], num[904
+toppickupname[トムソン
+], ranking[234], name[きずなタワー], num[903
+toppickupname[トムソン
+], ranking[235], name[美味しい紅茶の泉], num[901
+toppickupname[トムソン
+], ranking[236], name[カラフル], num[901
+toppickupname[トムソン
+], ranking[237], name[参加は自由でした], num[900
+toppickupname[トムソン
+], ranking[238], name[ダムダムブルー], num[900
+toppickupname[トムソン
+], ranking[239], name[黝ぷよ騎士団], num[899
+toppickupname[トムソン
+], ranking[240], name[虹-niji-], num[899
+toppickupname[トムソン
+], ranking[241], name[ゴルゴ11], num[899
+toppickupname[トムソン
+], ranking[242], name[まちょー], num[899
+toppickupname[トムソン
+], ranking[243], name[bookworm], num[899
+toppickupname[トムソン
+], ranking[244], name[ぽすてりざん], num[899
+toppickupname[トムソン
+], ranking[245], name[ピタゴラスイッチ], num[899
+toppickupname[トムソン
+], ranking[246], name[めろんぱんず], num[895
+toppickupname[トムソン
+], ranking[247], name[真☆碧茶], num[894
+toppickupname[トムソン
+], ranking[248], name[きなこもち＊], num[893
+toppickupname[トムソン
+], ranking[249], name[スイ－トヨコヅナ], num[891
+toppickupname[トムソン
+], ranking[250], name[_], num[889
+toppickupname[トムソン
+], ranking[251], name[ウォッカコーヒー], num[889
+toppickupname[トムソン
+], ranking[252], name[おのゴリちゃん], num[887
+toppickupname[トムソン
+], ranking[253], name[☆], num[887
+toppickupname[トムソン
+], ranking[254], name[_Nadja], num[886
+toppickupname[トムソン
+], ranking[255], name[おいもいも], num[884
+toppickupname[トムソン
+], ranking[256], name[働くおじさん], num[882
+toppickupname[トムソン
+], ranking[257], name[joyfull☆], num[881
+toppickupname[トムソン
+], ranking[258], name[チームお代官様], num[880
+toppickupname[トムソン
+], ranking[259], name[水守革命], num[879
+toppickupname[トムソン
+], ranking[260], name[ポレポレ村夢番地], num[879
+toppickupname[トムソン
+], ranking[261], name[みるふぃーゆ♪], num[876
+toppickupname[トムソン
+], ranking[262], name[ふぁくとり～♪], num[876
+toppickupname[トムソン
+], ranking[263], name[会話なしギルド], num[874
+toppickupname[トムソン
+], ranking[264], name[アシュブロ☆], num[874
+toppickupname[トムソン
+], ranking[265], name[超初心者ポコリン], num[873
+toppickupname[トムソン
+], ranking[266], name[オールフォーワン], num[872
+toppickupname[トムソン
+], ranking[267], name[モヤ2さまぁ～ず], num[872
+toppickupname[トムソン
+], ranking[268], name[ＬＥ－ＣＩＥＬ], num[869
+toppickupname[トムソン
+], ranking[269], name[MYM318☆彡], num[869
+toppickupname[トムソン
+], ranking[270], name[ピルクル500], num[869
+toppickupname[トムソン
+], ranking[271], name[比翼の不死鳥], num[869
+toppickupname[トムソン
+], ranking[272], name[ゆるくやろう], num[867
+toppickupname[トムソン
+], ranking[273], name[Fate#Ω#], num[865
+toppickupname[トムソン
+], ranking[274], name[モモレオ], num[862
+toppickupname[トムソン
+], ranking[275], name[ex-☆], num[861
+toppickupname[トムソン
+], ranking[276], name[P-STYLE], num[861
+toppickupname[トムソン
+], ranking[277], name[ギルドチャンプ], num[860
+toppickupname[トムソン
+], ranking[278], name[ぷよラテ], num[859
+toppickupname[トムソン
+], ranking[279], name[ぷよります会], num[859
+toppickupname[トムソン
+], ranking[280], name[猪突猛進], num[859
+toppickupname[トムソン
+], ranking[281], name[Sirius], num[859
+toppickupname[トムソン
+], ranking[282], name[のんびり仲良く], num[858
+toppickupname[トムソン
+], ranking[283], name[既製ぷよ@隠居], num[858
+toppickupname[トムソン
+], ranking[284], name[UNICORN], num[856
+toppickupname[トムソン
+], ranking[285], name[藤原豆腐店], num[855
+toppickupname[トムソン
+], ranking[286], name[風鈴ちりんΦ彡], num[855
+toppickupname[トムソン
+], ranking[287], name[ここ(*≧艸≦)], num[854
+toppickupname[トムソン
+], ranking[288], name[無課金修行部], num[851
+toppickupname[トムソン
+], ranking[289], name[(_ω)о〇], num[851
+toppickupname[トムソン
+], ranking[290], name[ミッドガルド], num[851
+toppickupname[トムソン
+], ranking[291], name[七色きかちゅう], num[850
+toppickupname[トムソン
+], ranking[292], name[月の雫.。°], num[849
+toppickupname[トムソン
+], ranking[293], name[☆ＳＴＹ☆], num[849
+toppickupname[トムソン
+], ranking[294], name[アウトランナーズ], num[848
+toppickupname[トムソン
+], ranking[295], name[元気ハツラツ！], num[848
+toppickupname[トムソン
+], ranking[296], name[だいふくギルド], num[846
+toppickupname[トムソン
+], ranking[297], name[水パ], num[844
+toppickupname[トムソン
+], ranking[298], name[L_T_E], num[844
+toppickupname[トムソン
+], ranking[299], name[ねこのうにメロン], num[841
+toppickupname[トムソン
+], ranking[300], name[錬金術協会], num[840
+toppickupname[トムソン
+], ranking[301], name[オワニモ時空転移], num[840
+toppickupname[トムソン
+], ranking[302], name[こんぱいるクラブ], num[839
+toppickupname[トムソン
+], ranking[303], name[あのぎるど], num[839
+toppickupname[トムソン
+], ranking[304], name[☆Ｓロード☆], num[839
+toppickupname[トムソン
+], ranking[305], name[HOKKAIDO], num[838
+toppickupname[トムソン
+], ranking[306], name[赤い彗星のニャア], num[838
+toppickupname[トムソン
+], ranking[307], name[文化の森], num[837
+toppickupname[トムソン
+], ranking[308], name[asoVIVA], num[836
+toppickupname[トムソン
+], ranking[309], name[秘密のお菓子工房], num[835
+toppickupname[トムソン
+], ranking[310], name[＊みるふぃーゆ＊], num[831
+toppickupname[トムソン
+], ranking[311], name[けにくら！], num[831
+toppickupname[トムソン
+], ranking[312], name[みつばさんち], num[831
+toppickupname[トムソン
+], ranking[313], name[ルイーダの酒場], num[830
+toppickupname[トムソン
+], ranking[314], name[ラフィーナ連邦], num[830
+toppickupname[トムソン
+], ranking[315], name[ちーむ★ぷよ], num[829
+toppickupname[トムソン
+], ranking[316], name[毎日猫をもふり隊], num[829
+toppickupname[トムソン
+], ranking[317], name[神聖まけまけ帝国], num[829
+toppickupname[トムソン
+], ranking[318], name[蒼天ぷよ], num[829
+toppickupname[トムソン
+], ranking[319], name[青空団♪], num[829
+toppickupname[トムソン
+], ranking[320], name[★home★], num[827
+toppickupname[トムソン
+], ranking[321], name[まろん茶], num[824
+toppickupname[トムソン
+], ranking[322], name[黄色鳥OP大作戦], num[824
+toppickupname[トムソン
+], ranking[323], name[寝ながら進む。], num[821
+toppickupname[トムソン
+], ranking[324], name[†Bible†], num[821
+toppickupname[トムソン
+], ranking[325], name[旅立(^O^)], num[819
+toppickupname[トムソン
+], ranking[326], name[ドリームポポ♪], num[819
+toppickupname[トムソン
+], ranking[327], name[ずきゅーん♪], num[817
+toppickupname[トムソン
+], ranking[328], name[ブラザーフット], num[815
+toppickupname[トムソン
+], ranking[329], name[七色の愛情], num[814
+toppickupname[ながれ], ranking[0], name[Dizzy], num[1600
+toppickupname[ながれ], ranking[1], name[Mumin谷], num[1600
+toppickupname[ながれ], ranking[2], name[さんらいず], num[1600
+toppickupname[ながれ], ranking[3], name[トムソン], num[1570
+toppickupname[ながれ], ranking[4], name[嵐山], num[1566
+toppickupname[ながれ], ranking[5], name[☆☆ながれ星彡], num[1539
+toppickupname[ながれ], ranking[6], name[上位目指す隊], num[1536
+toppickupname[ながれ], ranking[7], name[ばよえ～ん。], num[1505
+toppickupname[ながれ], ranking[8], name[えすぽらーず], num[1499
+toppickupname[ながれ], ranking[9], name[赤い妖精], num[1489
+toppickupname[ながれ], ranking[10], name[まるむすてぃーん], num[1486
+toppickupname[ながれ], ranking[11], name[早乙女学園], num[1479
+toppickupname[ながれ], ranking[12], name[Raffine], num[1449
+toppickupname[ながれ], ranking[13], name[さんせっと], num[1449
+toppickupname[ながれ], ranking[14], name[谷口ぴーまん], num[1437
+toppickupname[ながれ], ranking[15], name[†とわいらいと†], num[1418
+toppickupname[ながれ], ranking[16], name[Lipton　], num[1409
+toppickupname[ながれ], ranking[17], name[Antenna], num[1400
+toppickupname[ながれ], ranking[18], name[RedbuII], num[1399
+toppickupname[ながれ], ranking[19], name[カーバンクル], num[1399
+toppickupname[ながれ], ranking[20], name[☆命蓮寺☆], num[1399
+toppickupname[ながれ], ranking[21], name[ぴんぽーん], num[1392
+toppickupname[ながれ], ranking[22], name[プリンシパル☆彡], num[1370
+toppickupname[ながれ], ranking[23], name[いちごぷよ隊], num[1367
+toppickupname[ながれ], ranking[24], name[LovE], num[1362
+toppickupname[ながれ], ranking[25], name[賢者モード], num[1354
+toppickupname[ながれ], ranking[26], name[ねこたらんど], num[1349
+toppickupname[ながれ], ranking[27], name[とれっきんぐ], num[1349
+toppickupname[ながれ], ranking[28], name[ファンタビーチ], num[1349
+toppickupname[ながれ], ranking[29], name[やわらかギルド], num[1335
+toppickupname[ながれ], ranking[30], name[だららんゴロゴロ], num[1332
+toppickupname[ながれ], ranking[31], name[ねこずき], num[1331
+toppickupname[ながれ], ranking[32], name[同じ穴のぷよら～], num[1326
+toppickupname[ながれ], ranking[33], name[ももにち！], num[1321
+toppickupname[ながれ], ranking[34], name[★愉快な仲間達☆], num[1318
+toppickupname[ながれ], ranking[35], name[からあげ流星群], num[1317
+toppickupname[ながれ], ranking[36], name[かもみ～るかふぇ], num[1314
+toppickupname[ながれ], ranking[37], name[Ｃlair], num[1311
+toppickupname[ながれ], ranking[38], name[にないか], num[1299
+toppickupname[ながれ], ranking[39], name[Lαviｎ'υ], num[1293
+toppickupname[ながれ], ranking[40], name[ＢＢ団], num[1278
+toppickupname[ながれ], ranking[41], name[ぷよビ～ッチ☆], num[1277
+toppickupname[ながれ], ranking[42], name[ぷよクエ楽しみ隊], num[1270
+toppickupname[ながれ], ranking[43], name[Buzz], num[1265
+toppickupname[ながれ], ranking[44], name[★エーミール★], num[1259
+toppickupname[ながれ], ranking[45], name[Luxillia], num[1259
+toppickupname[ながれ], ranking[46], name[果物の缶詰], num[1249
+toppickupname[ながれ], ranking[47], name[にゃ～んだふる♪], num[1249
+toppickupname[ながれ], ranking[48], name[無課金こそ愉悦!], num[1249
+toppickupname[ながれ], ranking[49], name[かわいいはせいぎ], num[1247
+toppickupname[ながれ], ranking[50], name[Law@], num[1239
+toppickupname[ながれ], ranking[51], name[BestLuck], num[1239
+toppickupname[ながれ], ranking[52], name[ぐみぷよ], num[1234
+toppickupname[ながれ], ranking[53], name[ねこぽよ軍], num[1232
+toppickupname[ながれ], ranking[54], name[無KG板ギルド], num[1227
+toppickupname[ながれ], ranking[55], name[ぷよクエRUSH], num[1225
+toppickupname[ながれ], ranking[56], name[ももピーチ帝国], num[1222
+toppickupname[ながれ], ranking[57], name[淡麗生!!], num[1222
+toppickupname[ながれ], ranking[58], name[遊戯都市第七地区], num[1217
+toppickupname[ながれ], ranking[59], name[コスモツリー], num[1215
+toppickupname[ながれ], ranking[60], name[ぷよろう会], num[1214
+toppickupname[ながれ], ranking[61], name[チームかつをぶし], num[1211
+toppickupname[ながれ], ranking[62], name[うさぎの巣_], num[1209
+toppickupname[ながれ], ranking[63], name[お笑い研究亭], num[1208
+toppickupname[ながれ], ranking[64], name[ちょびぎるど], num[1199
+toppickupname[ながれ], ranking[65], name[チームさかな], num[1199
+toppickupname[ながれ], ranking[66], name[☆ネコカフェ☆], num[1184
+toppickupname[ながれ], ranking[67], name[V.I.P.], num[1183
+toppickupname[ながれ], ranking[68], name[ブルーウィング], num[1179
+toppickupname[ながれ], ranking[69], name[陽だまりのねこ], num[1179
+toppickupname[ながれ], ranking[70], name[手製ぷよ], num[1175
+toppickupname[ながれ], ranking[71], name[みなとみらい], num[1171
+toppickupname[ながれ], ranking[72], name[パンダ百匹！！！], num[1171
+toppickupname[ながれ], ranking[73], name[_かおりワールド], num[1168
+toppickupname[ながれ], ranking[74], name[コンパイルクラブ], num[1168
+toppickupname[ながれ], ranking[75], name[トウーンタウン], num[1165
+toppickupname[ながれ], ranking[76], name[怪盗スケルトン], num[1165
+toppickupname[ながれ], ranking[77], name[ラフィ亭], num[1162
+toppickupname[ながれ], ranking[78], name[Agile], num[1159
+toppickupname[ながれ], ranking[79], name[ウィッチ魔法学院], num[1157
+toppickupname[ながれ], ranking[80], name[2chスレギルド], num[1152
+toppickupname[ながれ], ranking[81], name[Ｋ２], num[1149
+toppickupname[ながれ], ranking[82], name[一生を寝てい隊], num[1149
+toppickupname[ながれ], ranking[83], name[おこたでアイス], num[1145
+toppickupname[ながれ], ranking[84], name[サークルフォイ], num[1142
+toppickupname[ながれ], ranking[85], name[CMB], num[1139
+toppickupname[ながれ], ranking[86], name[あるぱっか牧場], num[1137
+toppickupname[ながれ], ranking[87], name[たいようのほこら], num[1136
+toppickupname[ながれ], ranking[88], name[_KoB_], num[1132
+toppickupname[ながれ], ranking[89], name[みんなでぷよぷよ], num[1129
+toppickupname[ながれ], ranking[90], name[風来のぷよ使い], num[1126
+toppickupname[ながれ], ranking[91], name[もち猫カルテット], num[1125
+toppickupname[ながれ], ranking[92], name[六猫おーき軍], num[1124
+toppickupname[ながれ], ranking[93], name[ぷよりすと♪], num[1124
+toppickupname[ながれ], ranking[94], name[早起は三文SSS], num[1121
+toppickupname[ながれ], ranking[95], name[すたんどあっぷ], num[1119
+toppickupname[ながれ], ranking[96], name[マミーポコ♪], num[1119
+toppickupname[ながれ], ranking[97], name[セカハナの卵], num[1114
+toppickupname[ながれ], ranking[98], name[しーこ], num[1112
+toppickupname[ながれ], ranking[99], name[SPIRAL★彡], num[1109
+toppickupname[ながれ], ranking[100], name[運命石の扉], num[1099
+toppickupname[ながれ], ranking[101], name[プヨクエ海賊団], num[1099
+toppickupname[ながれ], ranking[102], name[あわわっ子], num[1099
+toppickupname[ながれ], ranking[103], name[佐久間上水], num[1099
+toppickupname[ながれ], ranking[104], name[ぷよよん同盟], num[1077
+toppickupname[ながれ], ranking[105], name[猫好き仙人界], num[1074
+toppickupname[ながれ], ranking[106], name[かーくんギルド], num[1073
+toppickupname[ながれ], ranking[107], name[パーミテーション], num[1071
+toppickupname[ながれ], ranking[108], name[will], num[1069
+toppickupname[ながれ], ranking[109], name[☆りぼーん☆], num[1064
+toppickupname[ながれ], ranking[110], name[ジュビレーション], num[1064
+toppickupname[ながれ], ranking[111], name[アクアベール], num[1063
+toppickupname[ながれ], ranking[112], name[でぃあれすと], num[1061
+toppickupname[ながれ], ranking[113], name[地獄の3丁目], num[1059
+toppickupname[ながれ], ranking[114], name[レベルアーップ！], num[1059
+toppickupname[ながれ], ranking[115], name[ひろす], num[1059
+toppickupname[ながれ], ranking[116], name[Tぷよ軍団], num[1059
+toppickupname[ながれ], ranking[117], name[楽しく遊ぶ団], num[1054
+toppickupname[ながれ], ranking[118], name[シルバーシープ], num[1054
+toppickupname[ながれ], ranking[119], name[☆月のうさぎ☆], num[1053
+toppickupname[ながれ], ranking[120], name[じゅげむ♪♪], num[1053
+toppickupname[ながれ], ranking[121], name[いえろ～こんび♪], num[1051
+toppickupname[ながれ], ranking[122], name[もんげ～_＞ω＜], num[1051
+toppickupname[ながれ], ranking[123], name[Rash☆TM], num[1051
+toppickupname[ながれ], ranking[124], name[TEREON's], num[1049
+toppickupname[ながれ], ranking[125], name[†魔導学校†], num[1049
+toppickupname[ながれ], ranking[126], name[nOa], num[1049
+toppickupname[ながれ], ranking[127], name[進撃の無課金兵団], num[1048
+toppickupname[ながれ], ranking[128], name[宮崎藩], num[1047
+toppickupname[ながれ], ranking[129], name[にくきゅう], num[1044
+toppickupname[ながれ], ranking[130], name[COLORS＊*], num[1040
+toppickupname[ながれ], ranking[131], name[Promis], num[1039
+toppickupname[ながれ], ranking[132], name[ももぐみ], num[1039
+toppickupname[ながれ], ranking[133], name[上弦の月], num[1039
+toppickupname[ながれ], ranking[134], name[にゃまにゃま], num[1035
+toppickupname[ながれ], ranking[135], name[まったり勢。], num[1034
+toppickupname[ながれ], ranking[136], name[ΑLL_FREE], num[1031
+toppickupname[ながれ], ranking[137], name[flower], num[1030
+toppickupname[ながれ], ranking[138], name[LVE], num[1029
+toppickupname[ながれ], ranking[139], name[絆KIZUNA], num[1025
+toppickupname[ながれ], ranking[140], name[いちにさん], num[1025
+toppickupname[ながれ], ranking[141], name[たけのこ派！], num[1020
+toppickupname[ながれ], ranking[142], name[みなみけ], num[1012
+toppickupname[ながれ], ranking[143], name[アンシェル], num[1011
+toppickupname[ながれ], ranking[144], name[ぷよよよよよん], num[1010
+toppickupname[ながれ], ranking[145], name[JINN’], num[1009
+toppickupname[ながれ], ranking[146], name[りらっくすたいむ], num[1006
+toppickupname[ながれ], ranking[147], name[まったりにゃーん], num[1005
+toppickupname[ながれ], ranking[148], name[ぼっち魔導師っ！], num[1005
+toppickupname[ながれ], ranking[149], name[☆ぷよザイル☆], num[1002
+toppickupname[ながれ], ranking[150], name[おいしいみかん], num[1001
+toppickupname[ながれ], ranking[151], name[ぷよっとパニック], num[999
+toppickupname[ながれ], ranking[152], name[JanneABC], num[999
+toppickupname[ながれ], ranking[153], name[お腹@ばよ～支店], num[999
+toppickupname[ながれ], ranking[154], name[ナノクローム], num[999
+toppickupname[ながれ], ranking[155], name[魔神宮], num[998
+toppickupname[ながれ], ranking[156], name[Blackチョコ], num[996
+toppickupname[ながれ], ranking[157], name[_ほうきぼし], num[993
+toppickupname[ながれ], ranking[158], name[きまぐれいやー], num[993
+toppickupname[ながれ], ranking[159], name[あおいの御紋], num[990
+toppickupname[ながれ], ranking[160], name[月蝕雑技団], num[990
+toppickupname[ながれ], ranking[161], name[コンパイル懐古会], num[990
+toppickupname[ながれ], ranking[162], name[レプレ], num[989
+toppickupname[ながれ], ranking[163], name[ほんわかたつむり], num[988
+toppickupname[ながれ], ranking[164], name[Gunners!], num[986
+toppickupname[ながれ], ranking[165], name[ΣΘ)β47羽], num[984
+toppickupname[ながれ], ranking[166], name[かーにばる☆彡], num[984
+toppickupname[ながれ], ranking[167], name[クンパルシータ], num[984
+toppickupname[ながれ], ranking[168], name[ぷよりんず], num[981
+toppickupname[ながれ], ranking[169], name[むかきんぐだーむ], num[981
+toppickupname[ながれ], ranking[170], name[猫娘。亭], num[979
+toppickupname[ながれ], ranking[171], name[チームハマー], num[978
+toppickupname[ながれ], ranking[172], name[輝きみーつぉー], num[978
+toppickupname[ながれ], ranking[173], name[チビコロ☆], num[977
+toppickupname[ながれ], ranking[174], name[のんびり☆きまま], num[977
+toppickupname[ながれ], ranking[175], name[こでまりテラス], num[974
+toppickupname[ながれ], ranking[176], name[ArcadiA], num[972
+toppickupname[ながれ], ranking[177], name[にわかあめ], num[971
+toppickupname[ながれ], ranking[178], name[しろくまっ☆], num[967
+toppickupname[ながれ], ranking[179], name[スナ], num[965
+toppickupname[ながれ], ranking[180], name[エリザベート21], num[964
+toppickupname[ながれ], ranking[181], name[ルーエンハイム], num[962
+toppickupname[ながれ], ranking[182], name[全開タコ殴り], num[960
+toppickupname[ながれ], ranking[183], name[連鎖反応☆NEO], num[959
+toppickupname[ながれ], ranking[184], name[aLLLight], num[959
+toppickupname[ながれ], ranking[185], name[J&G], num[959
+toppickupname[ながれ], ranking[186], name[ウィッチ様FC], num[959
+toppickupname[ながれ], ranking[187], name[毎度おおきに！], num[958
+toppickupname[ながれ], ranking[188], name[Phoenix☆], num[957
+toppickupname[ながれ], ranking[189], name[北の大地☆人情派], num[956
+toppickupname[ながれ], ranking[190], name[カラマギア], num[955
+toppickupname[ながれ], ranking[191], name[エランド], num[955
+toppickupname[ながれ], ranking[192], name[自由空間五色の館], num[954
+toppickupname[ながれ], ranking[193], name[全力マッタリーナ], num[953
+toppickupname[ながれ], ranking[194], name[ぷよぷよ艦隊], num[946
+toppickupname[ながれ], ranking[195], name[あひるたぃちょ組], num[941
+toppickupname[ながれ], ranking[196], name[ぱお～ん！！], num[940
+toppickupname[ながれ], ranking[197], name[楽ぷよＣＬＵＢ], num[939
+toppickupname[ながれ], ranking[198], name[気ままに組], num[937
+toppickupname[ながれ], ranking[199], name[しろぷよ♪], num[935
+toppickupname[ながれ], ranking[200], name[ゼロ鎮魂歌], num[931
+toppickupname[ながれ], ranking[201], name[ガンバ祝SS♪], num[931
+toppickupname[ながれ], ranking[202], name[マリンバトル], num[930
+toppickupname[ながれ], ranking[203], name[Pu---Yo], num[929
+toppickupname[ながれ], ranking[204], name[チームやどかり], num[929
+toppickupname[ながれ], ranking[205], name[WeLOVEぷよ], num[929
+toppickupname[ながれ], ranking[206], name[レッツモーフィン], num[929
+toppickupname[ながれ], ranking[207], name[ぬゅるす], num[929
+toppickupname[ながれ], ranking[208], name[ぷにょぷにん], num[929
+toppickupname[ながれ], ranking[209], name[らららコッペパン], num[929
+toppickupname[ながれ], ranking[210], name[のんびりギル], num[928
+toppickupname[ながれ], ranking[211], name[月の光　∮], num[927
+toppickupname[ながれ], ranking[212], name[Ragnark], num[927
+toppickupname[ながれ], ranking[213], name[グラン・シャリオ], num[927
+toppickupname[ながれ], ranking[214], name[～のんびり隠居～], num[926
+toppickupname[ながれ], ranking[215], name[Liberty☆], num[923
+toppickupname[ながれ], ranking[216], name[∞ぷるんちょ∞], num[922
+toppickupname[ながれ], ranking[217], name[わんうぇいあっぷ], num[920
+toppickupname[ながれ], ranking[218], name[花橘], num[918
+toppickupname[ながれ], ranking[219], name[アオハライド☆彡], num[916
+toppickupname[ながれ], ranking[220], name[ぷ(♪-∀-)よ], num[913
+toppickupname[ながれ], ranking[221], name[Clock], num[913
+toppickupname[ながれ], ranking[222], name[ぷにっぷに～！], num[911
+toppickupname[ながれ], ranking[223], name[ふぇんりる], num[911
+toppickupname[ながれ], ranking[224], name[melody], num[911
+toppickupname[ながれ], ranking[225], name[みすてりあす。], num[911
+toppickupname[ながれ], ranking[226], name[_☆きずな☆], num[909
+toppickupname[ながれ], ranking[227], name[脳みそコネコネ], num[907
+toppickupname[ながれ], ranking[228], name[★リトルスター★], num[907
+toppickupname[ながれ], ranking[229], name[goro's], num[906
+toppickupname[ながれ], ranking[230], name[ぷよぷよTime], num[904
+toppickupname[ながれ], ranking[231], name[KMコミュニティ], num[904
+toppickupname[ながれ], ranking[232], name[凱歌ノ記憶], num[904
+toppickupname[ながれ], ranking[233], name[鎌倉幕府], num[904
+toppickupname[ながれ], ranking[234], name[きずなタワー], num[903
+toppickupname[ながれ], ranking[235], name[美味しい紅茶の泉], num[901
+toppickupname[ながれ], ranking[236], name[カラフル], num[901
+toppickupname[ながれ], ranking[237], name[参加は自由でした], num[900
+toppickupname[ながれ], ranking[238], name[ダムダムブルー], num[900
+toppickupname[ながれ], ranking[239], name[黝ぷよ騎士団], num[899
+toppickupname[ながれ], ranking[240], name[虹-niji-], num[899
+toppickupname[ながれ], ranking[241], name[ゴルゴ11], num[899
+toppickupname[ながれ], ranking[242], name[まちょー], num[899
+toppickupname[ながれ], ranking[243], name[bookworm], num[899
+toppickupname[ながれ], ranking[244], name[ぽすてりざん], num[899
+toppickupname[ながれ], ranking[245], name[ピタゴラスイッチ], num[899
+toppickupname[ながれ], ranking[246], name[めろんぱんず], num[895
+toppickupname[ながれ], ranking[247], name[真☆碧茶], num[894
+toppickupname[ながれ], ranking[248], name[きなこもち＊], num[893
+toppickupname[ながれ], ranking[249], name[スイ－トヨコヅナ], num[891
+toppickupname[ながれ], ranking[250], name[_], num[889
+toppickupname[ながれ], ranking[251], name[ウォッカコーヒー], num[889
+toppickupname[ながれ], ranking[252], name[おのゴリちゃん], num[887
+toppickupname[ながれ], ranking[253], name[☆], num[887
+toppickupname[ながれ], ranking[254], name[_Nadja], num[886
+toppickupname[ながれ], ranking[255], name[おいもいも], num[884
+toppickupname[ながれ], ranking[256], name[働くおじさん], num[882
+toppickupname[ながれ], ranking[257], name[joyfull☆], num[881
+toppickupname[ながれ], ranking[258], name[チームお代官様], num[880
+toppickupname[ながれ], ranking[259], name[水守革命], num[879
+toppickupname[ながれ], ranking[260], name[ポレポレ村夢番地], num[879
+toppickupname[ながれ], ranking[261], name[みるふぃーゆ♪], num[876
+toppickupname[ながれ], ranking[262], name[ふぁくとり～♪], num[876
+toppickupname[ながれ], ranking[263], name[会話なしギルド], num[874
+toppickupname[ながれ], ranking[264], name[アシュブロ☆], num[874
+toppickupname[ながれ], ranking[265], name[超初心者ポコリン], num[873
+toppickupname[ながれ], ranking[266], name[オールフォーワン], num[872
+toppickupname[ながれ], ranking[267], name[モヤ2さまぁ～ず], num[872
+toppickupname[ながれ], ranking[268], name[ＬＥ－ＣＩＥＬ], num[869
+toppickupname[ながれ], ranking[269], name[MYM318☆彡], num[869
+toppickupname[ながれ], ranking[270], name[ピルクル500], num[869
+toppickupname[ながれ], ranking[271], name[比翼の不死鳥], num[869
+toppickupname[ながれ], ranking[272], name[ゆるくやろう], num[867
+toppickupname[ながれ], ranking[273], name[Fate#Ω#], num[865
+toppickupname[ながれ], ranking[274], name[モモレオ], num[862
+toppickupname[ながれ], ranking[275], name[ex-☆], num[861
+toppickupname[ながれ], ranking[276], name[P-STYLE], num[861
+toppickupname[ながれ], ranking[277], name[ギルドチャンプ], num[860
+toppickupname[ながれ], ranking[278], name[ぷよラテ], num[859
+toppickupname[ながれ], ranking[279], name[ぷよります会], num[859
+toppickupname[ながれ], ranking[280], name[猪突猛進], num[859
+toppickupname[ながれ], ranking[281], name[Sirius], num[859
+toppickupname[ながれ], ranking[282], name[のんびり仲良く], num[858
+toppickupname[ながれ], ranking[283], name[既製ぷよ@隠居], num[858
+toppickupname[ながれ], ranking[284], name[UNICORN], num[856
+toppickupname[ながれ], ranking[285], name[藤原豆腐店], num[855
+toppickupname[ながれ], ranking[286], name[風鈴ちりんΦ彡], num[855
+toppickupname[ながれ], ranking[287], name[ここ(*≧艸≦)], num[854
+toppickupname[ながれ], ranking[288], name[無課金修行部], num[851
+toppickupname[ながれ], ranking[289], name[(_ω)о〇], num[851
+toppickupname[ながれ], ranking[290], name[ミッドガルド], num[851
+toppickupname[ながれ], ranking[291], name[七色きかちゅう], num[850
+toppickupname[ながれ], ranking[292], name[月の雫.。°], num[849
+toppickupname[ながれ], ranking[293], name[☆ＳＴＹ☆], num[849
+toppickupname[ながれ], ranking[294], name[アウトランナーズ], num[848
+toppickupname[ながれ], ranking[295], name[元気ハツラツ！], num[848
+toppickupname[ながれ], ranking[296], name[だいふくギルド], num[846
+toppickupname[ながれ], ranking[297], name[水パ], num[844
+toppickupname[ながれ], ranking[298], name[L_T_E], num[844
+toppickupname[ながれ], ranking[299], name[ねこのうにメロン], num[841
+toppickupname[ながれ], ranking[300], name[錬金術協会], num[840
+toppickupname[ながれ], ranking[301], name[オワニモ時空転移], num[840
+toppickupname[ながれ], ranking[302], name[こんぱいるクラブ], num[839
+toppickupname[ながれ], ranking[303], name[あのぎるど], num[839
+toppickupname[ながれ], ranking[304], name[☆Ｓロード☆], num[839
+toppickupname[ながれ], ranking[305], name[HOKKAIDO], num[838
+toppickupname[ながれ], ranking[306], name[赤い彗星のニャア], num[838
+toppickupname[ながれ], ranking[307], name[文化の森], num[837
+toppickupname[ながれ], ranking[308], name[asoVIVA], num[836
+toppickupname[ながれ], ranking[309], name[秘密のお菓子工房], num[835
+toppickupname[ながれ], ranking[310], name[＊みるふぃーゆ＊], num[831
+toppickupname[ながれ], ranking[311], name[けにくら！], num[831
+toppickupname[ながれ], ranking[312], name[みつばさんち], num[831
+toppickupname[ながれ], ranking[313], name[ルイーダの酒場], num[830
+toppickupname[ながれ], ranking[314], name[ラフィーナ連邦], num[830
+toppickupname[ながれ], ranking[315], name[ちーむ★ぷよ], num[829
+toppickupname[ながれ], ranking[316], name[毎日猫をもふり隊], num[829
+toppickupname[ながれ], ranking[317], name[神聖まけまけ帝国], num[829
+toppickupname[ながれ], ranking[318], name[蒼天ぷよ], num[829
+toppickupname[ながれ], ranking[319], name[青空団♪], num[829
+toppickupname[ながれ], ranking[320], name[★home★], num[827
+toppickupname[ながれ], ranking[321], name[まろん茶], num[824
+toppickupname[ながれ], ranking[322], name[黄色鳥OP大作戦], num[824
+toppickupname[ながれ], ranking[323], name[寝ながら進む。], num[821
+toppickupname[ながれ], ranking[324], name[†Bible†], num[821
+toppickupname[ながれ], ranking[325], name[旅立(^O^)], num[819
+toppickupname[ながれ], ranking[326], name[ドリームポポ♪], num[819
+toppickupname[ながれ], ranking[327], name[ずきゅーん♪], num[817
+toppickupname[ながれ], ranking[328], name[ブラザーフット], num[815
+toppickupname[ながれ], ranking[329], name[七色の愛情], num[814
+create_fulldata.rb finished.

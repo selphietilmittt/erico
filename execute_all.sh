@@ -5,13 +5,14 @@ cd `dirname $0`
 
 echo "configure.sh"
 #if [ -e configure.sh ];then bash configure.sh > /dev/null 2>&1; fi
-#bash configure.sh > /dev/null 2>&1
+bash configure.sh > /dev/null 2>&1
 
 source "lib/util/util.sh"
-function getconf_() { getconf "$1" "etc/configure.txt";}
-function log_info_() { log_info "$1" "etc/log";}
-function log_warning_() { log_warning "$1" "etc/log";}
-function log_fatal_() { log_fatal "$1" "etc/log";}
+function getconf_() { cd lib/util/;getconf "$1";cd ../../;}
+function log_debug_() { cd lib/util/; log_debug "$1";cd ../../;}
+function log_info_() {  cd lib/util/;log_info "$1";cd ../../;}
+function log_warning_() {  cd lib/util/;log_warning "$1";cd ../../;}
+function log_fatal_() {  cd lib/util/;log_fatal "$1";cd ../../;}
 
 date=`date +%Y%m%d-%H%M%S`
 echo -e "execute_all.sh at $date start."
@@ -35,7 +36,7 @@ if [ -z $1 ];then
 elif [ $1 = "null" ];then
 	PREFIX="null"
 	FILELIST=$DATADIR/$PREFIX`getconf_ ALL_FILELIST_SUFFIX`
-	echo $FILELIST
+	HOURLYFILELIST=$DATADIR/$PREFIX`getconf_ HOURLYFILELIST_SUFFIX`
 	USER_ID=`getconf_ USER_ID`
 	GUILD_ID=`getconf_ GUILD_ID`
 elif [ $1 = "thomson" ];then
@@ -58,9 +59,9 @@ cd $ROOTDIR
 
 echo "get_html"
 OPERATE_HTML_DIR="$ROOTDIR/lib/html"
-HTML_DIR=`getconf_ HTMLDIR`/$date
+HTML_DIR=`getconf_ HTMLDIR`
 bash $OPERATE_HTML_DIR/get_html.sh $date $USER_ID $GUILD_ID > /dev/null 
-log_info_ "HTML_DIR=$HTML_DIR\n`ls $HTML_DIR`"
+log_info_ "HTML_DIR=$HTML_DIR\ndate=$date\n`ls $HTML_DIR/$date`"
 
 target_categorys=(
 ALL_MEMBERS_RANKING
@@ -73,29 +74,34 @@ BORDER_OF_RANKING
 
 for category in ${target_categorys[@]}; do
 	echo convert_html_to_csv.sh $category
-	HTML_LIST="$HTML_DIR/$category"_LIST
-	merged_output=$HTML_DIR/$category.csv
+	HTML_LIST="$HTML_DIR/$date/$category"_LIST
+	merged_output=$HTML_DIR/$date/$category.csv
 	:>$merged_output
 	cat $HTML_LIST | while read html_file; do
-		#echo convert_html_to_csv.sh $category
-		bash $OPERATE_HTML_DIR/convert_html_to_csv.sh $html_file $html_file.csv
+		bash $OPERATE_HTML_DIR/convert_html_to_csv.sh $html_file $html_file.csv > /dev/null 
 		cat $html_file.csv >> $merged_output
 	done
 done
 
 echo "merge_all_minitely_files"
+log_debug_ "bash $OPERATE_FILE_DIR/merge_all_minitely_files.sh $date $HTML_DIR"
 OPERATE_FILE_DIR=`getconf_ OPERATEFILEDIR`
-merged_minitely_file=`bash $OPERATE_FILE_DIR/merge_all_minitely_files.sh $date`
+merged_minitely_file=`bash $OPERATE_FILE_DIR/merge_all_minitely_files.sh $date $HTML_DIR`
 #echo $merged_minitely_file
 #echo "$PREFIX-$date.csv"
 cp $merged_minitely_file "$DATADIR/$PREFIX-$date.csv"
 nkf -s --overwrite "$DATADIR/$PREFIX-$date.csv"
 echo "$PREFIX-$date" >> $FILELIST
-FILELIST=`getconf_ NULL_FILELIST`
-NULL_OUTPUT=`getconf_ NULL_OUTPUT`
 
-echo $FILELIST
-echo $NULL_OUTPUT
+if [ ! -e $HOURLYFILELIST ];then
+	log_info_ "create_hourly_filelist.sh all start"
+	bash lib/calc_speed/create_hourly_filelist.sh all > /dev/null
+fi
+
+if [ `getconf_ HTMLFILE_FLAG` = "DISCARD" ];then
+	log_info_ "DISCARD $HTML_DIR/$date`"
+	rm -r $HTML_DIR/$date
+fi
 
 echo "minutely processes finished."
 log_info_ "minutely processes finished."
