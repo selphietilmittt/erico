@@ -3,14 +3,7 @@
 cd `dirname $0`
 source "../../lib/util/util.sh"
 
-#log_info "sandbox"
-str="aaa"
-if [ -z $str ];then
-	echo "null"
-else
-	echo $str
-fi
-
-#echo `getconf NULL_FILELIST`
-#echo `getconf FAILED`
-
+date=`date +%Y%m%d-%H%M%S`
+min=`echo ${date: -4:2}`
+echo $date
+echo $min

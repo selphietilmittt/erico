@@ -99,7 +99,7 @@ if [ ! -e $HOURLYFILELIST ];then
 fi
 
 if [ `getconf_ HTMLFILE_FLAG` = "DISCARD" ];then
-	log_info_ "DISCARD $HTML_DIR/$date`"
+	log_info_ "DISCARD $HTML_DIR/$date"
 	rm -r $HTML_DIR/$date
 fi
 
@@ -109,7 +109,7 @@ log_info_ "minutely processes finished."
 
 ##execute_hourly
 min=`echo ${date: -4:2}`
-if [ $min = "00" ];then	
+if [ $min = "00" ];then
 	log_info_ "create_hourly_filelist.sh latest start"
 	bash lib/calc_speed/create_hourly_filelist.sh latest > /dev/null
 	log_info_ "calc_speedph.sh latest start"

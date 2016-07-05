@@ -35,12 +35,12 @@ class File_manager
 		name_array = []
 		ranking_flag = false
 		File.open(filename, 'r:sjis').each do |line|
-			if line == "ALL\n" then
+			if line == "#{@util.getconf('ALL_MEMBERS_HEAD')}\n" then
 				ranking_flag = true
-			elsif line == "TARGET\n" then
+			elsif line == "#{@util.getconf('BOTTOMPICKUPNAME_HEAD')}\n" then
 				ranking_flag = false
 			end
-
+			
 			if ranking_flag then
 				elements = line.split(',')
 				if elements.size() ==4 then
@@ -56,6 +56,7 @@ class File_manager
 	
 	def get_num_of(target_name, name_array, num_array)
 		@util.debug "get num of #{target_name}"
+		@util.debug "num_array.size=#{num_array.size}"
 		for ranking in 0..num_array.size-1
 			if name_array[ranking].match(target_name) then
 				@util.debug "target_name[#{target_name}], ranking[#{ranking}], name[#{name_array[ranking]}], num[#{num_array[ranking]}]"
@@ -63,5 +64,5 @@ class File_manager
 			end
 		end
 	end
-	
+		
 end

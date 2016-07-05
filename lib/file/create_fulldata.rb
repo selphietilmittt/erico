@@ -45,19 +45,66 @@ begin
 		latest_filename = datadir + '/' + file_manager.get_latest_data_file + '.csv'
 		latest_timestamp = file_manager.get_timestamp_of(latest_filename)
 
-		if !File.exist?(outputfilename) then
-			#initialize outputfile
-			#fulldata_file = File.open(outputfilename, "w:sjis")
+		if !File.exist?(outputfilename) || true then
+			##initialize outputfile
 			num_array, name_array = file_manager.get_ranking_and_num_of(latest_filename)
+			@util.debug latest_filename
+			@util.debug num_array.size
 
 			#get num of toppickupnames and bottompickupnames
 			toppickupnames.each do |toppickupname|
 				nums_of_toppickupname[toppickupname] = file_manager.get_num_of(toppickupname, name_array, num_array)
+				@util.debug toppickupname +','+nums_of_toppickupname[toppickupname].to_s
 			end
+			
 			bottompickupnames.each do |bottompickupname|
 				nums_of_bottompickupname[toppickupname] = file_manager.get_num_of(bottompickupname, name_array, num_array)
 			end
 			
+			##create first and second columns
+			#,timestamp
+			#TOPPICKUPNAME_HEAD
+			#name,num
+			#,speed
+			#,defeating num
+			#name,num
+			#,speed
+			#,defeating num
+			#ALLURER_HEAD
+			#ranking,num,name
+			#ranking,num,name
+			#BOTTOMPICKUPNAME_HEAD
+			#name,num
+			#,speed
+			#,defeating num
+			#name,num
+			#,speed
+			#,defeating num
+			#BORDER_HEAD
+			#name,num
+			#,speed
+			#,defeating num
+			#name,num
+			#,speed
+			#,defeating num
+			fulldata_file = File.open(outputfilename, "w:sjis")
+			fulldata_file.puts ','+latest_timestamp
+			fulldata_file.puts @util.getconf('TOPPICKUPNAME_HEAD')
+			toppickupnames.each do |toppickupname|
+				fulldata_file.puts toppickupname + ',' + 	nums_of_toppickupname[toppickupname].to_s
+				fulldata_file.puts "," #speed
+				fulldata_file.puts "," #defeating_num
+			end
+			fulldata_file.puts @util.getconf('ALL_MEMBERS_HEAD_HEAD')
+			for i in 0..num_array.size()-1
+				fulldata_file.puts "#{i+1}ˆÊ,#{num_array[i]},#{name_array[i]}"
+			end
+			fulldata_file.puts @util.getconf('BOTTOMPICKUPNAME_HEAD')
+			bottompickupnames.each do |bottompickupname|
+				fulldata_file.puts bottompickupname + ',' + 	nums_of_bottompickupname[bottompickupname].to_s
+				fulldata_file.puts "," #speed
+				fulldata_file.puts "," #defeating_num
+			end
 			
 		else
 			#add latest data to outputfile

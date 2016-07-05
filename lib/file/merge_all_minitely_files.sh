@@ -35,17 +35,17 @@ function merge_all_minitely_files () {
 	echo ",,$time," >> $MERGED_FILE
 
 	#set TOPPICKUPNAME only frame
-	echo TARGET >> $MERGED_FILE
+	echo `getconf TOPPICKUPNAME_HEAD` >> $MERGED_FILE
 	TOPPICKUPNAME_FILE=`getconf PROFILE_TOPPICKUPNAME`
 	log_info "set toppickupname[$TOPPICKUPNAME_FILE]"
 	cat $TOPPICKUPNAME_FILE | while read name;do
 		echo $name >> $MERGED_FILE
-		echo "" >> $MERGED_FILE # space for num
-		echo "" >> $MERGED_FILE # space for speed
+		#echo "" >> $MERGED_FILE # space for num
+		#echo "" >> $MERGED_FILE # space for speed
 	done
 
 	#set ALL_MEMBERS_RANKING_LIST
-	echo ALL >> $MERGED_FILE
+	echo `getconf ALL_MEMBERS_HEAD` >> $MERGED_FILE
 	category=ALL_MEMBERS_RANKING
 	target_filelist="$HTML_DIR/"`getconf $category"_LIST"`
 	cat $target_filelist | while read filename; do
@@ -55,17 +55,17 @@ function merge_all_minitely_files () {
 	done
 
 	#set BOTTOMPICKUPNAME
-	echo TARGET >> $MERGED_FILE
+	echo `getconf BOTTOMPICKUPNAME_HEAD` >> $MERGED_FILE
 	BOTTOMPICKUPNAME_FILE=`getconf PROFILE_BOTTOMPICKUPNAME`
 	log_info "set bottompickupname[$BOTTOMPICKUPNAME_FILE]"
 	cat $BOTTOMPICKUPNAME_FILE | while read name;do
 		echo $name >> $MERGED_FILE
-		echo "" >> $MERGED_FILE
-		echo "" >> $MERGED_FILE
+		#echo "" >> $MERGED_FILE
+		#echo "" >> $MERGED_FILE
 	done
 
 	#set BORDER
-	echo BORDER >> $MERGED_FILE
+	echo `getconf BORDER_HEAD` >> $MERGED_FILE
 	category=BORDER_OF_RANKING
 	target_filelist="$HTML_DIR/"`getconf $category"_LIST"`
 	cat $target_filelist | while read filename; do
@@ -77,8 +77,12 @@ function merge_all_minitely_files () {
 		log_info "ranking=$ranking, line_num=$line_num, num=$num"
 		if [ -z $num ];then
 			echo "$ranking位,,$ranking位,0" >> $MERGED_FILE
+			#echo "" >> $MERGED_FILE
+			#echo "" >> $MERGED_FILE
 		else
 			echo "$ranking位,,$ranking位,$num" >> $MERGED_FILE
+			#echo "" >> $MERGED_FILE
+			#echo "" >> $MERGED_FILE
 		fi
 	done
 
