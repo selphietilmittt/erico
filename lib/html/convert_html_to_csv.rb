@@ -12,9 +12,12 @@ if ARGV.size != 2 then;@util.fatal("ARGV.size not equal 2");end
 @util.info("this is convert_html_to_csv.rb input[" + @input_filename +"] to output[" + @output_filename+"]")
 
 ## main
+@util.debug 'convert_html_to_csv.rb main start.'
 @output_file=CSV_manager.new(@output_filename)
 @converter = CSV_converter.new(@input_filename ,@output_filename)
+@util.debug '@converter.read_html'
 @converter.read_html
+@util.debug "@converter.input_file.encoding[#{@converter.input_file.encoding}]"
 @user_array=@converter.input_file.xpath("//div").css('.ranking_area')
 
 @user_array.each do |user|

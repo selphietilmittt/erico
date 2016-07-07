@@ -11,7 +11,7 @@ class File_manager
 	
 	def get_latest_data_file()
 		#get last line of NULL_FILELIST
-		File.open(@util.getconf('NULL_FILELIST'), 'r:sjis').each do |line|
+		File.open(@util.getconf('NULL_FILELIST'), 'r:Shift_JIS').each do |line|
 			@last_line = line
 		end
 		return @last_line.chomp!
@@ -21,7 +21,7 @@ class File_manager
 		#get timestamp of data/**-*********-******.csv
 		#put on first line
 		@util.info "get_timestamp_of(#{filename}) start."
-		File.open(filename, 'r:sjis').each do |line|
+		File.open(filename, 'r:Shift_JIS').each do |line|
 			@timestamp = line.gsub(/,/,'')
 			break
 		end
@@ -34,7 +34,7 @@ class File_manager
 		num_array = []
 		name_array = []
 		ranking_flag = false
-		File.open(filename, 'r:sjis').each do |line|
+		File.open(filename, 'r:Shift_JIS').each do |line|
 			if line == "#{@util.getconf('ALL_MEMBERS_HEAD')}\n" then
 				ranking_flag = true
 			elsif line == "#{@util.getconf('BOTTOMPICKUPNAME_HEAD')}\n" then
@@ -56,9 +56,25 @@ class File_manager
 	
 	def get_border_and_num_of(filename)
 		@util.info "get_border_and_num_of(#{filename}) start."
-		num_array = []
+		num_array = {}
 		name_array = []
-
+		border_flag = false
+		File.open(filename, 'r:Shift_JIS').each do |line|
+			if line == "#{@util.getconf('BORDER_HEAD')}\n" then
+				border_flag = true
+			elsif !line.match('ˆÊ') then
+				border_flag = false
+			end
+			
+			if border_flag then
+				elements = line.split(',')
+				if elements.size() ==4 then
+					num_array[Kconv.tosjis(elements[2])] = elements[3].chomp
+					name_array.push(Kconv.tosjis(elements[2]))
+				end				
+			end
+		end
+		@util.info "get_border_and_num_of(#{filename}) finished. return num_array and name_array, which sizes are [#{num_array.size}]"
 		return num_array, name_array
 	end
 	
@@ -72,5 +88,27 @@ class File_manager
 			end
 		end
 	end
-		
+	
+	def add_toppickupnames_to_fulldata(fulldata_file, toppickupnames, nums_of_toppickupname)
+		@util.info "add_toppickupnames_to_fulldata start."
+		@util.info "add toppickupnames[#{toppickupnames.size()}] to fulldata."
+		#how to write to target line?
+		start_line = @util.getconf('START_OF_TOP_PICKUP_NAME').to_i
+		end_line = @util.getconf('END_OF_TOP_PICKUP_NAME').to_i
+		line_counter = 0
+		fulldata_file.each do |line|
+			line_counter +=1
+			if start_line <= line_counter && line_counter <= end_line
+				puts "#{start_line},#{line_counter},#{end_line}"
+				puts line
+			end
+		end
+		#offset = 3000
+		#fulldata_file.seek(offset, IO::SEEK_SET)
+		#fulldata_file.each_line do |line|
+		#		puts line.chomp
+		#	end
+		@util.info "add_toppickupnames_to_fulldata finished."		
+	end
+
 end

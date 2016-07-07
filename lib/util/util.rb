@@ -84,4 +84,5 @@ class Util
 		info "get_bottompickupnames finished. return array[#{bottompickupnames.size()}]."
 		return bottompickupnames
 	end
+	
 end

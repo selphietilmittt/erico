@@ -31,10 +31,15 @@ class CSV_converter
 		if !File.exist?(@input_filename) then
 			@util.fatal "input_file[#{@input_filename}] not exist."
 		end
-		@input_file=Nokogiri::HTML(File.open(@input_filename,'r:Shift_JIS', :invalid => :replace, :undef => :replace))
-		
+		input_file = File.open(@input_filename,'r:UTF-8', :invalid => :replace, :undef => :replace, :replace => '?')
+		#input_file.encode('Shift_JIS', :invalid => :replace, :undef => :replace)
+		@input_file=Nokogiri::HTML(input_file)
+		@util.debug("@input_file.encoding[#{@input_file.encoding}]")
+
 		#convert sjis to utf8
 		@util.debug "convert sjis to utf8"
+		@input_file.to_s.encode('Shift_JIS', :invalid => :replace, :undef => :replace)
+		#@input_file.to_s.encode('UTF-8', :invalid => :replace, :undef => :replace)
 		#@input_file.to_s.encode('Shift_JIS', :invalid => :replace, :undef => :replace)
 		@util.debug "encoding:#{@input_file.encoding}"
 		@util.debug @input_file.to_s
