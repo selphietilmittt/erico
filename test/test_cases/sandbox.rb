@@ -15,5 +15,7 @@ def sjis_safe(str)
       after.to_i(16).chr('UTF-8'))
   end
 end
-	str = sjis_safe("�`").encode(Encoding::SJIS)
+	#str = sjis_safe("～") #.encode(Encoding::SJIS)
+	#str = ("～")
+	str = sjis_safe("～")
   puts str
