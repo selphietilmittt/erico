@@ -28,8 +28,13 @@ class CSV_converter
 	#def read_input_file
 	def read_html()
 		@util.info("read_html["+ @input_filename + "]")
-		#if input_filename not exist. fatal
+		if !File.exist?(@input_filename) then
+			@util.fatal "input_file[#{@input_filename}] not exist."
+		end
 		@input_file=Nokogiri::HTML(File.open(@input_filename))
+		
+		#convert sjis to utf8
+		@input_file.to_s.exchange("U+301C", "U+FF5E")
 	end
 
 	def print_input_file()

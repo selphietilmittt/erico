@@ -1,4 +1,4 @@
-
+# encoding: Shift_JIS
 #ruby
 require '../../lib/util/util.rb'
 
@@ -51,6 +51,14 @@ class File_manager
 			
 		end
 		@util.info "get_ranking_and_num_of(#{filename}) finished. return num_array and name_array, which sizes are [#{num_array.size}]"
+		return num_array, name_array
+	end
+	
+	def get_border_and_num_of(filename)
+		@util.info "get_border_and_num_of(#{filename}) start."
+		num_array = []
+		name_array = []
+
 		return num_array, name_array
 	end
 	

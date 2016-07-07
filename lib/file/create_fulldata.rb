@@ -47,19 +47,24 @@ begin
 
 		if !File.exist?(outputfilename) || true then
 			##initialize outputfile
-			num_array, name_array = file_manager.get_ranking_and_num_of(latest_filename)
+			num_array_of_ranking, name_array_of_ranking = file_manager.get_ranking_and_num_of(latest_filename)
 			@util.debug latest_filename
-			@util.debug num_array.size
+			@util.debug num_array_of_ranking.size
 
 			#get num of toppickupnames and bottompickupnames
 			toppickupnames.each do |toppickupname|
-				nums_of_toppickupname[toppickupname] = file_manager.get_num_of(toppickupname, name_array, num_array)
+				nums_of_toppickupname[toppickupname] = file_manager.get_num_of(toppickupname, name_array_of_ranking, num_array_of_ranking)
 				@util.debug toppickupname +','+nums_of_toppickupname[toppickupname].to_s
 			end
 			
 			bottompickupnames.each do |bottompickupname|
-				nums_of_bottompickupname[toppickupname] = file_manager.get_num_of(bottompickupname, name_array, num_array)
+				nums_of_bottompickupname[toppickupname] = file_manager.get_num_of(bottompickupname, name_array_of_ranking, num_array_of_ranking)
 			end
+			
+			##get borders
+			num_array_of_border = []
+			name_array_of_border = []
+			num_array_of_border, name_array_of_border = file_manager.get_border_and_num_of(latest_filename)
 			
 			##create first and second columns
 			#,timestamp
@@ -96,8 +101,8 @@ begin
 				fulldata_file.puts "," #defeating_num
 			end
 			fulldata_file.puts @util.getconf('ALL_MEMBERS_HEAD_HEAD')
-			for i in 0..num_array.size()-1
-				fulldata_file.puts "#{i+1}ˆÊ,#{num_array[i]},#{name_array[i]}"
+			for i in 0..num_array_of_ranking.size()-1
+				fulldata_file.puts "#{i+1}ˆÊ,#{num_array_of_ranking[i]},#{name_array_of_ranking[i]}"
 			end
 			fulldata_file.puts @util.getconf('BOTTOMPICKUPNAME_HEAD')
 			bottompickupnames.each do |bottompickupname|
