@@ -42,7 +42,7 @@ class CSV_converter
 		#@input_file.to_s.encode('UTF-8', :invalid => :replace, :undef => :replace)
 		#@input_file.to_s.encode('Shift_JIS', :invalid => :replace, :undef => :replace)
 		@util.debug "encoding:#{@input_file.encoding}"
-		@util.debug @input_file.to_s
+		#@util.debug @input_file.to_s
 	end
 
 	def print_input_file()

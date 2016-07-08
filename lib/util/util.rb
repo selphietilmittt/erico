@@ -11,11 +11,16 @@ class Util
 
 	def initialize(name)
 		@log = Logger.new("../../etc/log")
-		@log.level = Logger::DEBUG
-		#@log.level = Logger::INFO
-		#@log.level = Logger::WARN
 		@log.info "--util.rb : util.initialize calld by " + name
 		@config_file="../../etc/configure.txt"
+		log_level = getconf('LOG_LEVEL')
+		case log_level
+		when 'DEBUG' then @log.level = Logger::DEBUG
+		when 'INFO' then @log.level = Logger::INFO
+		when 'WARN' then @log.level = Logger::WARN
+		when 'ERROR' then @log.level = Logger::ERROR
+		when 'FATAL' then @log.level = Logger::FATAL
+		end
 		@called_by_=name
 	end
 
@@ -43,7 +48,7 @@ class Util
 	## getconf
 	## ARGV[1] = parameter
 	def getconf(target)
-		@log.info "--util.rb : util.getconf( " + target + ") "
+		@log.info "--util.rb : util.getconf(" + target + ") "
 		File.foreach(@config_file) do |line|
 		#File.foreach("../../config.txt") do |line|
 			conf = line.chomp
@@ -85,4 +90,60 @@ class Util
 		return bottompickupnames
 	end
 	
+end
+
+class File
+	def add_to_target_line(str, line_num)
+		@util = Util.new('File')
+		@util.info "File.add_to_target_line(#{line_num})"
+		
+		#read
+		seek(0, IO::SEEK_SET)
+		file = readlines
+		str = file[line_num-1].to_s.chomp + str +"\n"
+		@util.debug "file.size[#{file.size}]"
+		@util.debug "file[#{line_num-1}]=#{file[line_num-1]}"
+		@util.debug "str[#{str}]"
+		
+		#initialize
+		truncate(0)
+		
+		#replace and write
+		file[line_num-1] = str
+		file.each do |line|
+			@util.debug "line[#{line}]"
+			write line
+		end
+		
+		#offset = 0
+		#seek(0, IO::SEEK_SET)
+		#lf_counter = 0
+		#until lf_counter >= line_num-1
+		#	break if offset > size
+		#	offset += 1
+		#	chr = read(1)
+		#	lf_counter += 1 if (chr != "\n" && offset == -1) || chr == "\n"
+		#	@util.debug ("lf_counter[#{lf_counter}], offset[#{offset}]")
+		#end
+
+		#seek(offset, IO::SEEK_SET)
+		#str = readline.chomp + str.to_s
+		#@util.debug "str[#{str.chomp}]"
+		#IO::write(path, str, offset)
+		##File.binwrite(path, str, offset)
+		##puts str
+	end
+		
+	def next_line()
+		@util = Util.new('File')
+		offset = 0
+		lf_counter = 0
+		until lf_counter > 0
+			offset += 1
+			chr = read(1)
+			lf_counter += 1 if (chr != "\n" && offset == -1) || chr == "\n"
+		end
+
+		seek(offset, IO::SEEK_SET)
+	end
 end

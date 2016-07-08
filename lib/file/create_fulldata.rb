@@ -34,27 +34,30 @@ begin
 	outputfilename = @util.getconf('NULL_DEFEATING_NUM_FULLDATA')
 
 	file_manager = File_manager.new()
+	latest_filename = datadir + '/' + file_manager.get_latest_data_file + '.csv'
+	latest_timestamp = file_manager.get_timestamp_of(latest_filename)
+
 	toppickupnames = @util.get_toppickupnames
 	nums_of_toppickupname = {}
+	num_array_of_ranking, name_array_of_ranking = file_manager.get_ranking_and_num_of(latest_filename)
 	bottompickupnames = @util.get_bottompickupnames
 	nums_of_bottompickupname = {}
 	#border_names = @util.get_border_names
 	#num_of_bordername = {}
-	
+	num_of_bordername, border_names = file_manager.get_border_and_num_of(latest_filename)
+
+
 	
 	if calc_mode == 'latest' then
 		@util.info "calc_mode is latest"
-		latest_filename = datadir + '/' + file_manager.get_latest_data_file + '.csv'
-		latest_timestamp = file_manager.get_timestamp_of(latest_filename)
 
-		num_array_of_ranking, name_array_of_ranking = file_manager.get_ranking_and_num_of(latest_filename)
 		@util.debug latest_filename
 		@util.debug num_array_of_ranking.size
 
 		#get latest num of toppickupnames and bottompickupnames
 		toppickupnames.each do |toppickupname|
 			nums_of_toppickupname[toppickupname] = file_manager.get_num_of(toppickupname, name_array_of_ranking, num_array_of_ranking)
-			@util.debug toppickupname +','+nums_of_toppickupname[toppickupname].to_s
+			@util.debug toppickupname.encode('UTF-8') +','+nums_of_toppickupname[toppickupname].to_s
 		end
 			
 		bottompickupnames.each do |bottompickupname|
@@ -62,7 +65,6 @@ begin
 		end
 			
 		##get latest  borders
-		num_of_bordername, border_names = file_manager.get_border_and_num_of(latest_filename)
 			
 		if !File.exist?(outputfilename) then
 			##initialize outputfile
@@ -132,24 +134,138 @@ begin
 			#add latest data to outputfile
 			@util.info "calc_mode == 'latest' && File.exist?(#{outputfilename})"
 			fulldata_file = File.open(outputfilename, "a+:Shift_JIS")
-			file_manager.add_toppickupnames_to_fulldata(fulldata_file, toppickupnames, nums_of_toppickupname)
 
-			fulldata_file.puts "add"
+			file_manager.remove_name_at_ranking_of_fulldata(fulldata_file)
+			
+			fulldata_array = fulldata_file.readlines
+
+			file_manager.add_timestamp_to_fulldata_array(fulldata_array, latest_timestamp)
+			latest_speed_of_toppickupname = {}
+			latest_defeating_num_of_toppickupname = {}
+			file_manager.add_toppickupnames_to_fulldata_array(fulldata_array,
+				toppickupnames,
+				nums_of_toppickupname,
+				latest_speed_of_toppickupname,
+				latest_defeating_num_of_toppickupname)
+			file_manager.add_ranking_to_fulldata_array(fulldata_array, name_array_of_ranking, num_array_of_ranking)
+			file_manager.add_names_of_ranking_to_fulldata_array(fulldata_array, name_array_of_ranking, num_array_of_ranking)
+			latest_speed_of_bottompickupname = {}
+			latest_defeating_num_of_bottompickupname = {}
+			file_manager.add_bottompickupnames_to_fulldata_array(fulldata_array,
+				bottompickupnames,
+				nums_of_bottompickupname,
+				latest_speed_of_bottompickupname,
+				latest_defeating_num_of_bottompickupname)
+			latest_speed_of_border = {}
+			latest_defeating_num_of_border = {}
+
+			file_manager.add_borders_to_fulldata_array(fulldata_array, border_names, num_of_bordername, latest_speed_of_border, latest_defeating_num_of_border)
+			
+			#write
+			fulldata_file.truncate(0)
+			fulldata_array.each do |line|
+				fulldata_file.puts line
+			end
 		end
 		
 		
 		
 	elsif calc_mode == 'all' then
 		@util.info "calc_mode is all"
-		fulldata_file = File.open(outputfilename, "w+:sjis")
-		
-		filelist = File.open(@util.getconf('NULL_FILELIST'), "r:sjis").each do |filename|
-			filename = datadir+'/'+filename.chomp!+'.csv'
-			timestamp = file_manager.get_timestamp_of(filename)
-			puts timestamp
-			File.open(filename, "r:sjis").each do |line|
+
+		filelist = File.open(@util.getconf('NULL_FILELIST'), "r:Shift_JIS")		
+		if filelist.size == 0
+			@util.info "nothing to do"
+		else
 			
+			fulldata_file = File.open(outputfilename, "w+:Shift_JIS")
+			fulldata_array = []
+
+			
+			##write first column
+			latest_filename = datadir + '/' + file_manager.get_latest_data_file + '.csv'				
+
+			##write timestamp
+			fulldata_array.push ""
+			
+			##write top pick up names
+			fulldata_array.push @util.getconf('TOPPICKUPNAME_HEAD')
+			toppickupnames.each do |toppickupname|
+				fulldata_array.push toppickupname
+				fulldata_array.push ""#speed
+				fulldata_array.push "" #defeating_num
 			end
+
+			##write all members
+			fulldata_array.push @util.getconf('ALL_MEMBERS_HEAD')
+			for i in 0..num_array_of_ranking.size()-1
+				fulldata_array.push "#{i+1}ˆÊ"
+			end
+				
+			##write bottom pick up names
+			fulldata_array.push @util.getconf('BOTTOMPICKUPNAME_HEAD')
+			bottompickupnames.each do |bottompickupname|
+				fulldata_array.push bottompickupname
+				fulldata_array.push "" #speed
+				fulldata_array.push "" #defeating_num
+			end
+				
+			##write borders
+			fulldata_array.push @util.getconf('BORDER_HEAD')
+			border_names.each do |border_name|
+				fulldata_array.push border_name
+				fulldata_array.push "" #speed
+				fulldata_array.push "" #defeating_num
+			end
+			
+			##write columns for each line.
+			#filelist.next_line
+			filelist.each do |filename|
+				@util.info "write file[#{filename}]."
+				filename = datadir+'/'+filename.chomp!+'.csv'
+				num_array_of_ranking, name_array_of_ranking = file_manager.get_ranking_and_num_of(filename)
+
+				timestamp = file_manager.get_timestamp_of(filename)
+				file_manager.add_timestamp_to_fulldata_array(fulldata_array, timestamp)
+
+				toppickupnames.each do |toppickupname|
+					nums_of_toppickupname[toppickupname] = file_manager.get_num_of(toppickupname, name_array_of_ranking, num_array_of_ranking)
+				end
+				speed_of_toppickupname = {}
+				defeating_num_of_toppickupname = {}
+				file_manager.add_toppickupnames_to_fulldata_array(fulldata_array,
+					toppickupnames,
+					nums_of_toppickupname,
+					speed_of_toppickupname,
+					defeating_num_of_toppickupname)
+
+				file_manager.add_ranking_to_fulldata_array(fulldata_array, name_array_of_ranking, num_array_of_ranking)
+				
+				bottompickupnames.each do |bottompickupname|
+					nums_of_bottompickupname[bottompickupname] = file_manager.get_num_of(bottompickupname, name_array_of_ranking, num_array_of_ranking)
+				end
+				speed_of_bottompickupname = {}
+				defeating_num_of_bottompickupname = {}
+				file_manager.add_bottompickupnames_to_fulldata_array(fulldata_array,
+					bottompickupnames,
+					nums_of_bottompickupname,
+					speed_of_bottompickupname,
+					defeating_num_of_bottompickupname)
+
+				speed_of_border = {}
+				defeating_num_of_border = {}
+
+			file_manager.add_borders_to_fulldata_array(fulldata_array, border_names, num_of_bordername, speed_of_border, defeating_num_of_border)
+
+			end
+			file_manager.add_names_of_ranking_to_fulldata_array(fulldata_array, name_array_of_ranking, num_array_of_ranking)
+
+			#write
+			fulldata_file.truncate(0)
+			fulldata_array.each do |line|
+				fulldata_file.puts line
+			end
+
 		end
 		
 	else

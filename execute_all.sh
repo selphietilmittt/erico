@@ -93,6 +93,11 @@ cp $merged_minitely_file "$DATADIR/$PREFIX-$date.csv"
 nkf -s --overwrite "$DATADIR/$PREFIX-$date.csv"
 echo "$PREFIX-$date" >> $FILELIST
 
+log_info_ "create_fulldata.rb start"
+cd lib/file/
+ruby create_fulldata.rb -m latest
+cd ../../
+
 if [ ! -e $HOURLYFILELIST ];then
 	log_info_ "create_hourly_filelist.sh all start"
 	bash lib/calc_speed/create_hourly_filelist.sh all > /dev/null

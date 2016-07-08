@@ -12,3 +12,4 @@ bash lib/calc_speed/calc_defeating_time.sh latest トムソン
 bash lib/calc_speed/calc_defeating_time.sh latest Dizzy  
 bash lib/calc_speed/create_target_speed.sh トムソン
 bash lib/html/get_html.sh [nothing or dir]
+ruby ../../lib/file/create_fulldata.rb -m all
