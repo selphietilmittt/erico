@@ -20,11 +20,11 @@ if [ ! -e $SPEEDFILE ];then
 	echo "SPEEDFILE $SPEEDFILE NOT EXIST"
 	exit 1
 fi
-if [ -e $OUTPUTDIR"/speed"$TARGET ];then
+if [ -e "$OUTPUTDIR/speed$TARGET.csv" ];then
 	mv $OUTPUTDIR/speed$TARGET.csv $OUTPUTDIR/speed$TARGET.csv.1
 fi
 
-iconv -f sjis -t UTF8 $SPEEDFILE | while read line; do
+iconv -f CP932 -t UTF8 $SPEEDFILE | while read line; do
 	#echo "$line" | grep -e ^,
 	#echo "iconv"
 	if [ -n "`echo "$line" | grep -e ^,`" ];then

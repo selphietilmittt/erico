@@ -40,7 +40,6 @@ class File_manager
 			elsif line == "#{@util.getconf('BOTTOMPICKUPNAME_HEAD')}\n" then
 				ranking_flag = false
 			end
-			
 			if ranking_flag then
 				@util.debug "elements[#{line}]"
 				elements = line.scrub.split(',')
@@ -201,7 +200,6 @@ class File_manager
 		@util.info "add_ranking_to_fulldata start."
 		start_line = @util.getconf('START_OF_RANKING').to_i
 		end_line = @util.getconf('END_OF_RANKING').to_i
-		
 		for i in 0..ranking.size-1
 			fulldata_file.add_to_target_line(",#{nums[i]},#{ranking[i]}", start_line+i)
 		end
@@ -214,8 +212,9 @@ class File_manager
 		@util.info "add_ranking_to_fulldata_array start."
 		start_line = @util.getconf('START_OF_RANKING').to_i - 1
 		end_line = @util.getconf('END_OF_RANKING').to_i - 1
-		
+
 		for i in 0..ranking.size-1
+			@util.debug "fulldata_array.size[#{fulldata_array.size}],start_line[#{start_line}],i[#{i}]"
 			fulldata_array[start_line + i] = fulldata_array[start_line + i].chomp + ",#{nums[i]}"
 		end
 		

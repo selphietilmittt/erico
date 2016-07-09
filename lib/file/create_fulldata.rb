@@ -45,7 +45,6 @@ begin
 	defeating_num_of_toppickupname = {}
 	ave_of_toppickupname = {}
 	num_array_of_ranking, name_array_of_ranking = file_manager.get_ranking_and_num_of(latest_filename)
-
 	bottompickupnames = @util.get_bottompickupnames
 	nums_of_bottompickupname = {}
 	defeating_num_of_bottompickupname = {}
@@ -229,6 +228,7 @@ begin
 			##write columns for each line.
 			#filelist.next_line
 			filelist.each do |filename|
+				puts "write file[#{filename.chomp}]."
 				@util.info "write file[#{filename}]."
 				filename = datadir+'/'+filename.chomp!+'.csv'
 				num_array_of_ranking, name_array_of_ranking = file_manager.get_ranking_and_num_of(filename)
