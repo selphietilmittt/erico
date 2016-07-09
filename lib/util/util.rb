@@ -2,6 +2,7 @@
 ## util
 require "logger" 
 require 'kconv'
+require 'date'
 
 class Util
 
@@ -88,6 +89,52 @@ class Util
 		end
 		info "get_bottompickupnames finished. return array[#{bottompickupnames.size()}]."
 		return bottompickupnames
+	end
+	
+	def get_previous_filename(following_filename, time)
+	#when filename is /home/alladmin/f/program/puyoque/erico/data/null-20160630-210201.csv
+	#and time is 60, return null-20160630-2002
+		info "time_calculator start.calc (#{following_filename} - #{time})"
+		filedir = following_filename.split('.')[0].split('/')
+		file_target, file_date, file_time = filedir[filedir.size()-1].split('-')
+		if file_date.size !=8
+			fatal "file_date[#{file_date}].size !=8"
+		end
+		if file_time.size !=6
+			fatal "file_time[#{file_time}].size !=8"
+		end
+		
+		year = file_date[0..3]
+		month = file_date[4..5]
+		date = file_date[6..7]
+		
+		hour = file_time[0..1]
+		min = file_time[2..3]
+		sec = file_time[4..5]
+		debug "#{year},#{month},#{date},#{hour},#{min},#{sec}"
+		
+		require 'date'
+		following_datetime = DateTime.new(year.to_i,month.to_i,date.to_i,hour.to_i,min.to_i,sec.to_i)
+		#get previous file time
+		previous_datetime = following_datetime - Rational(time, 24*60)
+		debug "#{following_datetime} - #{time} = #{previous_datetime}"
+		previous_filename = previous_datetime.strftime("%Y%m%d-%H%M")
+		info "time_calculator finished. return #{previous_filename}"
+		filedir.pop #remove filename to extract dirname
+		filedir_str = ""
+		filedir.each do |dir| filedir_str=filedir_str + dir + "/" end
+		#puts filedir_str
+		File.open(getconf('NULL_FILELIST'), 'r:Shift_JIS').each do |line|
+			line.chomp!
+			debug "#{line}.include?(#{previous_filename})"
+			if line.include?(previous_filename) then
+				info "time_calculator finished. return #{filedir_str+line+'.csv'}"
+				return filedir_str+line+'.csv'
+			end
+		end
+		
+		info "time_calculator finished. not hit. return nil"
+		return nil
 	end
 	
 end

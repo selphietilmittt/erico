@@ -3,6 +3,8 @@
 require 'kconv'
 require '../../lib/util/util.rb'
 require '../../lib/file/file_manager.rb'
+require '../../lib/calc_speed/speed_manager.rb'
+
 @util = Util.new(File.basename(__FILE__).to_s)
 
 require 'optparse'
@@ -36,16 +38,22 @@ begin
 	file_manager = File_manager.new()
 	latest_filename = datadir + '/' + file_manager.get_latest_data_file + '.csv'
 	latest_timestamp = file_manager.get_timestamp_of(latest_filename)
+	speed_manager = Speed_manager.new()
 
 	toppickupnames = @util.get_toppickupnames
 	nums_of_toppickupname = {}
+	defeating_num_of_toppickupname = {}
+	ave_of_toppickupname = {}
 	num_array_of_ranking, name_array_of_ranking = file_manager.get_ranking_and_num_of(latest_filename)
+
 	bottompickupnames = @util.get_bottompickupnames
 	nums_of_bottompickupname = {}
-	#border_names = @util.get_border_names
-	#num_of_bordername = {}
-	num_of_bordername, border_names = file_manager.get_border_and_num_of(latest_filename)
+	defeating_num_of_bottompickupname = {}
+	ave_of_bottompickupname = {}
 
+	num_of_bordername, border_names = file_manager.get_border_and_num_of(latest_filename)
+	defeating_num_of_border = {}
+	ave_of_border = {}
 
 	
 	if calc_mode == 'latest' then
@@ -230,33 +238,30 @@ begin
 
 				toppickupnames.each do |toppickupname|
 					nums_of_toppickupname[toppickupname] = file_manager.get_num_of(toppickupname, name_array_of_ranking, num_array_of_ranking)
+					defeating_num_of_toppickupname[toppickupname], ave_of_toppickupname[toppickupname] = speed_manager.get_speed_and_defeating_num_of(toppickupname, latest_filename)
 				end
-				speed_of_toppickupname = {}
-				defeating_num_of_toppickupname = {}
 				file_manager.add_toppickupnames_to_fulldata_array(fulldata_array,
 					toppickupnames,
 					nums_of_toppickupname,
-					speed_of_toppickupname,
-					defeating_num_of_toppickupname)
+					defeating_num_of_toppickupname,
+					ave_of_toppickupname)
 
 				file_manager.add_ranking_to_fulldata_array(fulldata_array, name_array_of_ranking, num_array_of_ranking)
 				
 				bottompickupnames.each do |bottompickupname|
 					nums_of_bottompickupname[bottompickupname] = file_manager.get_num_of(bottompickupname, name_array_of_ranking, num_array_of_ranking)
+					defeating_num_of_bottompickupname[bottompickupname], ave_of_bottompickupname[bottompickupname] = speed_manager.get_speed_and_defeating_num_of(bottompickupname, latest_filename)
 				end
-				speed_of_bottompickupname = {}
-				defeating_num_of_bottompickupname = {}
 				file_manager.add_bottompickupnames_to_fulldata_array(fulldata_array,
 					bottompickupnames,
 					nums_of_bottompickupname,
-					speed_of_bottompickupname,
-					defeating_num_of_bottompickupname)
+					defeating_num_of_bottompickupname,
+					ave_of_bottompickupname)
 
-				speed_of_border = {}
-				defeating_num_of_border = {}
-
-			file_manager.add_borders_to_fulldata_array(fulldata_array, border_names, num_of_bordername, speed_of_border, defeating_num_of_border)
-
+				
+				defeating_num_of_border, ave_of_border = speed_manager.get_speed_and_defeating_num_of_border(border_names, latest_filename)
+				
+				file_manager.add_borders_to_fulldata_array(fulldata_array, border_names, num_of_bordername, defeating_num_of_border, ave_of_border)
 			end
 			file_manager.add_names_of_ranking_to_fulldata_array(fulldata_array, name_array_of_ranking, num_array_of_ranking)
 

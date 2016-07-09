@@ -85,9 +85,12 @@ class File_manager
 		for ranking in 0..num_array.size-1
 			if name_array[ranking].match(target_name) then
 				@util.debug "target_name[#{target_name.encode('UTF-8')}], ranking[#{ranking}], name[#{name_array[ranking].encode('UTF-8')}], num[#{num_array[ranking]}]"
+				@util.debug "return num_array.size()=#{num_array.size()}"
 				return num_array[ranking]
 			end
 		end
+		@util.debug "not hit.return nil"
+		return nil
 	end
 	
 	def remove_name_at_ranking_of_fulldata(fulldata_file)
@@ -276,5 +279,18 @@ class File_manager
 		end
 
 		@util.info "add_borders_to_fulldata_array Finished."
+	end
+	
+	def next_line()
+		@util = Util.new('File')
+		offset = 0
+		lf_counter = 0
+		until lf_counter > 0
+			offset += 1
+			chr = read(1)
+			lf_counter += 1 if (chr != "\n" && offset == -1) || chr == "\n"
+		end
+
+		seek(offset, IO::SEEK_SET)
 	end
 end
