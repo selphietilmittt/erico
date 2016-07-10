@@ -1,4 +1,4 @@
-# encoding: Shift_JIS
+
 #ruby
 require 'kconv'
 require '../../lib/util/util.rb'
