@@ -1,4 +1,4 @@
-
+# encoding: UTF-8
 #ruby
 ## convert html to csv
 require '../util/util.rb'

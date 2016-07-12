@@ -118,7 +118,7 @@ begin
 			##write all members
 			fulldata_file.puts @util.getconf('ALL_MEMBERS_HEAD')
 			for i in 0..num_array_of_ranking.size()-1
-				fulldata_file.puts "#{i+1}à ,#{num_array_of_ranking[i]},#{name_array_of_ranking[i]}"
+				fulldata_file.puts "#{i+1}‰Ωç,#{num_array_of_ranking[i]},#{name_array_of_ranking[i]}"
 			end
 			
 			##write bottom pick up names
@@ -190,7 +190,7 @@ begin
 
 			
 			##write first column
-			latest_filename = datadir + '/' + file_manager.get_latest_data_file + '.csv'				
+			latest_filename = datadir + '/' + file_manager.get_latest_data_file + '.csv'
 
 			##write timestamp
 			fulldata_array.push ""
@@ -206,7 +206,7 @@ begin
 			##write all members
 			fulldata_array.push @util.getconf('ALL_MEMBERS_HEAD')
 			for i in 0..num_array_of_ranking.size()-1
-				fulldata_array.push "#{i+1}à "
+				fulldata_array.push "#{i+1}‰Ωç"
 			end
 				
 			##write bottom pick up names
@@ -238,7 +238,7 @@ begin
 
 				toppickupnames.each do |toppickupname|
 					nums_of_toppickupname[toppickupname] = file_manager.get_num_of(toppickupname, name_array_of_ranking, num_array_of_ranking)
-					defeating_num_of_toppickupname[toppickupname], ave_of_toppickupname[toppickupname] = speed_manager.get_speed_and_defeating_num_of(toppickupname, latest_filename)
+					defeating_num_of_toppickupname[toppickupname], ave_of_toppickupname[toppickupname] = speed_manager.get_speed_and_defeating_num_of(toppickupname, filename)
 				end
 				file_manager.add_toppickupnames_to_fulldata_array(fulldata_array,
 					toppickupnames,
@@ -250,7 +250,7 @@ begin
 				
 				bottompickupnames.each do |bottompickupname|
 					nums_of_bottompickupname[bottompickupname] = file_manager.get_num_of(bottompickupname, name_array_of_ranking, num_array_of_ranking)
-					defeating_num_of_bottompickupname[bottompickupname], ave_of_bottompickupname[bottompickupname] = speed_manager.get_speed_and_defeating_num_of(bottompickupname, latest_filename)
+					defeating_num_of_bottompickupname[bottompickupname], ave_of_bottompickupname[bottompickupname] = speed_manager.get_speed_and_defeating_num_of(bottompickupname, filename)
 				end
 				file_manager.add_bottompickupnames_to_fulldata_array(fulldata_array,
 					bottompickupnames,
@@ -259,7 +259,7 @@ begin
 					ave_of_bottompickupname)
 
 				
-				defeating_num_of_border, ave_of_border = speed_manager.get_speed_and_defeating_num_of_border(border_names, latest_filename)
+				defeating_num_of_border, ave_of_border = speed_manager.get_speed_and_defeating_num_of_border(border_names, filename)
 				
 				file_manager.add_borders_to_fulldata_array(fulldata_array, border_names, num_of_bordername, defeating_num_of_border, ave_of_border)
 			end
@@ -268,7 +268,7 @@ begin
 			#write
 			fulldata_file.truncate(0)
 			fulldata_array.each do |line|
-				fulldata_file.puts line
+				fulldata_file.puts Kconv.tosjis(line)
 			end
 
 		end

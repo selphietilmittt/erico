@@ -1,4 +1,4 @@
-
+# encoding: UTF-8
 ## ruby
 ## csv_manager
 require "csv"

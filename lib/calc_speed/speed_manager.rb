@@ -1,4 +1,4 @@
-# encoding: Shift_JIS
+# encoding: UTF-8
 #ruby
 require '../../lib/util/util.rb'
 
@@ -21,7 +21,9 @@ class Speed_manager
 		@util.debug "following_num[#{following_num}]"
 		
 		previous_filename = @util.get_previous_filename(following_filename, timeslot)
+		@util.debug "following_filename[#{following_filename}],previous_filename[#{previous_filename}]"
 		if previous_filename.nil? then
+			@util.info "previous_filename is nil."
 			@util.info "get_speed_and_defeating_num_of(#{name}) finished.return file_not_found"
 			return "file_not_found","file_not_found"
 		end

@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+# encoding: UTF-8
 ## util
 require "logger" 
 require 'kconv'
@@ -54,7 +54,7 @@ class Util
 		#File.foreach("../../config.txt") do |line|
 			conf = line.chomp
 			if(conf.index(target)) then
-				@log.info "return " + conf.split[1]
+				@log.debug "return " + conf.split[1]
 				return conf.split[1]
 			end
 		end
@@ -72,8 +72,9 @@ class Util
 		toppickupnames_filename = getconf('PROFILE_TOPPICKUPNAME')
 		debug "file[#{toppickupnames_filename}"
 		toppickupnames = []
-		File.open(toppickupnames_filename, 'r:sjis').each do |toppickupname|
-			toppickupnames.push(Kconv.tosjis(toppickupname.chomp))
+		File.open(toppickupnames_filename, 'r:Shift_JIS:UTF-8').each do |toppickupname|
+			#toppickupnames.push(Kconv.tosjis(toppickupname.chomp))
+			toppickupnames.push(toppickupname.chomp)
 		end
 		info "get_toppickupnames finished. return array[#{toppickupnames.size()}]."
 		return toppickupnames
@@ -84,7 +85,7 @@ class Util
 		bottompickupnames_filename = getconf('PROFILE_BOTTOMPICKUPNAME')
 		debug "file[#{bottompickupnames_filename}"
 		bottompickupnames = []
-		File.open(bottompickupnames_filename, 'r:sjis').each do |bottompickupname|
+		File.open(bottompickupnames_filename, 'r:Shift_JIS').each do |bottompickupname|
 			bottompickupnames.push(Kconv.tosjis(bottompickupname.chomp))
 		end
 		info "get_bottompickupnames finished. return array[#{bottompickupnames.size()}]."

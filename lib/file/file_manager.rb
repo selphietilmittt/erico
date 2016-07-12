@@ -1,4 +1,4 @@
-# encoding: Shift_JIS
+# encoding: UTF-8
 #ruby
 require '../../lib/util/util.rb'
 
@@ -33,19 +33,21 @@ class File_manager
 		@util.info "get_ranking_and_num_of(#{filename}) start."
 		num_array = []
 		name_array = []
+		all_members_head = @util.getconf('ALL_MEMBERS_HEAD')
+		bottom_pickupnames_head = @util.getconf('BOTTOMPICKUPNAME_HEAD')
 		ranking_flag = false
-		File.open(filename, 'r:Shift_JIS').each do |line|
-			if line == "#{@util.getconf('ALL_MEMBERS_HEAD')}\n" then
+		File.open(filename, 'r:Shift_JIS:UTF-8', :invalid => :replace, :undef => :replace).each do |line|
+			if line == "#{all_members_head}\n" then
 				ranking_flag = true
-			elsif line == "#{@util.getconf('BOTTOMPICKUPNAME_HEAD')}\n" then
+			elsif line == "#{bottom_pickupnames_head}\n" then
 				ranking_flag = false
 			end
 			if ranking_flag then
-				@util.debug "elements[#{line}]"
+				@util.debug "elements[#{line.chomp}]"
 				elements = line.scrub.split(',')
 				if elements.size() ==4 then
 					num_array.push(elements[3].chomp)
-					name_array.push(Kconv.tosjis(elements[2]))
+					name_array.push(elements[2])
 				end
 			end
 			
@@ -59,18 +61,21 @@ class File_manager
 		num_array = {}
 		name_array = []
 		border_flag = false
+		border_head = @util.getconf('BORDER_HEAD')
 		File.open(filename, 'r:Shift_JIS').each do |line|
-			if line == "#{@util.getconf('BORDER_HEAD')}\n" then
+			if line == "#{border_head}\n" then
 				border_flag = true
-			elsif !line.match('à ') then
+			elsif !line.match(Kconv.tosjis('‰Ωç')) then
 				border_flag = false
 			end
 			
 			if border_flag then
 				elements = line.split(',')
 				if elements.size() ==4 then
-					num_array[Kconv.tosjis(elements[2])] = elements[3].chomp
-					name_array.push(Kconv.tosjis(elements[2]))
+					num_array[elements[2]] = elements[3].chomp
+					name_array.push(elements[2])
+					#num_array[Kconv.tosjis(elements[2])] = elements[3].chomp
+					#name_array.push(Kconv.tosjis(elements[2]))
 				end				
 			end
 		end
@@ -178,6 +183,8 @@ class File_manager
 			line_num = @util.getconf('START_OF_TOP_PICKUP_NAME').to_i - 1
 			toppickupnames.each do |name|
 				@util.debug "name[#{name}]"
+				@util.debug "nums[name][#{nums[name]}]"	
+				@util.debug "fulldata_array[line_num].chomp[#{fulldata_array[line_num].chomp}]"
 				fulldata_array[line_num] = fulldata_array[line_num].chomp + ','
 				fulldata_array[line_num] = fulldata_array[line_num].chomp + nums[name].to_s if nums[name] != nil
 				line_num += 1

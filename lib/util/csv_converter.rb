@@ -1,4 +1,4 @@
-
+# encoding: UTF-8
 #ruby
 require "csv"
 require 'open-uri'
