@@ -1,4 +1,5 @@
 etc/log*
 data/*
 etc/configure.txt
+*.csv
 !.gitkeep
